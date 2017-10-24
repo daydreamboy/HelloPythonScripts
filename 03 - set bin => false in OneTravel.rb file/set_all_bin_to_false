@@ -1,0 +1,34 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# History:
+#   2016-11-12 wesley_chen new version of parsing Podfile.lock
+#
+# Usage:
+#   1. Place theone_summary_pod_info.py along with Podfile.lock inside the same folder
+#   2. Type command as followings:
+#       python theone_summary_pod_info.py <folder containing json file>
+#   3. Xcode -> Run Script
+#       python "$PROJECT_DIR/theone_summary_pod_info.py" "$PODS_ROOT/ONEDebugKit/Pod/Assets/tag_summary.json"
+#
+
+import os
+import sys
+import logging
+import json
+from collections import OrderedDict
+
+
+def main():
+    relative_file_path = "one-workspace/one-integration/OneTravelPods.rb"
+    file_path = os.path.join(os.getcwd(), relative_file_path)
+
+    if not os.path.exists(file_path):
+        logging.warning("'%s' path is not exist!" % file_path)
+        sys.exit(0)
+
+    logging.warning("path of OneTravelPods.rb is: %s" % file_path)
+
+
+if __name__ == '__main__':
+    sys.exit(main())

@@ -1,0 +1,268 @@
+# Path: /Users/wesley/Library/Developer/Xcode/DerivedData/HelloLinkMap-bmzbsekbmdvlhqcpgynfilnjghfd/Build/Intermediates/HelloLinkMap.build/Debug-iphoneos/HelloLinkMap.build/Objects-normal/arm64/HelloLinkMap
+# Arch: arm64
+# Object files:
+[  0] linker synthesized
+[  1] /Users/wesley/Library/Developer/Xcode/DerivedData/HelloLinkMap-bmzbsekbmdvlhqcpgynfilnjghfd/Build/Intermediates/HelloLinkMap.build/Debug-iphoneos/HelloLinkMap.build/Objects-normal/arm64/ViewController.o
+[  2] /Users/wesley/Library/Developer/Xcode/DerivedData/HelloLinkMap-bmzbsekbmdvlhqcpgynfilnjghfd/Build/Intermediates/HelloLinkMap.build/Debug-iphoneos/HelloLinkMap.build/Objects-normal/arm64/AppDelegate.o
+[  3] /Users/wesley/Library/Developer/Xcode/DerivedData/HelloLinkMap-bmzbsekbmdvlhqcpgynfilnjghfd/Build/Intermediates/HelloLinkMap.build/Debug-iphoneos/HelloLinkMap.build/Objects-normal/arm64/main.o
+[  4] /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks//Foundation.framework/Foundation.tbd
+[  5] /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/lib/libobjc.tbd
+[  6] /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks//UIKit.framework/UIKit.tbd
+# Sections:
+# Address	Size    	Segment	Section
+0x1000067C4	0x00000404	__TEXT	__text
+0x100006BC8	0x0000006C	__TEXT	__stubs
+0x100006C34	0x00000084	__TEXT	__stub_helper
+0x100006CB8	0x00000A13	__TEXT	__objc_methname
+0x1000076CB	0x0000003C	__TEXT	__objc_classname
+0x100007707	0x0000082A	__TEXT	__objc_methtype
+0x100007F31	0x0000007A	__TEXT	__cstring
+0x100007FAC	0x00000054	__TEXT	__unwind_info
+0x100008000	0x00000010	__DATA	__got
+0x100008010	0x00000048	__DATA	__la_symbol_ptr
+0x100008058	0x00000010	__DATA	__objc_classlist
+0x100008068	0x00000010	__DATA	__objc_protolist
+0x100008078	0x00000008	__DATA	__objc_imageinfo
+0x100008080	0x00000BE0	__DATA	__objc_const
+0x100008C60	0x00000018	__DATA	__objc_selrefs
+0x100008C78	0x00000008	__DATA	__objc_classrefs
+0x100008C80	0x00000008	__DATA	__objc_superrefs
+0x100008C88	0x00000004	__DATA	__objc_ivar
+0x100008C90	0x000000A0	__DATA	__objc_data
+0x100008D30	0x000000C0	__DATA	__data
+# Symbols:
+# Address	Size    	File  Name
+0x1000067C4	0x00000050	[  1] -[ViewController viewDidLoad]
+0x100006814	0x00000050	[  1] -[ViewController didReceiveMemoryWarning]
+0x100006864	0x00000088	[  2] -[AppDelegate application:didFinishLaunchingWithOptions:]
+0x1000068EC	0x0000004C	[  2] -[AppDelegate applicationWillResignActive:]
+0x100006938	0x0000004C	[  2] -[AppDelegate applicationDidEnterBackground:]
+0x100006984	0x0000004C	[  2] -[AppDelegate applicationWillEnterForeground:]
+0x1000069D0	0x0000004C	[  2] -[AppDelegate applicationDidBecomeActive:]
+0x100006A1C	0x0000004C	[  2] -[AppDelegate applicationWillTerminate:]
+0x100006A68	0x0000002C	[  2] -[AppDelegate window]
+0x100006A94	0x0000004C	[  2] -[AppDelegate setWindow:]
+0x100006AE0	0x00000044	[  2] -[AppDelegate .cxx_destruct]
+0x100006B24	0x000000A4	[  3] _main
+0x100006BC8	0x0000000C	[  4] _NSStringFromClass
+0x100006BD4	0x0000000C	[  5] _objc_autoreleasePoolPop
+0x100006BE0	0x0000000C	[  5] _objc_autoreleasePoolPush
+0x100006BEC	0x0000000C	[  5] _objc_msgSend
+0x100006BF8	0x0000000C	[  5] _objc_msgSendSuper2
+0x100006C04	0x0000000C	[  5] _objc_release
+0x100006C10	0x0000000C	[  5] _objc_retainAutoreleasedReturnValue
+0x100006C1C	0x0000000C	[  5] _objc_storeStrong
+0x100006C28	0x0000000C	[  6] _UIApplicationMain
+0x100006C34	0x00000018	[  0] helper helper
+0x100006C4C	0x0000000C	[  4] _NSStringFromClass
+0x100006C58	0x0000000C	[  5] _objc_autoreleasePoolPop
+0x100006C64	0x0000000C	[  5] _objc_autoreleasePoolPush
+0x100006C70	0x0000000C	[  5] _objc_msgSend
+0x100006C7C	0x0000000C	[  5] _objc_msgSendSuper2
+0x100006C88	0x0000000C	[  5] _objc_release
+0x100006C94	0x0000000C	[  5] _objc_retainAutoreleasedReturnValue
+0x100006CA0	0x0000000C	[  5] _objc_storeStrong
+0x100006CAC	0x0000000C	[  6] _UIApplicationMain
+0x100006CB8	0x0000000C	[  1] literal string: viewDidLoad
+0x100006CC4	0x00000018	[  1] literal string: didReceiveMemoryWarning
+0x100006CDC	0x0000001F	[  2] literal string: applicationDidFinishLaunching:
+0x100006CFB	0x0000002C	[  2] literal string: application:willFinishLaunchingWithOptions:
+0x100006D27	0x0000002B	[  2] literal string: application:didFinishLaunchingWithOptions:
+0x100006D52	0x0000001C	[  2] literal string: applicationDidBecomeActive:
+0x100006D6E	0x0000001D	[  2] literal string: applicationWillResignActive:
+0x100006D8B	0x0000001B	[  2] literal string: application:handleOpenURL:
+0x100006DA6	0x00000032	[  2] literal string: application:openURL:sourceApplication:annotation:
+0x100006DD8	0x0000001D	[  2] literal string: application:openURL:options:
+0x100006DF5	0x00000024	[  2] literal string: applicationDidReceiveMemoryWarning:
+0x100006E19	0x0000001A	[  2] literal string: applicationWillTerminate:
+0x100006E33	0x00000022	[  2] literal string: applicationSignificantTimeChange:
+0x100006E55	0x00000035	[  2] literal string: application:willChangeStatusBarOrientation:duration:
+0x100006E8A	0x0000002B	[  2] literal string: application:didChangeStatusBarOrientation:
+0x100006EB5	0x00000026	[  2] literal string: application:willChangeStatusBarFrame:
+0x100006EDB	0x00000025	[  2] literal string: application:didChangeStatusBarFrame:
+0x100006F00	0x00000031	[  2] literal string: application:didRegisterUserNotificationSettings:
+0x100006F31	0x0000003E	[  2] literal string: application:didRegisterForRemoteNotificationsWithDeviceToken:
+0x100006F6F	0x0000003E	[  2] literal string: application:didFailToRegisterForRemoteNotificationsWithError:
+0x100006FAD	0x0000002A	[  2] literal string: application:didReceiveRemoteNotification:
+0x100006FD7	0x00000029	[  2] literal string: application:didReceiveLocalNotification:
+0x100007000	0x0000004F	[  2] literal string: application:handleActionWithIdentifier:forLocalNotification:completionHandler:
+0x10000704F	0x00000061	[  2] literal string: application:handleActionWithIdentifier:forRemoteNotification:withResponseInfo:completionHandler:
+0x1000070B0	0x00000050	[  2] literal string: application:handleActionWithIdentifier:forRemoteNotification:completionHandler:
+0x100007100	0x00000060	[  2] literal string: application:handleActionWithIdentifier:forLocalNotification:withResponseInfo:completionHandler:
+0x100007160	0x00000041	[  2] literal string: application:didReceiveRemoteNotification:fetchCompletionHandler:
+0x1000071A1	0x0000002F	[  2] literal string: application:performFetchWithCompletionHandler:
+0x1000071D0	0x0000003C	[  2] literal string: application:performActionForShortcutItem:completionHandler:
+0x10000720C	0x00000043	[  2] literal string: application:handleEventsForBackgroundURLSession:completionHandler:
+0x10000724F	0x00000032	[  2] literal string: application:handleWatchKitExtensionRequest:reply:
+0x100007281	0x0000002D	[  2] literal string: applicationShouldRequestHealthAuthorization:
+0x1000072AE	0x0000001F	[  2] literal string: applicationDidEnterBackground:
+0x1000072CD	0x00000020	[  2] literal string: applicationWillEnterForeground:
+0x1000072ED	0x0000002F	[  2] literal string: applicationProtectedDataWillBecomeUnavailable:
+0x10000731C	0x0000002C	[  2] literal string: applicationProtectedDataDidBecomeAvailable:
+0x100007348	0x00000035	[  2] literal string: application:supportedInterfaceOrientationsForWindow:
+0x10000737D	0x00000031	[  2] literal string: application:shouldAllowExtensionPointIdentifier:
+0x1000073AE	0x0000003F	[  2] literal string: application:viewControllerWithRestorationIdentifierPath:coder:
+0x1000073ED	0x00000028	[  2] literal string: application:shouldSaveApplicationState:
+0x100007415	0x0000002B	[  2] literal string: application:shouldRestoreApplicationState:
+0x100007440	0x00000030	[  2] literal string: application:willEncodeRestorableStateWithCoder:
+0x100007470	0x0000002F	[  2] literal string: application:didDecodeRestorableStateWithCoder:
+0x10000749F	0x0000002E	[  2] literal string: application:willContinueUserActivityWithType:
+0x1000074CD	0x00000035	[  2] literal string: application:continueUserActivity:restorationHandler:
+0x100007502	0x00000039	[  2] literal string: application:didFailToContinueUserActivityWithType:error:
+0x10000753B	0x00000023	[  2] literal string: application:didUpdateUserActivity:
+0x10000755E	0x00000034	[  2] literal string: application:userDidAcceptCloudKitShareWithMetadata:
+0x100007592	0x00000007	[  2] literal string: window
+0x100007599	0x0000000B	[  2] literal string: setWindow:
+0x1000075A4	0x00000009	[  2] literal string: isEqual:
+0x1000075AD	0x00000006	[  2] literal string: class
+0x1000075B3	0x00000005	[  2] literal string: self
+0x1000075B8	0x00000011	[  2] literal string: performSelector:
+0x1000075C9	0x0000001C	[  2] literal string: performSelector:withObject:
+0x1000075E5	0x00000027	[  2] literal string: performSelector:withObject:withObject:
+0x10000760C	0x00000008	[  2] literal string: isProxy
+0x100007614	0x0000000F	[  2] literal string: isKindOfClass:
+0x100007623	0x00000011	[  2] literal string: isMemberOfClass:
+0x100007634	0x00000014	[  2] literal string: conformsToProtocol:
+0x100007648	0x00000014	[  2] literal string: respondsToSelector:
+0x10000765C	0x00000007	[  2] literal string: retain
+0x100007663	0x00000008	[  2] literal string: release
+0x10000766B	0x0000000C	[  2] literal string: autorelease
+0x100007677	0x0000000C	[  2] literal string: retainCount
+0x100007683	0x00000005	[  2] literal string: zone
+0x100007688	0x00000005	[  2] literal string: hash
+0x10000768D	0x0000000B	[  2] literal string: superclass
+0x100007698	0x0000000C	[  2] literal string: description
+0x1000076A4	0x00000011	[  2] literal string: debugDescription
+0x1000076B5	0x0000000E	[  2] literal string: .cxx_destruct
+0x1000076C3	0x00000008	[  2] literal string: _window
+0x1000076CB	0x0000000F	[  1] literal string: ViewController
+0x1000076DA	0x0000000C	[  2] literal string: AppDelegate
+0x1000076E6	0x00000016	[  2] literal string: UIApplicationDelegate
+0x1000076FC	0x00000009	[  2] literal string: NSObject
+0x100007705	0x00000002	[  2] literal string: 
+0x100007707	0x00000008	[  1] literal string: v16@0:8
+0x10000770F	0x0000000B	[  2] literal string: v24@0:8@16
+0x10000771A	0x0000001A	[  2] literal string: v24@0:8@"UIApplication"16
+0x100007734	0x0000000E	[  2] literal string: B32@0:8@16@24
+0x100007742	0x0000002B	[  2] literal string: B32@0:8@"UIApplication"16@"NSDictionary"24
+0x10000776D	0x00000024	[  2] literal string: B32@0:8@"UIApplication"16@"NSURL"24
+0x100007791	0x00000014	[  2] literal string: B48@0:8@16@24@32@40
+0x1000077A5	0x00000034	[  2] literal string: B48@0:8@"UIApplication"16@"NSURL"24@"NSString"32@40
+0x1000077D9	0x00000011	[  2] literal string: B40@0:8@16@24@32
+0x1000077EA	0x00000035	[  2] literal string: B40@0:8@"UIApplication"16@"NSURL"24@"NSDictionary"32
+0x10000781F	0x00000011	[  2] literal string: v40@0:8@16q24d32
+0x100007830	0x00000020	[  2] literal string: v40@0:8@"UIApplication"16q24d32
+0x100007850	0x0000000E	[  2] literal string: v32@0:8@16q24
+0x10000785E	0x0000001D	[  2] literal string: v32@0:8@"UIApplication"16q24
+0x10000787B	0x0000002D	[  2] literal string: v56@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24
+0x1000078A8	0x0000003C	[  2] literal string: v56@0:8@"UIApplication"16{CGRect={CGPoint=dd}{CGSize=dd}}24
+0x1000078E4	0x0000000E	[  2] literal string: v32@0:8@16@24
+0x1000078F2	0x00000039	[  2] literal string: v32@0:8@"UIApplication"16@"UIUserNotificationSettings"24
+0x10000792B	0x00000025	[  2] literal string: v32@0:8@"UIApplication"16@"NSData"24
+0x100007950	0x00000026	[  2] literal string: v32@0:8@"UIApplication"16@"NSError"24
+0x100007976	0x0000002B	[  2] literal string: v32@0:8@"UIApplication"16@"NSDictionary"24
+0x1000079A1	0x00000032	[  2] literal string: v32@0:8@"UIApplication"16@"UILocalNotification"24
+0x1000079D3	0x00000015	[  2] literal string: v48@0:8@16@24@32@?40
+0x1000079E8	0x00000048	[  2] literal string: v48@0:8@"UIApplication"16@"NSString"24@"UILocalNotification"32@?<v@?>40
+0x100007A30	0x00000018	[  2] literal string: v56@0:8@16@24@32@40@?48
+0x100007A48	0x00000052	[  2] literal string: v56@0:8@"UIApplication"16@"NSString"24@"NSDictionary"32@"NSDictionary"40@?<v@?>48
+0x100007A9A	0x00000041	[  2] literal string: v48@0:8@"UIApplication"16@"NSString"24@"NSDictionary"32@?<v@?>40
+0x100007ADB	0x00000059	[  2] literal string: v56@0:8@"UIApplication"16@"NSString"24@"UILocalNotification"32@"NSDictionary"40@?<v@?>48
+0x100007B34	0x00000012	[  2] literal string: v40@0:8@16@24@?32
+0x100007B46	0x00000035	[  2] literal string: v40@0:8@"UIApplication"16@"NSDictionary"24@?<v@?Q>32
+0x100007B7B	0x0000000F	[  2] literal string: v32@0:8@16@?24
+0x100007B8A	0x00000024	[  2] literal string: v32@0:8@"UIApplication"16@?<v@?Q>24
+0x100007BAE	0x00000042	[  2] literal string: v40@0:8@"UIApplication"16@"UIApplicationShortcutItem"24@?<v@?B>32
+0x100007BF0	0x00000030	[  2] literal string: v40@0:8@"UIApplication"16@"NSString"24@?<v@?>32
+0x100007C20	0x00000043	[  2] literal string: v40@0:8@"UIApplication"16@"NSDictionary"24@?<v@?@"NSDictionary">32
+0x100007C63	0x0000000E	[  2] literal string: Q32@0:8@16@24
+0x100007C71	0x00000027	[  2] literal string: Q32@0:8@"UIApplication"16@"UIWindow"24
+0x100007C98	0x00000027	[  2] literal string: B32@0:8@"UIApplication"16@"NSString"24
+0x100007CBF	0x00000011	[  2] literal string: @40@0:8@16@24@32
+0x100007CD0	0x00000044	[  2] literal string: @"UIViewController"40@0:8@"UIApplication"16@"NSArray"24@"NSCoder"32
+0x100007D14	0x00000026	[  2] literal string: B32@0:8@"UIApplication"16@"NSCoder"24
+0x100007D3A	0x00000026	[  2] literal string: v32@0:8@"UIApplication"16@"NSCoder"24
+0x100007D60	0x00000012	[  2] literal string: B40@0:8@16@24@?32
+0x100007D72	0x00000040	[  2] literal string: B40@0:8@"UIApplication"16@"NSUserActivity"24@?<v@?@"NSArray">32
+0x100007DB2	0x00000011	[  2] literal string: v40@0:8@16@24@32
+0x100007DC3	0x00000033	[  2] literal string: v40@0:8@"UIApplication"16@"NSString"24@"NSError"32
+0x100007DF6	0x0000002D	[  2] literal string: v32@0:8@"UIApplication"16@"NSUserActivity"24
+0x100007E23	0x0000002E	[  2] literal string: v32@0:8@"UIApplication"16@"CKShareMetadata"24
+0x100007E51	0x00000008	[  2] literal string: @16@0:8
+0x100007E59	0x00000012	[  2] literal string: @"UIWindow"16@0:8
+0x100007E6B	0x00000015	[  2] literal string: v24@0:8@"UIWindow"16
+0x100007E80	0x0000000B	[  2] literal string: B24@0:8@16
+0x100007E8B	0x00000008	[  2] literal string: #16@0:8
+0x100007E93	0x0000000B	[  2] literal string: @24@0:8:16
+0x100007E9E	0x0000000E	[  2] literal string: @32@0:8:16@24
+0x100007EAC	0x00000011	[  2] literal string: @40@0:8:16@24@32
+0x100007EBD	0x00000008	[  2] literal string: B16@0:8
+0x100007EC5	0x0000000B	[  2] literal string: B24@0:8#16
+0x100007ED0	0x00000015	[  2] literal string: B24@0:8@"Protocol"16
+0x100007EE5	0x0000000B	[  2] literal string: B24@0:8:16
+0x100007EF0	0x00000009	[  2] literal string: Vv16@0:8
+0x100007EF9	0x00000008	[  2] literal string: Q16@0:8
+0x100007F01	0x00000012	[  2] literal string: ^{_NSZone=}16@0:8
+0x100007F13	0x00000012	[  2] literal string: @"NSString"16@0:8
+0x100007F25	0x0000000C	[  2] literal string: @"UIWindow"
+0x100007F31	0x00000005	[  2] literal string: hash
+0x100007F36	0x00000005	[  2] literal string: TQ,R
+0x100007F3B	0x0000000B	[  2] literal string: superclass
+0x100007F46	0x00000005	[  2] literal string: T#,R
+0x100007F4B	0x0000000C	[  2] literal string: description
+0x100007F57	0x00000011	[  2] literal string: T@"NSString",R,C
+0x100007F68	0x00000011	[  2] literal string: debugDescription
+0x100007F79	0x00000007	[  2] literal string: window
+0x100007F80	0x00000011	[  2] literal string: T@"UIWindow",&,N
+0x100007F91	0x0000001A	[  2] literal string: T@"UIWindow",&,N,V_window
+0x100007FAC	0x00000054	[  0] compact unwind info
+0x100008000	0x00000008	[  0] non-lazy-pointer-to-local: dyld_stub_binder
+0x100008008	0x00000008	[  0] non-lazy-pointer
+0x100008010	0x00000008	[  4] _NSStringFromClass
+0x100008018	0x00000008	[  5] _objc_autoreleasePoolPop
+0x100008020	0x00000008	[  5] _objc_autoreleasePoolPush
+0x100008028	0x00000008	[  5] _objc_msgSend
+0x100008030	0x00000008	[  5] _objc_msgSendSuper2
+0x100008038	0x00000008	[  5] _objc_release
+0x100008040	0x00000008	[  5] _objc_retainAutoreleasedReturnValue
+0x100008048	0x00000008	[  5] _objc_storeStrong
+0x100008050	0x00000008	[  6] _UIApplicationMain
+0x100008058	0x00000008	[  1] ltmp8
+0x100008060	0x00000008	[  2] ltmp10
+0x100008068	0x00000008	[  2] l_OBJC_LABEL_PROTOCOL_$_NSObject
+0x100008070	0x00000008	[  2] l_OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
+0x100008078	0x00000008	[  0] objc image info
+0x100008080	0x00000048	[  1] l_OBJC_METACLASS_RO_$_ViewController
+0x1000080C8	0x00000038	[  1] l_OBJC_$_INSTANCE_METHODS_ViewController
+0x100008100	0x00000048	[  1] l_OBJC_CLASS_RO_$_ViewController
+0x100008148	0x000001D0	[  2] l_OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+0x100008318	0x00000020	[  2] l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+0x100008338	0x00000048	[  2] l_OBJC_$_PROP_LIST_NSObject
+0x100008380	0x000000A0	[  2] l_OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+0x100008420	0x00000018	[  2] l_OBJC_$_PROTOCOL_REFS_UIApplicationDelegate
+0x100008438	0x00000488	[  2] l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIApplicationDelegate
+0x1000088C0	0x00000018	[  2] l_OBJC_$_PROP_LIST_UIApplicationDelegate
+0x1000088D8	0x00000180	[  2] l_OBJC_$_PROTOCOL_METHOD_TYPES_UIApplicationDelegate
+0x100008A58	0x00000018	[  2] l_OBJC_CLASS_PROTOCOLS_$_AppDelegate
+0x100008A70	0x00000048	[  2] l_OBJC_METACLASS_RO_$_AppDelegate
+0x100008AB8	0x000000E0	[  2] l_OBJC_$_INSTANCE_METHODS_AppDelegate
+0x100008B98	0x00000028	[  2] l_OBJC_$_INSTANCE_VARIABLES_AppDelegate
+0x100008BC0	0x00000058	[  2] l_OBJC_$_PROP_LIST_AppDelegate
+0x100008C18	0x00000048	[  2] l_OBJC_CLASS_RO_$_AppDelegate
+0x100008C60	0x00000008	[  1] pointer-to-literal-cstring
+0x100008C68	0x00000008	[  1] pointer-to-literal-cstring
+0x100008C70	0x00000008	[  3] pointer-to-literal-cstring
+0x100008C78	0x00000008	[  3] objc-class-ref
+0x100008C80	0x00000008	[  1] ltmp2
+0x100008C88	0x00000004	[  2] _OBJC_IVAR_$_AppDelegate._window
+0x100008C90	0x00000028	[  1] _OBJC_CLASS_$_ViewController
+0x100008CB8	0x00000028	[  1] _OBJC_METACLASS_$_ViewController
+0x100008CE0	0x00000028	[  2] _OBJC_METACLASS_$_AppDelegate
+0x100008D08	0x00000028	[  2] _OBJC_CLASS_$_AppDelegate
+0x100008D30	0x00000060	[  2] l_OBJC_PROTOCOL_$_NSObject
+0x100008D90	0x00000060	[  2] l_OBJC_PROTOCOL_$_UIApplicationDelegate
+
+# Dead Stripped Symbols:
+#        	Size    	File  Name
+<<dead>> 	0x00000008	[  2] literal string: v16@0:8
+<<dead>> 	0x00000006	[  3] literal string: class

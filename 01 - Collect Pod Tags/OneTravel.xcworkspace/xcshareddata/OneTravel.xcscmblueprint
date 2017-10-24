@@ -1,0 +1,58 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7383D419EE94C2F69E2D93D479C649AD5C2A7ADE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F79825C18EA89368ACF201CD1B4F5B598A852E4A" : 9223372036854775807,
+    "DC4B6E6F69885512641D9E0912B65B89D062F4F4" : 9223372036854775807,
+    "1FCDF8AD53989C551F998D4D553BD26920844A3F" : 9223372036854775807,
+    "00B098C46ED1C383967473D3A54870D32FE126BC" : 9223372036854775807,
+    "4492276840FC4013379EE28E8C575B4DA172A651" : 9223372036854775807,
+    "7383D419EE94C2F69E2D93D479C649AD5C2A7ADE" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A9B898FF-98BB-421B-A705-FAF74CBE59F0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F79825C18EA89368ACF201CD1B4F5B598A852E4A" : "one-project\/",
+    "DC4B6E6F69885512641D9E0912B65B89D062F4F4" : "ONEDebugKit\/",
+    "1FCDF8AD53989C551F998D4D553BD26920844A3F" : "ONEMainMenuModule\/",
+    "00B098C46ED1C383967473D3A54870D32FE126BC" : "ONEPassportSDK\/",
+    "4492276840FC4013379EE28E8C575B4DA172A651" : "ONEDebugPlugins\/",
+    "7383D419EE94C2F69E2D93D479C649AD5C2A7ADE" : "one-integration\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "OneTravel",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "OneTravel.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.xiaojukeji.com:one-ios\/ONEPassportSDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "00B098C46ED1C383967473D3A54870D32FE126BC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.xiaojukeji.com:one-ios\/ONEMainMenuModule.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1FCDF8AD53989C551F998D4D553BD26920844A3F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.xiaojukeji.com:one-ios\/ONEDebugPlugins.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4492276840FC4013379EE28E8C575B4DA172A651"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.xiaojukeji.com:one-ios\/one-integration.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7383D419EE94C2F69E2D93D479C649AD5C2A7ADE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.xiaojukeji.com:one-ios\/ONEDebugKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DC4B6E6F69885512641D9E0912B65B89D062F4F4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.xiaojukeji.com:one-ios\/one-project.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F79825C18EA89368ACF201CD1B4F5B598A852E4A"
+    }
+  ]
+}

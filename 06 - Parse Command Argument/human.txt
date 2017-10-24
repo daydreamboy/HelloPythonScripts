@@ -1,0 +1,343 @@
+CONCERN: Missing image resolution variant [MissingImageResolutionVariant]
+         …portSDK/Example/ONEPassportSDK/Images.xcassets/DisplayImage.imageset 
+         Asset catalog ‘Images’, set ‘DisplayImage’: The ‘x3 scale, iPhone’
+         version of this image is missing.
+
+         …e/one-workspace/ONEPassportSDK/Example/HTTP Stubs Files/captcha.jpeg 
+         The ‘3x retina’ version of this image is missing.
+
+         …e/one-workspace/ONEPassportSDK/Example/HTTP Stubs Files/captcha.jpeg 
+         The ‘2x retina’ version of this image is missing.
+
+
+CONCERN: Old, verbose Objective-C syntax [OldVerboseObjCSyntax]
+         -[NSDictionary objectForKey:] is called. Consider using an
+         Objective-C subscript expression instead.
+
+         …assportSDK/Example/ONEPassportSDK/ONEAppDelegate.m [300:55 - 300:138]
+         (in: UncaughtExceptionHandler(NSException *__strong))
+
+         ersion: %@\n", [[[NSBundle mainBundle] infoDictionary] objectForKey:@"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+CONCERN: Recommended VCS ignores [RecommendedVCSIgnores]
+         Temporary files should be ignored in the version control system. The
+         un-ignored paths are: 
+         
+         • *.swp
+
+         CocoaPods should not be ignored in the version control system. The
+         ignored paths are: 
+         
+         • Pods/
+          • Pods/Manifest.lock
+
+
+CONCERN: Unprefixed Objective-C class [UnprefixedClass]
+         …K/Example/ONEPassportSDK/dataSource/NetworkParameter.h [13:0 - 13:64]
+
+         @interface NetworkParameter : NSObject <OPSSDKNetworkDataSource>
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+         …sportSDK/Example/ONEPassportSDK/PushedViewController.h [11:0 - 11:50]
+
+         @interface PushedViewController : UIViewController
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+         …/Example/ONEPassportSDK/dataSource/RegisterParameter.h [12:0 - 12:66]
+
+         @interface RegisterParameter : NSObject <OPSSDKRegisterDataSource>
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+CONCERN: Duplicate resource [DuplicateResource]
+         …assportSDK/Example/HTTP Stubs Files/_passport_login_v2_password.json 
+         This file is equal to the file
+         /Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPass
+         portSDK/Example/HTTP Stubs Files/_passport_login_v2_password-2.json.
+
+         …PassportSDK/Example/HTTP Stubs Files/_passport_login_v2_smsMt-2.json 
+         This file is equal to the file
+         /Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPass
+         portSDK/Example/HTTP Stubs Files/_passport_login_v2_smsMt.json.
+
+
+WARNING: Fixed-format NSDateFormatter not using invariant (POSIX) locale [FixedFormatDateFormatter]
+         …EPassportSDK/Example/ONEPassportSDK/ONEAppDelegate.m [295:4 - 295:52]
+         (in: UncaughtExceptionHandler(NSException *__strong))
+
+         [formatter setDateFormat:@"yyyy-MM-dd HH-mm-ss"];
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+WARNING: Unprefixed category method [UnprefixedCategoryMethod]
+         …/ONEPassportSDK/Test Category/MBProgressHUD+Conflict.m [13:0 - 13:37]
+         (in: Conflict)
+
+         + (void)dismissForView:(UIView *)view {
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+         …/ONEPassportSDK/Test Category/MBProgressHUD+Conflict.m [17:0 - 17:61]
+         (in: Conflict)
+
+         + (void)dismissForView:(UIView *)view animated:(BOOL)animated {
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+WARNING: Retain cycle in block API usage [BlockAPIRetainCycle]
+         Referencing self in blocks passed to this method causes a retain
+         cycle.
+
+         Please carefully review code that this rule warns about before
+         modifying it — retain cycles and object lifetimes are a delicate
+         issue where you must fully understand the context and use case in
+         order to avoid unexpected and undesireable behavior. In other words,
+         this rule may produce false positive diagnostics.
+
+         …PassportSDK/Example/ONEPassportSDK/ONEViewController.m [83:8 - 83:12]
+         (in: registerNotifications)
+
+         self.textFieldInput
+         ~~~~
+
+
+WARNING: Discarded opaque NSNotificationCenter observer [DiscardedOpaqueNotificationObserver]
+         …EPassportSDK/Example/ONEPassportSDK/ONEViewController.m [67:4 - 84:6]
+         (in: registerNotifications)
+
+         [[NSNotificationCenter defaultCenter] addObserverForName:OPSUserDidLog
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+         …EPassportSDK/Example/ONEPassportSDK/ONEViewController.m [88:4 - 94:6]
+         (in: registerNotifications)
+
+         [[NSNotificationCenter defaultCenter] addObserverForName:OPSUserDidCha
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+WARNING: NSLog() used in release build [NSLogUsed]
+         …ONEPassportSDK/Example/ONEPassportSDK/ONEAppDelegate.m [34:4 - 34:62]
+         (in: application:didFinishLaunchingWithOptions:)
+
+         NSLog(@"ONEPassportSDK Version: %@", OPS_PodVersionString);
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+         …ONEPassportSDK/Example/ONEPassportSDK/ONEAppDelegate.m [38:4 - 38:41]
+         (in: application:didFinishLaunchingWithOptions:)
+
+         NSLog(@"Home: %@", NSHomeDirectory());
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+         …ONEPassportSDK/Example/ONEPassportSDK/ONEAppDelegate.m [39:4 - 39:86]
+         (in: application:didFinishLaunchingWithOptions:)
+
+         NSLog(@"Screen Size: %@", NSStringFromCGSize([[UIScreen mainScreen] bo
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+         …ONEPassportSDK/Example/ONEPassportSDK/ONEAppDelegate.m [71:4 - 71:21]
+         (in: application:openURL:options:)
+
+         NSLog(@"openURL");
+         ~~~~~~~~~~~~~~~~~
+
+         …EPassportSDK/Example/ONEPassportSDK/ONEAppDelegate.m [103:4 - 103:47]
+         (in: eventLogTriggeredWithEventName:parameter:)
+
+         NSLog(@"log: %@, %@", eventName, parameter);
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+         …EPassportSDK/Example/ONEPassportSDK/ONEAppDelegate.m [309:4 - 309:43]
+         (in: UncaughtExceptionHandler(NSException *__strong))
+
+         NSLog(@"CrashLog: %@", crashLogContent);
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+         …PassportSDK/Example/ONEPassportSDK/ONEViewController.m [62:4 - 62:26]
+         (in: viewDidLoad)
+
+         NSLog(@"arr: %@", arr);
+         ~~~~~~~~~~~~~~~~~~~~~~
+
+         …PassportSDK/Example/ONEPassportSDK/ONEViewController.m [72:8 - 72:40]
+         (in: registerNotifications)
+
+         NSLog(@"userInfo: %@", userInfo);
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+         …PassportSDK/Example/ONEPassportSDK/ONEViewController.m [93:8 - 93:40]
+         (in: registerNotifications)
+
+         NSLog(@"userInfo: %@", userInfo);
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+         …ssportSDK/Example/ONEPassportSDK/ONEViewController.m [243:4 - 243:51]
+         (in: handleOPSAlertWillDismissNotification:)
+
+         NSLog(@"handleOPSAlertWillDismissNotification");
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+         …sportSDK/Example/ONEPassportSDK/ONEViewController.m [298:12 - 298:43]
+         (in: buttonLoginByPresentClicked:)
+
+         NSLog(@"user did finish login");
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+         …sportSDK/Example/ONEPassportSDK/ONEViewController.m [307:12 - 307:37]
+         (in: buttonLoginByPresentClicked:)
+
+         NSLog(@"user exit login");
+         ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+         …sportSDK/Example/ONEPassportSDK/PushedViewController.m [28:4 - 28:50]
+         (in: viewWillAppear:)
+
+         NSLog(@"_cmd: %@", NSStringFromSelector(_cmd));
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+         …sportSDK/Example/ONEPassportSDK/PushedViewController.m [38:4 - 38:50]
+         (in: viewWillDisappear:)
+
+         NSLog(@"_cmd: %@", NSStringFromSelector(_cmd));
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+WARNING: Recommended compiler warning options [CompilerWarnings]
+         The following warning flags are not enabled:
+         
+         • -Wall — Enables all warnings that have a high confidence value and
+           low rate of false positives.
+          • -Wconversion — Warns about implicit conversions that may alter a
+            value. This is a group flag that encompasses many other similar
+            warnings (for example, -Wenum-conversion, -Wsign-conversion,
+            -Wint-conversion, -Wbool-conversion …) The “Suspicious Implicit
+            Conversions” (CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION) Xcode
+            setting controls this.
+          • -Wdeprecated-implementations — Warns if deprecated Objective-C
+            methods are being overridden. The “Overriding Deprecated
+            Objective-C Methods” (CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS)
+            Xcode setting controls this.
+          • -Werror — Treats warnings as errors. Recommended so that warnings
+            could not be ignored out of habit (warnings that are intentionally
+            ignored should then be ignored explicitly by adding a
+            '-Wno-<warning-name>' compiler flag). The “Treat Warnings as
+            Errors” (GCC_TREAT_WARNINGS_AS_ERRORS) Xcode setting controls
+            this.
+          • -Wextra — Enables additional warnings that are useful but
+            may have higher false positive rates or common philosophical
+            objections.
+          • -Wfloat-equal — Warns if floating-point values are used in
+            equality comparisons.
+          • -Wnewline-eof — Warns if a file does not end in a newline
+            character. The “Missing Newline at End of File”
+            (GCC_WARN_ABOUT_MISSING_NEWLINE) Xcode setting controls this.
+          • -Wshadow — Warns whenever a local variable or type declaration
+            shadows another variable, parameter, type, or class member (in
+            C++), or whenever a built-in function is shadowed. The “Hidden
+            local variables” (GCC_WARN_SHADOW) Xcode setting controls this.
+          • -Wsign-compare — Warns when a comparison between signed and
+            unsigned values could produce an incorrect result when the signed
+            value is converted to unsigned. The “Sign Comparison”
+            (GCC_WARN_SIGN_COMPARE) Xcode setting controls this.
+          • -Wundef — Warns if an undefined identifier is evaluated in an
+            '#if' directive.
+
+         …ortSDK/Example/ONEPassportSDK/Test Category/MBProgressHUD+Conflict.m 
+         …/ONEPassportSDK/Example/ONEPassportSDK/dataSource/NetworkParameter.m 
+         …one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEAppDelegate.m 
+         …-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEViewController.m 
+         …rkspace/ONEPassportSDK/Example/ONEPassportSDK/PushedViewController.m 
+         …ONEPassportSDK/Example/ONEPassportSDK/dataSource/RegisterParameter.m 
+         …extOne/one-workspace/ONEPassportSDK/Example/Tool/WCOHHTTPStubsTool.m 
+         …i-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/main.m 
+
+ERROR: UI String not localized [HardcodedUIString]
+       …PassportSDK/Example/ONEPassportSDK/ONEViewController.m [111:8 - 111:70]
+       (in: buttonLoginAlert)
+
+       [button setTitle:@"Alert Login" forState:UIControlStateNormal];
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+       -[UIButton setTitle:forState:] called with string “Alert Login”
+
+       …PassportSDK/Example/ONEPassportSDK/ONEViewController.m [129:8 - 129:49]
+       (in: textFieldInput)
+
+       textField.placeholder = @"Typing here...";
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+       UITextField.placeholder value set to string “Typing here...”
+
+       …PassportSDK/Example/ONEPassportSDK/ONEViewController.m [147:8 - 147:79]
+       (in: buttonLoginAlertByPush)
+
+       [button setTitle:@"Alert Login via Push" forState:UIControlStateNormal];
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+       -[UIButton setTitle:forState:] called with string “Alert Login via Push”
+
+       …PassportSDK/Example/ONEPassportSDK/ONEViewController.m [165:8 - 165:82]
+       (in: buttonLoginByPresent)
+
+       [button setTitle:@"Alert Login via Present" forState:UIControlStateNorma
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+       -[UIButton setTitle:forState:] called with string “Alert Login via
+       Present”
+
+       …PassportSDK/Example/ONEPassportSDK/ONEViewController.m [183:8 - 183:77]
+       (in: buttonChangePhone)
+
+       [button setTitle:@"Alert Change Phone" forState:UIControlStateNormal];
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+       -[UIButton setTitle:forState:] called with string “Alert Change Phone”
+
+       …PassportSDK/Example/ONEPassportSDK/ONEViewController.m [201:8 - 201:76]
+       (in: buttonSetPassword)
+
+       [button setTitle:@"Push Set Password" forState:UIControlStateNormal];
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+       -[UIButton setTitle:forState:] called with string “Push Set Password”
+
+       …PassportSDK/Example/ONEPassportSDK/ONEViewController.m [219:8 - 219:84]
+       (in: buttonAccountCancellation)
+
+       [button setTitle:@"Push Account Cancellation" forState:UIControlStateNor
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+       -[UIButton setTitle:forState:] called with string “Push Account
+       Cancellation”
+
+       …assportSDK/Example/ONEPassportSDK/ONEViewController.m [299:37 - 303:76]
+       (in: buttonLoginByPresentClicked:)
+
+       w *alertView = [[UIAlertView alloc] initWithTitle:nil
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+       -[UIAlertView
+       initWithTitle:message:delegate:cancelButtonTitle:otherButtonTitles:]
+       called with strings “登录结束”, “好的”
+
+       …ssportSDK/Example/ONEPassportSDK/ONEViewController.m [416:32 - 416:156]
+       (in: installNavBarWithViewController:title:onBackAction:)
+
+       em *backItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarB
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+       -[UIBarButtonItem initWithTitle:style:target:action:] called with
+       string “返回”
+
+
+ERROR: Missing device type resource [MissingDeviceTypeResource]
+       The variants of the asset catalog ‘Images’ set ‘DisplayImage’ do not
+       cover the following device types: ipad.
+
+       …ssportSDK/Example/ONEPassportSDK/Images.xcassets/DisplayImage.imageset 
+
+ERROR: Problematic release build compiler arguments [ReleaseBuildCompilerArgs]
+       Required compiler argument -DNDEBUG is not used. This argument disables
+       the C standard library assertion macro (as defined in assert.h).
+
+

@@ -1,0 +1,853 @@
+PODS:
+  - AfantySDK (0.4.1):
+    - Masonry (~> 0.6.3)
+    - ONEZipArchive
+    - SDWebImage (~> 3.7.3)
+  - AFNetworking (2.6.4):
+    - AFNetworking/NSURLConnection (= 2.6.4)
+    - AFNetworking/NSURLSession (= 2.6.4)
+    - AFNetworking/Reachability (= 2.6.4)
+    - AFNetworking/Security (= 2.6.4)
+    - AFNetworking/Serialization (= 2.6.4)
+    - AFNetworking/UIKit (= 2.6.4)
+  - AFNetworking/NSURLConnection (2.6.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.4)
+  - AFNetworking/Security (2.6.4)
+  - AFNetworking/Serialization (2.6.4)
+  - AFNetworking/UIKit (2.6.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - ALAPNSManager (0.1.4)
+  - ALURLRouter (1.1.0)
+  - ApolloSDK (0.3.7):
+    - AFNetworking (~> 2.0)
+    - ObjcAssociatedObjectHelpers
+  - ApolloSDK-Swarm (0.1.22):
+    - ApolloSDK (~> 0.3.7)
+  - CocoaAsyncSocket (7.4.2)
+  - Crashlytics (3.7.0):
+    - Fabric (~> 1.6.3)
+  - DDIM (201609191452):
+    - FMDB (= 2.5)
+    - JSONModel (= 1.1.2)
+    - Masonry (~> 0.6.3)
+    - MJRefresh
+    - MMNotificationView (= 0.2.6)
+    - ONEUIKit (~> 1.0.5)
+    - ONEVoiceConvert (= 0.1.3)
+    - SDWebImage
+  - DDMap (0.1.1)
+  - DidiGoogleProtobuf (2.5.2)
+  - DidiLibevent (2.0.25)
+  - DiDiMap (0.1.0):
+    - DiDiMap/BaseMap (= 0.1.0)
+    - DiDiMap/Coordinate (= 0.1.0)
+    - DiDiMap/MKMap (= 0.1.0)
+    - DiDiMap/QMap (= 0.1.0)
+    - DiDiMap/SCTX (= 0.1.0)
+  - DiDiMap/BaseMap (0.1.0)
+  - DiDiMap/Coordinate (0.1.0)
+  - DiDiMap/MKMap (0.1.0):
+    - DiDiMap/BaseMap
+  - DiDiMap/QMap (0.1.0):
+    - DiDiMap/BaseMap
+  - DiDiMap/SCTX (0.1.0):
+    - DiDiMap/BaseMap
+  - DiDiMapBusiness (0.1.0):
+    - DiDiMapBusiness/Common (= 0.1.0)
+    - DiDiMapBusiness/Recommend (= 0.1.0)
+    - DiDiMapBusiness/ReverseGeo (= 0.1.0)
+    - DiDiMapBusiness/SmoothMove (= 0.1.0)
+    - DiDiMapBusiness/TakeCarPlace (= 0.1.0)
+  - DiDiMapBusiness/Common (0.1.0):
+    - AFNetworking (~> 2.5)
+    - JSONModel
+  - DiDiMapBusiness/Recommend (0.1.0):
+    - DiDiMapBusiness/Common
+  - DiDiMapBusiness/ReverseGeo (0.1.0):
+    - DiDiMapBusiness/Common
+  - DiDiMapBusiness/SmoothMove (0.1.0):
+    - DiDiMapBusiness/Common
+  - DiDiMapBusiness/TakeCarPlace (0.1.0):
+    - DiDiMapBusiness/Common
+    - UIView+Positioning
+  - DiDiPublicService (0.2.32):
+    - AFNetworking
+    - JSONModel (~> 1.1.0)
+    - libextobjc (~> 0.4.1)
+    - Masonry (~> 0.6.3)
+    - ONEFoundation
+    - ONEHttpsSwitcher
+    - ONEReachability
+    - ONEUIKit
+    - SDWebImage (~> 3.7.2)
+  - DILibTomcrypt (0.1.1)
+  - DynamicCocoa (0.1.0)
+  - Fabric (1.6.3)
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - ISCProject (0.4.3)
+  - JSONModel (1.1.2)
+  - KKObserver (0.1.1)
+  - KKView (0.1.2):
+    - KKObserver
+  - libextobjc (0.4.1):
+    - libextobjc/EXTADT (= 0.4.1)
+    - libextobjc/EXTConcreteProtocol (= 0.4.1)
+    - libextobjc/EXTKeyPathCoding (= 0.4.1)
+    - libextobjc/EXTNil (= 0.4.1)
+    - libextobjc/EXTSafeCategory (= 0.4.1)
+    - libextobjc/EXTScope (= 0.4.1)
+    - libextobjc/EXTSelectorChecking (= 0.4.1)
+    - libextobjc/EXTSynthesize (= 0.4.1)
+    - libextobjc/NSInvocation+EXT (= 0.4.1)
+    - libextobjc/NSMethodSignature+EXT (= 0.4.1)
+    - libextobjc/RuntimeExtensions (= 0.4.1)
+    - libextobjc/UmbrellaHeader (= 0.4.1)
+  - libextobjc/EXTADT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSInvocation+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSMethodSignature+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - libextobjc/UmbrellaHeader (0.4.1)
+  - libwebp (0.5.1):
+    - libwebp/core (= 0.5.1)
+    - libwebp/dec (= 0.5.1)
+    - libwebp/demux (= 0.5.1)
+    - libwebp/dsp (= 0.5.1)
+    - libwebp/enc (= 0.5.1)
+    - libwebp/mux (= 0.5.1)
+    - libwebp/utils (= 0.5.1)
+    - libwebp/webp (= 0.5.1)
+  - libwebp/core (0.5.1):
+    - libwebp/webp
+  - libwebp/dec (0.5.1):
+    - libwebp/core
+  - libwebp/demux (0.5.1):
+    - libwebp/core
+  - libwebp/dsp (0.5.1):
+    - libwebp/core
+  - libwebp/enc (0.5.1):
+    - libwebp/core
+  - libwebp/mux (0.5.1):
+    - libwebp/core
+  - libwebp/utils (0.5.1):
+    - libwebp/core
+  - libwebp/webp (0.5.1)
+  - Masonry (0.6.3)
+  - MJRefresh (3.1.9)
+  - MMNotificationView (0.2.6)
+  - ObjcAssociatedObjectHelpers (2.0.1):
+    - ObjcAssociatedObjectHelpers/Core (= 2.0.1)
+    - ObjcAssociatedObjectHelpers/NSObject+Dictionary (= 2.0.1)
+  - ObjcAssociatedObjectHelpers/Core (2.0.1)
+  - ObjcAssociatedObjectHelpers/NSObject+Dictionary (2.0.1):
+    - ObjcAssociatedObjectHelpers/Core
+  - OmegaSDK (1.2.0):
+    - OmegaSDK/Analytics (= 1.2.0)
+    - OmegaSDK/Common (= 1.2.0)
+    - OmegaSDK/CrashReports (= 1.2.0)
+    - OmegaSDK/Swarm (= 1.2.0)
+    - ONEZipArchive
+  - OmegaSDK/Analytics (1.2.0):
+    - OmegaSDK/Common
+    - ONEZipArchive
+  - OmegaSDK/Common (1.2.0):
+    - ONEZipArchive
+  - OmegaSDK/CrashReports (1.2.0):
+    - OmegaSDK/Common
+    - ONEANRTracker (~> 1.0.2)
+    - ONEZipArchive
+  - OmegaSDK/Swarm (1.2.0):
+    - OmegaSDK/Analytics
+    - OmegaSDK/CrashReports
+    - ONEZipArchive
+  - ONEAlarm (0.1.0):
+    - AFNetworking
+    - JSONModel (~> 1.1.2)
+    - OmegaSDK
+    - ONEHttpsSwitcher
+    - ONEVoiceConvert (~> 0.1.3)
+    - OpenUDID
+    - SSZipArchive (~> 0.4.0)
+    - UIView+Positioning
+  - ONEANRTracker (1.0.3)
+  - ONEAppExtensionKit (0.0.1)
+  - ONEBus (0.1.0):
+    - KKObserver
+    - KKView
+    - TPKeyboardAvoiding
+  - ONECarpool (0.1.0):
+    - ALAPNSManager (= 0.1.4)
+    - ALURLRouter (= 1.1.0)
+  - ONEDebugKit (0.1.14):
+    - ONEDebugKit/AppInfoViewer (= 0.1.14)
+    - ONEDebugKit/DebugPanel (= 0.1.14)
+    - ONEDebugKit/DeviceInfoViewer (= 0.1.14)
+    - ONEDebugKit/FileExplorer (= 0.1.14)
+    - ONEDebugKit/IntegratedTools (= 0.1.14)
+  - ONEDebugKit/AppInfoViewer (0.1.14):
+    - ONEDebugKit/DebugPanel
+  - ONEDebugKit/DebugPanel (0.1.14)
+  - ONEDebugKit/DeviceInfoViewer (0.1.14):
+    - ONEDebugKit/DebugPanel
+  - ONEDebugKit/FileExplorer (0.1.14):
+    - ONEDebugKit/DebugPanel
+  - ONEDebugKit/IntegratedTools (0.1.14):
+    - ONEDebugKit/DebugPanel
+  - ONEDebugPlugins (0.1.6)
+  - ONEDiDiPaySDK (0.1.3)
+  - ONEDrivingSafety (0.1.0):
+    - AFNetworking
+    - JSONModel
+    - ONESOSOMap
+  - ONEDYCDebugTool (0.1.3)
+  - ONEDynamic (1.0.0):
+    - DynamicCocoa
+  - ONEFaceDetect/Base (0.1.0):
+    - AFNetworking
+    - JSONModel (~> 1.1.2)
+    - Masonry
+    - SDWebImage
+  - ONEFaceDetect/FacePlusPlus (0.1.0):
+    - AFNetworking
+    - JSONModel (~> 1.1.2)
+    - Masonry
+    - ONEFaceDetect/Base
+    - ONEFacePlusPlusSDK (~> 0.1.19)
+    - SDWebImage
+  - ONEFacePlusPlusSDK (0.1.19):
+    - ONEFacePlusPlusSDK/MGBaseKit (= 0.1.19)
+    - ONEFacePlusPlusSDK/MGIDCard (= 0.1.19)
+    - ONEFacePlusPlusSDK/MGLivenessDetection (= 0.1.19)
+  - ONEFacePlusPlusSDK/MGBaseKit (0.1.19)
+  - ONEFacePlusPlusSDK/MGIDCard (0.1.19):
+    - ONEFacePlusPlusSDK/MGBaseKit
+  - ONEFacePlusPlusSDK/MGLivenessDetection (0.1.19):
+    - ONEFacePlusPlusSDK/MGBaseKit
+  - ONEFoundation (1.0.0):
+    - ONEFoundation/Utils (= 1.0.0)
+  - ONEFoundation/Utils (1.0.0)
+  - ONEHotPatch (0.4.1):
+    - ONEHotPatch/Core (= 0.4.1)
+    - ONEHotPatch/Tools (= 0.4.1)
+    - ONEHotPatch/Vendors (= 0.4.1)
+  - ONEHotPatch/Core (0.4.1):
+    - ONEHotPatch/Vendors
+    - SSZipArchive (= 0.4.0)
+  - ONEHotPatch/Tools (0.4.1):
+    - ONEHotPatch/Core
+  - ONEHotPatch/Vendors (0.4.1):
+    - ONEHotPatch/Vendors/JSPatch-modified (= 0.4.1)
+  - ONEHotPatch/Vendors/JSPatch-modified (0.4.1)
+  - ONEHttpsSwitcher (0.0.4)
+  - ONEIM (0.1.0)
+  - ONELoCo (0.0.5.12):
+    - AFNetworking (~> 2.0)
+    - ApolloSDK
+    - ONEReachability
+  - ONELogger (0.9.3):
+    - ONELogger/Core (= 0.9.3)
+    - ONELogger/Net (= 0.9.3)
+    - ONELogger/Util (= 0.9.3)
+  - ONELogger/Core (0.9.3)
+  - ONELogger/Net (0.9.3):
+    - ONELogger/Core
+    - ONELogger/Util
+    - ONEReachability
+    - ONEZipArchive
+  - ONELogger/Util (0.9.3)
+  - ONEMainMenuModule (0.1.0)
+  - ONENetworking (0.2.0):
+    - AFNetworking
+    - JSONModel
+    - libextobjc
+    - ONENetworking/HTTPS (= 0.2.0)
+    - ONENetworking/IPStack (= 0.2.0)
+    - ONENetworking/IPStack-noarc (= 0.2.0)
+    - ONENetworking/ONERequestAPI (= 0.2.0)
+    - ONENetworking/TRBaseRequest (= 0.2.0)
+    - ONENetworking/TRBaseRequest-noarc (= 0.2.0)
+    - ONENetworking/Utils (= 0.2.0)
+  - ONENetworking/HTTPS (0.2.0):
+    - AFNetworking
+    - JSONModel
+    - libextobjc
+    - ONENetworking/ONERequestAPI
+    - ONENetworking/Utils
+  - ONENetworking/IPStack (0.2.0):
+    - AFNetworking
+    - JSONModel
+    - libextobjc
+    - ONENetworking/IPStack-noarc
+    - ONENetworking/Utils
+  - ONENetworking/IPStack-noarc (0.2.0):
+    - AFNetworking
+    - JSONModel
+    - libextobjc
+  - ONENetworking/ONERequestAPI (0.2.0):
+    - AFNetworking
+    - JSONModel
+    - libextobjc
+    - ONENetworking/Utils
+  - ONENetworking/TRBaseRequest (0.2.0):
+    - AFNetworking
+    - JSONModel
+    - libextobjc
+    - ONENetworking/TRBaseRequest-noarc
+  - ONENetworking/TRBaseRequest-noarc (0.2.0):
+    - AFNetworking
+    - JSONModel
+    - libextobjc
+  - ONENetworking/Utils (0.2.0):
+    - AFNetworking
+    - JSONModel
+    - libextobjc
+  - ONEPassportSDK (0.2.21-next):
+    - JSONModel (= 1.1.2)
+    - ONEPassportSDK/PassengerClient (= 0.2.21-next)
+  - ONEPassportSDK/Foundation (0.2.21-next):
+    - JSONModel (= 1.1.2)
+  - ONEPassportSDK/PassengerClient (0.2.21-next):
+    - JSONModel (= 1.1.2)
+    - ONEPassportSDK/Foundation
+  - ONEProtobufModels (0.0.1):
+    - ONEProtobufModels/All (= 0.0.1)
+  - ONEProtobufModels/All (0.0.1)
+  - ONEReachability (0.2.3)
+  - ONERent (0.1.0)
+  - ONEResource (0.1.14):
+    - AFNetworking
+    - JSONModel (~> 1.1.2)
+    - SDWebImage
+    - SSZipArchive
+  - ONESelectAddressModule (1.0.0)
+  - ONEShare (1.0.0):
+    - ONEUIKit
+    - SDWebImage
+    - UIView+Positioning (~> 1.1)
+  - ONESOSOMap (0.1.0)
+  - ONETravelSafetyPlugin (1.0.0)
+  - ONETryDrive (0.1.0)
+  - ONEUIKit (1.0.7):
+    - ONEUIKit/Alert (= 1.0.7)
+    - ONEUIKit/Bubble (= 1.0.7)
+    - ONEUIKit/Helper (= 1.0.7)
+    - ONEUIKit/HUD (= 1.0.7)
+    - ONEUIKit/Popup (= 1.0.7)
+    - ONEUIKit/Theme (= 1.0.7)
+    - ONEUIKit/UIKitUtils (= 1.0.7)
+    - ONEUIKit/WebP (= 1.0.7)
+  - ONEUIKit/Alert (1.0.7):
+    - ONEUIKit/Helper
+    - ONEUIKit/Theme
+    - SDWebImage
+  - ONEUIKit/Bubble (1.0.7):
+    - ONEUIKit/Helper
+    - ONEUIKit/Theme
+  - ONEUIKit/Helper (1.0.7)
+  - ONEUIKit/HUD (1.0.7):
+    - ONEUIKit/Helper
+    - ONEUIKit/Theme
+  - ONEUIKit/Popup (1.0.7):
+    - ONEFoundation (~> 1.0.0)
+    - ONEUIKit/Helper
+    - ONEUIKit/Theme
+    - UIView+Positioning (= 1.1)
+  - ONEUIKit/Theme (1.0.7)
+  - ONEUIKit/UIKitUtils (1.0.7):
+    - OpenUDID
+    - UICKeyChainStore
+    - UIView+Positioning (= 1.1)
+  - ONEUIKit/WebP (1.0.7):
+    - libwebp
+  - ONEVoiceConvert (0.1.3)
+  - ONEVoIP (0.1.76):
+    - AFNetworking
+    - JSONModel (= 1.1.2)
+    - Masonry (= 0.6.3)
+    - ONEVoIP/no-arc (= 0.1.76)
+    - ReactiveCocoa
+    - SDWebImage
+  - ONEVoIP/no-arc (0.1.76):
+    - AFNetworking
+    - JSONModel (= 1.1.2)
+    - Masonry (= 0.6.3)
+    - ReactiveCocoa
+    - SDWebImage
+  - ONEWatchKit (1.3.2)
+  - ONEZipArchive (0.1.2)
+  - OpenUDID (1.0.0)
+  - pop (1.0.9)
+  - Protobuf (3.0.0)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - REFrostedViewController (2.4.8)
+  - RSSwizzle (0.1.0)
+  - SCarCommon (0.1.0):
+    - CocoaAsyncSocket (= 7.4.2)
+    - pop
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SSZipArchive (0.4.0)
+  - Swarm (0.1.0)
+  - TheOne (0.1.0):
+    - ONEHttpsSwitcher
+    - TheOne/no-arc (= 0.1.0)
+  - TheOne/no-arc (0.1.0):
+    - ONEHttpsSwitcher
+  - TKDebugCustomActions (0.1.0)
+  - TPKeyboardAvoiding (1.3)
+  - TRSocketService (0.1.11):
+    - AFNetworking
+    - DidiGoogleProtobuf
+    - DidiLibevent
+    - DILibTomcrypt
+    - JSONModel
+    - TRSocketService/DISocketService (= 0.1.11)
+    - TRSocketService/ONEPushSDK (= 0.1.11)
+    - TRSocketService/TempArea (= 0.1.11)
+  - TRSocketService/DISocketService (0.1.11):
+    - AFNetworking
+    - DidiGoogleProtobuf
+    - DidiLibevent
+    - DILibTomcrypt
+    - JSONModel
+  - TRSocketService/ONEPushSDK (0.1.11):
+    - AFNetworking
+    - DidiGoogleProtobuf
+    - DidiLibevent
+    - DILibTomcrypt
+    - JSONModel
+  - TRSocketService/TempArea (0.1.11):
+    - AFNetworking
+    - DidiGoogleProtobuf
+    - DidiLibevent
+    - DILibTomcrypt
+    - JSONModel
+  - TTTAttributedLabel (1.13.4)
+  - UICKeyChainStore (2.0.6)
+  - UIView+Positioning (1.1)
+  - WSGIOS (1.1.2)
+  - WSGResource (0.0.1)
+
+DEPENDENCIES:
+  - AfantySDK (from `~/.onepods/cache/Debug/AfantySDK/Afanty-ios-201611011137`)
+  - AFNetworking (from `git@git.xiaojukeji.com:one-ios/AFNetworking.git`, tag `2.6.4`)
+  - ApolloSDK-Swarm (from `git@git.xiaojukeji.com:apollo/apollo-sdk-ios-swarm.git`, tag `apollo-sdk-ios-swarm-201611171618`)
+  - Crashlytics (= 3.7.0)
+  - DDIM (from `~/.onepods/cache/Debug/DDIM/2.0.1-201612071219-Common`)
+  - DDMap (from `~/.onepods/cache/Debug/DDMap/DDMap-201612051422`)
+  - DidiGoogleProtobuf (from `git@git.xiaojukeji.com:one-ios/DidiGoogleProtobuf.git`, tag `2.5.3`)
+  - DidiLibevent (from `git@git.xiaojukeji.com:one-ios/DidiLibevent.git`)
+  - DiDiMap (from `~/.onepods/cache/Debug/DiDiMap/DiDiMap-201612061502`)
+  - DiDiMapBusiness (from `~/.onepods/cache/Debug/DiDiMapBusiness/DiDiMapBusiness-201612061444`)
+  - DiDiPublicService (from `~/.onepods/cache/Debug/DiDiPublicService/DiDiPublicService-201611251109`)
+  - DILibTomcrypt (from `git@git.xiaojukeji.com:one-ios/DILibTomcrypt.git`)
+  - DynamicCocoa (from `git@git.xiaojukeji.com:one-architecture/dynamic-cocoa.git`, tag `dynamic-cocoa-201611301623`)
+  - Fabric (= 1.6.3)
+  - FMDB (= 2.5)
+  - ISCProject (from `git@git.xiaojukeji.com:zhangkaiming/ISCForOneProject.git`, tag `ISCForOneProject-201612021654`)
+  - JSONModel (from `~/.onepods/cache/Debug/JSONModel/JSONModel-201611092053`)
+  - KKObserver (from `~/.onepods/cache/Debug/KKObserver/KKObserver-201611232022`)
+  - KKView (from `~/.onepods/cache/Debug/KKView/KKView-201611281549`)
+  - libextobjc (= 0.4.1)
+  - Masonry (= 0.6.3)
+  - MJRefresh (= 3.1.9)
+  - OmegaSDK (from `~/.onepods/cache/Debug/OmegaSDK/Omega-ios-analytic-201611301909`)
+  - ONEAlarm (from `~/.onepods/cache/Debug/ONEAlarm/nextOne_161118.01`)
+  - ONEAppExtensionKit (from `git@git.xiaojukeji.com:one-ios/ONEAppExtensionKit.git`, tag `0.0.15`)
+  - ONEBus (from `~/.onepods/cache/Debug/ONEBus/ONEBusPod-201612071331`)
+  - ONECarpool (from `~/.onepods/cache/Debug/ONECarpool/ONECarpool-201612061932`)
+  - ONEDebugKit (from `git@git.xiaojukeji.com:one-ios/ONEDebugKit.git`, branch `master`)
+  - ONEDebugPlugins (from `git@git.xiaojukeji.com:one-ios/ONEDebugPlugins.git`, branch `master`)
+  - ONEDiDiPaySDK (from `~/.onepods/cache/Debug/ONEDiDiPaySDK/ONEDiDiPaySDK-201611091509`)
+  - ONEDrivingSafety (from `git@git.xiaojukeji.com:one-ios/ONEDrivingSafety.git`, tag `0.1.1`)
+  - ONEDYCDebugTool (from `git@git.xiaojukeji.com:one-architecture/dynamic-debug-tools.git`, tag `dynamic-debug-tools-201611301727`)
+  - ONEDynamic (from `git@git.xiaojukeji.com:one-architecture/ONEDynamic.git`, tag `ONEDynamic-201611301735`)
+  - ONEFaceDetect/FacePlusPlus (from `git@git.xiaojukeji.com:one-ios/ONEFaceDetect.git`, tag `0.2.080`)
+  - ONEFacePlusPlusSDK (from `~/.onepods/cache/Debug/ONEFacePlusPlusSDK/0.1.19`)
+  - ONEFoundation (from `git@git.xiaojukeji.com:one-ios/ONEFoundation.git`, tag `ONEFoundation-201611251110`)
+  - ONEHotPatch (from `~/.onepods/cache/Debug/ONEHotPatch/0.4.1`)
+  - ONEHttpsSwitcher (from `~/.onepods/cache/Debug/ONEHttpsSwitcher/0.0.4`)
+  - ONEIM (from `~/.onepods/cache/Debug/ONEIM/ONEIM-201612011806`)
+  - ONELoCo (from `~/.onepods/cache/Debug/ONELoCo/ONELoCo-201611301447`)
+  - ONELogger (from `git@git.xiaojukeji.com:one-ios/ONELogger.git`, tag `0.9.6`)
+  - ONEMainMenuModule (from `../ONEMainMenuModule/ONEMainMenuModule.podspec`)
+  - ONENetworking (from `~/.onepods/cache/Debug/ONENetworking/ONENetworking-201612071045`)
+  - ONEPassportSDK (from `../ONEPassportSDK/ONEPassportSDK.podspec`)
+  - ONEProtobufModels (from `git@git.xiaojukeji.com:one-ios/ONEProtobufModels.git`, tag `0.1.0`)
+  - ONEReachability (from `~/.onepods/cache/Debug/ONEReachability/0.2.3`)
+  - ONERent (from `~/.onepods/cache/Debug/ONERent/ONERent-201612071249`)
+  - ONEResource (from `~/.onepods/cache/Debug/ONEResource/0.2.10`)
+  - ONESelectAddressModule (from `~/.onepods/cache/Debug/ONESelectAddressModule/ONESelectAddressModule-201612061213`)
+  - ONEShare (from `git@git.xiaojukeji.com:one-ios/ONEShare.git`, tag `1.0.0`)
+  - ONESOSOMap (from `~/.onepods/cache/Debug/ONESOSOMap/ONESOSOMap-201612011054`)
+  - ONETravelSafetyPlugin (from `git@git.xiaojukeji.com:one-ios/ONETravelSafetyPlugin.git`, tag `ONETravelSafetyPlugin-201611251706`)
+  - ONETryDrive (from `~/.onepods/cache/Debug/ONETryDrive/ONETryDrive-201611221839`)
+  - ONEUIKit (from `~/.onepods/cache/Debug/ONEUIKit/ONEUIKit-201611291557`)
+  - ONEVoiceConvert (from `~/.onepods/cache/Debug/ONEVoiceConvert/0.1.3`)
+  - ONEVoIP (from `~/.onepods/cache/Debug/ONEVoIP/voip5.1.0`)
+  - ONEWatchKit (from `~/.onepods/cache/Debug/ONEWatchKit/1.3.2`)
+  - OpenUDID (= 1.0.0)
+  - Protobuf (from `git@git.xiaojukeji.com:one-ios/Protobuf.git`, tag `dd0.0.3`)
+  - ReactiveCocoa (= 2.5)
+  - REFrostedViewController (from `git@git.xiaojukeji.com:one-ios/REFrostedViewController.git`, tag `0.1.01`)
+  - RSSwizzle (= 0.1.0)
+  - SCarCommon (from `~/.onepods/cache/Debug/SCarCommon/ONESCar-201612071357`)
+  - SDWebImage (= 3.7.6)
+  - SSZipArchive (= 0.4.0)
+  - Swarm (from `~/.onepods/cache/Debug/Swarm/0.2.4`)
+  - TheOne (from `../one-project/TheOne.podspec`)
+  - TKDebugCustomActions (from `git@git.xiaojukeji.com:one-ios/TKDebugCustomActions.git`, tag `TKDebugCustomActions-201611101026`)
+  - TRSocketService (from `git@git.xiaojukeji.com:one-ios/TRSocketService.git`, tag `TRSocketService-201611301336`)
+  - TTTAttributedLabel (= 1.13.4)
+  - UICKeyChainStore (= 2.0.6)
+  - UIView+Positioning (= 1.1)
+  - WSGIOS (from `git@git.xiaojukeji.com:sec/wsg-ios.git`, tag `wsg-ios-201611151007`)
+  - WSGResource (from `git@git.xiaojukeji.com:sec/wsg-resource.git`, tag `WSGDIDIv5`)
+
+EXTERNAL SOURCES:
+  AfantySDK:
+    :path: ~/.onepods/cache/Debug/AfantySDK/Afanty-ios-201611011137
+  AFNetworking:
+    :git: git@git.xiaojukeji.com:one-ios/AFNetworking.git
+    :tag: 2.6.4
+  ApolloSDK-Swarm:
+    :git: git@git.xiaojukeji.com:apollo/apollo-sdk-ios-swarm.git
+    :tag: apollo-sdk-ios-swarm-201611171618
+  DDIM:
+    :path: ~/.onepods/cache/Debug/DDIM/2.0.1-201612071219-Common
+  DDMap:
+    :path: ~/.onepods/cache/Debug/DDMap/DDMap-201612051422
+  DidiGoogleProtobuf:
+    :git: git@git.xiaojukeji.com:one-ios/DidiGoogleProtobuf.git
+    :tag: 2.5.3
+  DidiLibevent:
+    :git: git@git.xiaojukeji.com:one-ios/DidiLibevent.git
+  DiDiMap:
+    :path: ~/.onepods/cache/Debug/DiDiMap/DiDiMap-201612061502
+  DiDiMapBusiness:
+    :path: ~/.onepods/cache/Debug/DiDiMapBusiness/DiDiMapBusiness-201612061444
+  DiDiPublicService:
+    :path: ~/.onepods/cache/Debug/DiDiPublicService/DiDiPublicService-201611251109
+  DILibTomcrypt:
+    :git: git@git.xiaojukeji.com:one-ios/DILibTomcrypt.git
+  DynamicCocoa:
+    :git: git@git.xiaojukeji.com:one-architecture/dynamic-cocoa.git
+    :tag: dynamic-cocoa-201611301623
+  ISCProject:
+    :git: git@git.xiaojukeji.com:zhangkaiming/ISCForOneProject.git
+    :tag: ISCForOneProject-201612021654
+  JSONModel:
+    :path: ~/.onepods/cache/Debug/JSONModel/JSONModel-201611092053
+  KKObserver:
+    :path: ~/.onepods/cache/Debug/KKObserver/KKObserver-201611232022
+  KKView:
+    :path: ~/.onepods/cache/Debug/KKView/KKView-201611281549
+  OmegaSDK:
+    :path: ~/.onepods/cache/Debug/OmegaSDK/Omega-ios-analytic-201611301909
+  ONEAlarm:
+    :path: ~/.onepods/cache/Debug/ONEAlarm/nextOne_161118.01
+  ONEAppExtensionKit:
+    :git: git@git.xiaojukeji.com:one-ios/ONEAppExtensionKit.git
+    :tag: 0.0.15
+  ONEBus:
+    :path: ~/.onepods/cache/Debug/ONEBus/ONEBusPod-201612071331
+  ONECarpool:
+    :path: ~/.onepods/cache/Debug/ONECarpool/ONECarpool-201612061932
+  ONEDebugKit:
+    :branch: master
+    :git: git@git.xiaojukeji.com:one-ios/ONEDebugKit.git
+  ONEDebugPlugins:
+    :branch: master
+    :git: git@git.xiaojukeji.com:one-ios/ONEDebugPlugins.git
+  ONEDiDiPaySDK:
+    :path: ~/.onepods/cache/Debug/ONEDiDiPaySDK/ONEDiDiPaySDK-201611091509
+  ONEDrivingSafety:
+    :git: git@git.xiaojukeji.com:one-ios/ONEDrivingSafety.git
+    :tag: 0.1.1
+  ONEDYCDebugTool:
+    :git: git@git.xiaojukeji.com:one-architecture/dynamic-debug-tools.git
+    :tag: dynamic-debug-tools-201611301727
+  ONEDynamic:
+    :git: git@git.xiaojukeji.com:one-architecture/ONEDynamic.git
+    :tag: ONEDynamic-201611301735
+  ONEFaceDetect:
+    :git: git@git.xiaojukeji.com:one-ios/ONEFaceDetect.git
+    :tag: 0.2.080
+  ONEFacePlusPlusSDK:
+    :path: ~/.onepods/cache/Debug/ONEFacePlusPlusSDK/0.1.19
+  ONEFoundation:
+    :git: git@git.xiaojukeji.com:one-ios/ONEFoundation.git
+    :tag: ONEFoundation-201611251110
+  ONEHotPatch:
+    :path: ~/.onepods/cache/Debug/ONEHotPatch/0.4.1
+  ONEHttpsSwitcher:
+    :path: ~/.onepods/cache/Debug/ONEHttpsSwitcher/0.0.4
+  ONEIM:
+    :path: ~/.onepods/cache/Debug/ONEIM/ONEIM-201612011806
+  ONELoCo:
+    :path: ~/.onepods/cache/Debug/ONELoCo/ONELoCo-201611301447
+  ONELogger:
+    :git: git@git.xiaojukeji.com:one-ios/ONELogger.git
+    :tag: 0.9.6
+  ONEMainMenuModule:
+    :path: ../ONEMainMenuModule/ONEMainMenuModule.podspec
+  ONENetworking:
+    :path: ~/.onepods/cache/Debug/ONENetworking/ONENetworking-201612071045
+  ONEPassportSDK:
+    :path: ../ONEPassportSDK/ONEPassportSDK.podspec
+  ONEProtobufModels:
+    :git: git@git.xiaojukeji.com:one-ios/ONEProtobufModels.git
+    :tag: 0.1.0
+  ONEReachability:
+    :path: ~/.onepods/cache/Debug/ONEReachability/0.2.3
+  ONERent:
+    :path: ~/.onepods/cache/Debug/ONERent/ONERent-201612071249
+  ONEResource:
+    :path: ~/.onepods/cache/Debug/ONEResource/0.2.10
+  ONESelectAddressModule:
+    :path: ~/.onepods/cache/Debug/ONESelectAddressModule/ONESelectAddressModule-201612061213
+  ONEShare:
+    :git: git@git.xiaojukeji.com:one-ios/ONEShare.git
+    :tag: 1.0.0
+  ONESOSOMap:
+    :path: ~/.onepods/cache/Debug/ONESOSOMap/ONESOSOMap-201612011054
+  ONETravelSafetyPlugin:
+    :git: git@git.xiaojukeji.com:one-ios/ONETravelSafetyPlugin.git
+    :tag: ONETravelSafetyPlugin-201611251706
+  ONETryDrive:
+    :path: ~/.onepods/cache/Debug/ONETryDrive/ONETryDrive-201611221839
+  ONEUIKit:
+    :path: ~/.onepods/cache/Debug/ONEUIKit/ONEUIKit-201611291557
+  ONEVoiceConvert:
+    :path: ~/.onepods/cache/Debug/ONEVoiceConvert/0.1.3
+  ONEVoIP:
+    :path: ~/.onepods/cache/Debug/ONEVoIP/voip5.1.0
+  ONEWatchKit:
+    :path: ~/.onepods/cache/Debug/ONEWatchKit/1.3.2
+  Protobuf:
+    :git: git@git.xiaojukeji.com:one-ios/Protobuf.git
+    :tag: dd0.0.3
+  REFrostedViewController:
+    :git: git@git.xiaojukeji.com:one-ios/REFrostedViewController.git
+    :tag: 0.1.01
+  SCarCommon:
+    :path: ~/.onepods/cache/Debug/SCarCommon/ONESCar-201612071357
+  Swarm:
+    :path: ~/.onepods/cache/Debug/Swarm/0.2.4
+  TheOne:
+    :path: ../one-project/TheOne.podspec
+  TKDebugCustomActions:
+    :git: git@git.xiaojukeji.com:one-ios/TKDebugCustomActions.git
+    :tag: TKDebugCustomActions-201611101026
+  TRSocketService:
+    :git: git@git.xiaojukeji.com:one-ios/TRSocketService.git
+    :tag: TRSocketService-201611301336
+  WSGIOS:
+    :git: git@git.xiaojukeji.com:sec/wsg-ios.git
+    :tag: wsg-ios-201611151007
+  WSGResource:
+    :git: git@git.xiaojukeji.com:sec/wsg-resource.git
+    :tag: WSGDIDIv5
+
+CHECKOUT OPTIONS:
+  AFNetworking:
+    :git: git@git.xiaojukeji.com:one-ios/AFNetworking.git
+    :tag: 2.6.4
+  ApolloSDK-Swarm:
+    :git: git@git.xiaojukeji.com:apollo/apollo-sdk-ios-swarm.git
+    :tag: apollo-sdk-ios-swarm-201611171618
+  DidiGoogleProtobuf:
+    :git: git@git.xiaojukeji.com:one-ios/DidiGoogleProtobuf.git
+    :tag: 2.5.3
+  DidiLibevent:
+    :commit: b257f3b11df684838cfaad0753b649469d5c9eb4
+    :git: git@git.xiaojukeji.com:one-ios/DidiLibevent.git
+  DILibTomcrypt:
+    :commit: a7e3e66d59ed649590148c4d478efc4373ae1b4b
+    :git: git@git.xiaojukeji.com:one-ios/DILibTomcrypt.git
+  DynamicCocoa:
+    :git: git@git.xiaojukeji.com:one-architecture/dynamic-cocoa.git
+    :tag: dynamic-cocoa-201611301623
+  ISCProject:
+    :git: git@git.xiaojukeji.com:zhangkaiming/ISCForOneProject.git
+    :tag: ISCForOneProject-201612021654
+  ONEAppExtensionKit:
+    :git: git@git.xiaojukeji.com:one-ios/ONEAppExtensionKit.git
+    :tag: 0.0.15
+  ONEDebugKit:
+    :commit: 9e6c710c32f84ff67db499dab24b67c6329eec88
+    :git: git@git.xiaojukeji.com:one-ios/ONEDebugKit.git
+  ONEDebugPlugins:
+    :commit: b8e435a3f4752b928ebe275503346c27bccb8926
+    :git: git@git.xiaojukeji.com:one-ios/ONEDebugPlugins.git
+  ONEDrivingSafety:
+    :git: git@git.xiaojukeji.com:one-ios/ONEDrivingSafety.git
+    :tag: 0.1.1
+  ONEDYCDebugTool:
+    :git: git@git.xiaojukeji.com:one-architecture/dynamic-debug-tools.git
+    :tag: dynamic-debug-tools-201611301727
+  ONEDynamic:
+    :git: git@git.xiaojukeji.com:one-architecture/ONEDynamic.git
+    :tag: ONEDynamic-201611301735
+  ONEFaceDetect:
+    :git: git@git.xiaojukeji.com:one-ios/ONEFaceDetect.git
+    :tag: 0.2.080
+  ONEFoundation:
+    :git: git@git.xiaojukeji.com:one-ios/ONEFoundation.git
+    :tag: ONEFoundation-201611251110
+  ONELogger:
+    :git: git@git.xiaojukeji.com:one-ios/ONELogger.git
+    :tag: 0.9.6
+  ONEProtobufModels:
+    :git: git@git.xiaojukeji.com:one-ios/ONEProtobufModels.git
+    :tag: 0.1.0
+  ONEShare:
+    :git: git@git.xiaojukeji.com:one-ios/ONEShare.git
+    :tag: 1.0.0
+  ONETravelSafetyPlugin:
+    :git: git@git.xiaojukeji.com:one-ios/ONETravelSafetyPlugin.git
+    :tag: ONETravelSafetyPlugin-201611251706
+  Protobuf:
+    :git: git@git.xiaojukeji.com:one-ios/Protobuf.git
+    :tag: dd0.0.3
+  REFrostedViewController:
+    :git: git@git.xiaojukeji.com:one-ios/REFrostedViewController.git
+    :tag: 0.1.01
+  TKDebugCustomActions:
+    :git: git@git.xiaojukeji.com:one-ios/TKDebugCustomActions.git
+    :tag: TKDebugCustomActions-201611101026
+  TRSocketService:
+    :git: git@git.xiaojukeji.com:one-ios/TRSocketService.git
+    :tag: TRSocketService-201611301336
+  WSGIOS:
+    :git: git@git.xiaojukeji.com:sec/wsg-ios.git
+    :tag: wsg-ios-201611151007
+  WSGResource:
+    :git: git@git.xiaojukeji.com:sec/wsg-resource.git
+    :tag: WSGDIDIv5
+
+SPEC CHECKSUMS:
+  AfantySDK: 849cec7ee39e67bc0db3a926519a04e2e6e5dc8e
+  AFNetworking: 51318af11aa61855724a37e3dcb9d82edafc3051
+  ALAPNSManager: df1aec03fadd34ec5208546a873ea689d630b713
+  ALURLRouter: a9e2a3b0b2b9ec33163f7f3c8d22fafd71f0b846
+  ApolloSDK: 2d5c044fc2e255a5bf821140e1c1b9b98a959e35
+  ApolloSDK-Swarm: 5e45e5c6032356c0d2ef2878b744720ff6d4ded6
+  CocoaAsyncSocket: bd5f761c0702928d515c59f133e165d5b288f98e
+  Crashlytics: 371f1f1506eaf879c9158d2b21eb469c406c1432
+  DDIM: dae8007232d69ad344579f463a0c9c678d06f952
+  DDMap: d7f65344608384a586f4b27e2d2ea761ba7a4af9
+  DidiGoogleProtobuf: 71af83481cf759380e248e18cc1fe683fb3413b1
+  DidiLibevent: f1f10046edb03a27f7cc0fa68351da31e24cee2e
+  DiDiMap: 6fdc5bd4787860f3497398310a140721c7502b67
+  DiDiMapBusiness: 945a231c398c7813478aa623f8b2509ea4f48933
+  DiDiPublicService: 2a6eee8e2b8c9cca87a1aa0d5d1f8bfc5de97490
+  DILibTomcrypt: c48881581f494c7c2e9b393e7600ae8c8de1b056
+  DynamicCocoa: 004b916d14a289ed09a32191cd904da98c4b2fda
+  Fabric: 6e0df23d2509f19b1ecec38d946b66bbed270673
+  FMDB: 9cae95a5358168a6f03354b38502673e3b3811f1
+  ISCProject: 4ed620b9e18a3238515adb5a3df8495f93cb5d88
+  JSONModel: 7de657ed8a0053274489439cbd86e819c0f4aeb3
+  KKObserver: d6b467c0ce4527047c084fc1b09dc33f919b30a7
+  KKView: b46d2be3c389e8b01e640198b2ba36062f6590fb
+  libextobjc: e72e4eb1697d2fd76c7f7899aa73ec387ecabd91
+  libwebp: aaf99d8539f8e7957bd487e6d37529973d79ef09
+  Masonry: 94776cf0ffa904ab114554b0e9dc79a562d2e82a
+  MJRefresh: d5e4ead4d50b996f04c1cc553d57e0b6faa67d56
+  MMNotificationView: 1353ac2b395acd56e9e4ef68a9cf3eb94c1e8a9f
+  ObjcAssociatedObjectHelpers: 98880cfdf6b108c1f3e8d21a578d46f8294b17d6
+  OmegaSDK: 188dbf2d2522f74df3458b8b8c6958624fcef5fc
+  ONEAlarm: 4a9438b576f55c35b3e5dd4607245f42e0faa535
+  ONEANRTracker: fd17c68a94d03bd51ecfcadf214b97f49b71d87c
+  ONEAppExtensionKit: 3e63221240b32e4259ed59a25c7f402f857bb875
+  ONEBus: a3304266b6c090ee19b349d062224e720c796c49
+  ONECarpool: 280e8411abe6b02cc5f3d53ecbabe9979e48f626
+  ONEDebugKit: 79c28a0123e84777740f9e34ce714fdc995f3028
+  ONEDebugPlugins: 1f4615106285c2bcb0013d12a288658613124def
+  ONEDiDiPaySDK: 278768deb673d239e616f05ae18c49fbd6121514
+  ONEDrivingSafety: e0b25de738ee56e9879b9169ad7956952ebc0656
+  ONEDYCDebugTool: 12055d920e8275692f973c167d0fa7af12ba7be8
+  ONEDynamic: b3674451abc8d062ecae1e046f1984879003978e
+  ONEFaceDetect: 548d80f314f8b8eb7c1a732148afe34cca565796
+  ONEFacePlusPlusSDK: edd11744db7790650cec00768519cff17004c8d8
+  ONEFoundation: 5f72c23c248627f5839a7d52bef62070787cc99a
+  ONEHotPatch: aa0c20a0b00ca7d43332c3d4979ff14c07c1ae44
+  ONEHttpsSwitcher: 33c91fe2d3950a6a21a7b67be0c3341cf21c01b9
+  ONEIM: 0ebad3be2832f155814863a5a19c82941bf0dbaa
+  ONELoCo: 1b0f0e9ed47814c227a776345f6a30d5278b375a
+  ONELogger: 1eb290acb8a50c3e84af0e5c0aef359b1091e71a
+  ONEMainMenuModule: d837eacdadeee5365a56cbd10a992c645479db8a
+  ONENetworking: cdf23776cc6fcb69f42f09b83ba264d0576ee060
+  ONEPassportSDK: f99d464fa5be3d37aea2f199f224399be914388e
+  ONEProtobufModels: d22949326038251fffd1b7f48d204ef199774324
+  ONEReachability: a856bcc819eb0657219ca494974d9fca5aa2ac4a
+  ONERent: aee9bd6ce13bed8e8d2fcb745d5d6d5084298999
+  ONEResource: 35c6b30f5c44a17443bf8b99cab532b7672e02f9
+  ONESelectAddressModule: 01621b683d0c2f6f9dfe341337c21e6704dfba43
+  ONEShare: 7c4841193feda7c42d5680b8064a066672bb3a9d
+  ONESOSOMap: cac5f3fa9b4bf6131b4d5da87f0320057dd66edf
+  ONETravelSafetyPlugin: 9b79a366f2adc7d6478cea3188f52147b286140a
+  ONETryDrive: 344dd484637249d3f5f1b0c885c91d835814d8d0
+  ONEUIKit: 04ad415e896b5bd3733d54e3083c710c04cb23c7
+  ONEVoiceConvert: 93025a8e2db42dafe49e6e3f34867f2f18401ac5
+  ONEVoIP: 79e9767ca30ba7704d23fcc309f8eb9ea02e5172
+  ONEWatchKit: 93d70f4eada9c69d7cb847f4ce0bfecf319ca7f6
+  ONEZipArchive: d5fd5751eba1e7f263d5f4ad3d89ee9f826f9471
+  OpenUDID: 9bd8c33db3f266d9b9cc3d7f18a608b5b2e6cea8
+  pop: 1fa00bfcaa880a4d090fb1dee07d9ef244c3c9f9
+  Protobuf: db0a6551bd2847afe20ad1a6aa141ec726028deb
+  ReactiveCocoa: c0ac1f2f1c72fe60436bc317c69dd23580ac88fe
+  REFrostedViewController: a893b4979ba1f200c547aef9ff4c3fd5a18f5923
+  RSSwizzle: b08da6269f117adfdecec3523d9e4799d617bcd5
+  SCarCommon: 9347dcbb52ab6024ae59ce58b3c246e526957b47
+  SDWebImage: fe41ad6ffb607bc7989f8397266676510e2dc721
+  SSZipArchive: 6309729f6e35927b4378bc03a21df18231bb10f0
+  Swarm: 1c410428625e3f72ed3514f783134ab18251acc4
+  TheOne: 9522ece5c3eef53d586765219be0460280d58dc2
+  TKDebugCustomActions: 3bf8d1f67b03d9c0e9e34feada60b3ba3ff4dba8
+  TPKeyboardAvoiding: 924f44f3bd97cd978bf59700bcebb79610b4c485
+  TRSocketService: 0cc68397242a8ec9a5eca07b381003fafa28d923
+  TTTAttributedLabel: d7e2d1147fe7d28d978f6e58a8fe81279f0de4ba
+  UICKeyChainStore: 252d302b95e0e6bd0f2dabdd9d7d87b664290848
+  UIView+Positioning: 854ac07247dff92b60aa99bb016559276391d001
+  WSGIOS: 7a4a7aaa87a22689d864bd1ea59beef69609e918
+  WSGResource: 19f0c2f4eb653fae05df12782c9eaf1b2ee134bf
+
+PODFILE CHECKSUM: 4f63b661c8050fe46093c7d3d422c966ec0041c0
+
+COCOAPODS: 1.1.1

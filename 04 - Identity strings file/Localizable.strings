@@ -1,0 +1,222 @@
+/* 
+  Localizable.strings
+  Pods
+
+  Created by wesley chen on 17/1/12.
+
+*/
+
+/*
+ OPSPassportDefinition.m
+ */
+"网络错误，请稍后再试"="Network error, please try again later";
+"数据错误，请稍后再试"="Data error, please try again later";
+"此设备不支持短信"="This device does not support SMS";
+
+/*
+ OPSChangePhoneViewController.m
+ */
+"更换手机号"="Change phone number";
+"请输入目标手机号码"="Please enter the desired phone number";
+"短信发送中..."="Sending SMS...";
+"请稍后..."="Please wait...";
+"更换中..."="Changing...";
+"下一步"="Next";
+"验证码已发送"="Verification code sent";
+
+/*
+ OPSAccountManager.m
+ */
+"我知道了"="Got it";
+"• 一个月只能更换1次\n• 更换手机号不影响账号内容和数据\n• 您将使用新手机号登录"="• You can only change phone numbers once a month\n• Changing phone number does not affect the information and data in the account\n• You will use the new phone number to log in";
+"您绑定的手机号已更换为%@"="You have changed the phone number to %@";
+"已完成"="Completed";
+"确定"="Confirm";
+"继续操作"="Continue";
+"取消"="Cancel";
+"请稍后..."="Please wait...";
+
+/*
+ OPSLoginIntroViewController.m
+ */
+"短信发送中..."="Sending SMS...";
+"验证码已发送"="Verification code sent";
+"登录中..."="Logging in...";
+"请稍后..."="Please wait...";
+
+/*
+ OPSInputCaptchaIntroView.m
+ */
+"输入验证码"="Enter verification code";
+"看不清？点击刷新"="Can't see clearly? Tap refresh";
+"验证码错误"="Wrong verification code";
+
+/*
+ OPSInputPhoneIntroView.m
+ */
+"手机号错误"="Wrong phone number";
+"输入手机号"="Enter phone number";
+"为方便司机联系你，请输入手机号"="Enter your phone number for the driver to contact you";
+"手机号错误"="Wrong phone number";
+"下一步"="Next";
+
+/*
+ OPSInputSMSCodeIntroView.m
+ */
+"点击重新发送"="Tap to resend";
+"%ld秒后重发"="Resend in %lds";
+"输入验证码"="Enter verification code";
+"验证码错误"="Wrong verification code";
+"没收到？"="Didn't get a code?";
+
+/*
+ OPSLoginViewController.m
+ */
+"登录"="Login";
+"输入密码"="Enter password";
+"登录中..."="Logging in...";
+"设置密码中..."="Setting password...";
+"设置成功"="Settings updated";
+"短信发送中..."="Sending SMS...";
+"验证码已发送"="Verification code sent";
+"请稍后..."="Please wait...";
+"下一步"="Next";
+"输入密码"="Enter password";
+"登录"="Login";
+
+/*
+ OPSAgreementView.m
+ */
+"法律声明及隐私政策"="Legal Disclaimer and Privacy Policy";
+
+/*
+ OPSCallbackPromptView.m
+ */
+"您的账号存在风险，滴滴将会给您拨打电话，请注意接听。"="Your account is at risk. Didi will call you, please answer the call.";
+"好的"="OK";
+
+/*
+ OPSCountryPickerView.m
+ */
+"取消"="Cancel";
+"确认"="Confirm";
+
+/*
+ OPSInputCaptchaView.m
+ */
+"输入图片中字母"="Enter captcha";
+"看不清？点击刷新"="Can't see clearly? Tap refresh";
+
+/*
+ OPSInputPasswordView.m
+ */
+"手机号错误"="Wrong phone number";
+"登录"="Login";
+"下一步"="Next";
+"忘记密码"="Forgot password";
+"请输入手机号码"="Phone number";
+"请输入密码"="Password";
+
+/*
+ OPSInputSMSCodeView.m
+ */
+"重新发送"="Resend";
+"%lds后重发"="Resend in %lds";
+"验证码发送至 %@"="Verification code sent to %@";
+"输入验证码"="Enter verification code";
+"验证码发送至 "="Verification code sent to ";
+"输入验证码表示同意《法律声明及隐私政策》"="Agree to Privacy & Terms by entering code";
+"《法律声明及隐私政策》"="Legal Disclaimer and Privacy Policy";
+"重新发送"="Resend";
+"没收到"="Didn't get a code?";
+
+/*
+ OPSSetPasswordView.m
+ */
+"密码不能超过%@位"="Password cannot exceed %@ characters";
+"设置登录密码"="Set login password";
+"为保障您的账号安全，请您设置登录密码"="Please set a login password to secure your account";
+"确定"="Confirm";
+"请输入%@-%@位密码"="%@-%@ characters";
+
+/*
+ OPSSetPasswordPasswordViewController.m
+ */
+"设置登录密码"="Set login password";
+"密码由6-16位英文字母、数字或字符组成"="Password should be comprised of 6-16 letters, numbers or characters";
+"请输入6-16位密码"="6-16 characters";
+"确认"="Confirm";
+"设置密码"="Set password";
+"设置密码中..."="Setting password...";
+
+/*
+ OPSSetPasswordSMSViewController.m
+ */
+"安全验证"="Security verification";
+"设置密码需先验证您的手机号%@"="Set a password to verify your phone number %@";
+"请输入验证码"="Please enter here";
+"验证码"="Verification code";
+"获取验证码"="Get code";
+"下一步"="Next";
+"重新发送"="Resend";
+"%ld秒后重发"="Resend in %lds";
+"短信发送中..."="Sending SMS...";
+"验证码已发送"="Verification code sent";
+"请稍后..."="Please wait...";
+
+/*
+ ONEPassportSDKDefinition.m
+ */
+"中国"="China";
+"美国"="USA";
+
+"跳过"="Skip";
+"输入登录密码"="Enter login password";
+
+/*
+ OPSCancellationCaptchaViewController.m
+ */
+"请稍后..."="Please wait...";
+
+/*
+ OPSCancellationPromptViewController.m
+ */
+"注销账号"="Delete account";
+"将%@所绑定的账号注销"="Delete all bound accounts from %@";
+"请注意，注销账号以下信息将被清空且无法找回"="Please note, the following information will not be recoverable when an account is deleted";
+"注销账号"="Delete account";
+"注销账号会清空所有信息和数据，您是否确认注销"="All data and information will be cleared when an account is deleted. Are you sure you want to delete the account?";
+"注销账号"="Delete account";
+"取消"="Cancel";
+"• 行程信息\n• 商城积分\n• 实名认证信息\n• 发票信息、代金券、车票等\n• 个人隐私信息"="• Trip info\n• Reward points\n• Real-name authentication information\n• Receipt information, vouchers, tickets\n• Personal information";
+
+/*
+ OPSCancellationRefusalViewController.m
+ */
+"注销账号"="Delete account";
+"%@所绑定账号"="Accounts bound by %@";
+"检测出您的账户中有以下未处理内容，不能注销"="Detected the following content unprocessed in your account, cannot delete the account";
+"我知道了"="Got it";
+
+/*
+ OPSCancellationSMSViewController.m
+ */
+"注销账号"="Delete account";
+"注销账号需先验证您的手机号%@"="Verify your phone number %@ before deleting the account";
+"请输入验证码"="Please enter here";
+"验证码"="Verification code";
+"获取验证码"="Get code";
+"注销"="Delete";
+"重新发送"="Resend";
+"%ld秒后重发"="Resend in %lds";
+"短信发送中..."="Sending SMS...";
+"验证码已发送"="Verification code sent";
+"注销成功，您将退出登录"="Deleted, you will be logged out";
+"我知道了"="Got it";
+
+/*
+ OPSSelectCountryViewController.m
+ */
+"中国"="China";
+"选择地区"="Select A Region";
+"获取失败"="Failed to obtain";

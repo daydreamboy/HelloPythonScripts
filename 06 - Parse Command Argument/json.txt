@@ -1,0 +1,1964 @@
+{
+  "buildConfigurationName": "Release",
+  "diagnostics": [
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "application:didFinishLaunchingWithOptions:",
+      "extent": {
+        "end": {
+          "byteColumn": 87,
+          "byteOffset": 1075,
+          "line": 39,
+          "utf16Column": 86,
+          "utf16Offset": 1075
+        },
+        "start": {
+          "byteColumn": 5,
+          "byteOffset": 993,
+          "line": 39,
+          "utf16Column": 4,
+          "utf16Offset": 993
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEAppDelegate.m",
+      "fileSnippet": "NSLog(@\"Screen Size: %@\", NSStringFromCGSize([[UIScreen mainScreen] bounds].size))",
+      "html": {
+        "info": null,
+        "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+        "ruleName": "<code class=\"fauxpas-codesymbol\">NSLog()</code> used in release build",
+        "ruleShortName": "NSLogUsed",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": null,
+      "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+      "ruleName": "NSLog() used in release build",
+      "ruleShortName": "NSLogUsed",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 10,
+      "confidenceDescription": "Absolute",
+      "context": null,
+      "extent": {
+        "end": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        },
+        "start": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/HTTP Stubs Files/_passport_login_v2_smsMt-2.json",
+      "fileSnippet": null,
+      "html": {
+        "info": "This file is equal to the file <div class=\"fauxpas-filepath\">/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/HTTP Stubs Files/_passport_login_v2_smsMt.json</div>.",
+        "ruleDescription": "Warns if two resource files are equal.",
+        "ruleName": "Duplicate resource",
+        "ruleShortName": "DuplicateResource",
+        "ruleWarning": null
+      },
+      "identifier": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/HTTP Stubs Files/_passport_login_v2_smsMt.json",
+      "impact": "Maintainability",
+      "info": "This file is equal to the file /Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/HTTP Stubs Files/_passport_login_v2_smsMt.json.",
+      "ruleDescription": "Warns if two resource files are equal.",
+      "ruleName": "Duplicate resource",
+      "ruleShortName": "DuplicateResource",
+      "ruleWarning": null,
+      "severity": 3,
+      "severityDescription": "Concern"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "buttonSetPassword",
+      "extent": {
+        "end": {
+          "byteColumn": 77,
+          "byteOffset": 8557,
+          "line": 201,
+          "utf16Column": 76,
+          "utf16Offset": 8557
+        },
+        "start": {
+          "byteColumn": 9,
+          "byteOffset": 8489,
+          "line": 201,
+          "utf16Column": 8,
+          "utf16Offset": 8489
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEViewController.m",
+      "fileSnippet": "[button setTitle:@\"Push Set Password\" forState:UIControlStateNormal]",
+      "html": {
+        "info": "<code class=\"fauxpas-objcmethod\">-[UIButton setTitle:forState:]</code> called with string <code class=\"fauxpas-string\">Push Set Password</code>",
+        "ruleDescription": "All strings that are given to APIs that display them in the user interface should be routed through <code class=\"fauxpas-codesymbol\">NSLocalizedString()</code> and friends.",
+        "ruleName": "UI String not localized",
+        "ruleShortName": "HardcodedUIString",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": "-[UIButton setTitle:forState:] called with string Push Set Password",
+      "ruleDescription": "All strings that are given to APIs that display them in the user interface should be routed through NSLocalizedString() and friends.",
+      "ruleName": "UI String not localized",
+      "ruleShortName": "HardcodedUIString",
+      "ruleWarning": null,
+      "severity": 9,
+      "severityDescription": "Error"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "eventLogTriggeredWithEventName:parameter:",
+      "extent": {
+        "end": {
+          "byteColumn": 48,
+          "byteOffset": 3269,
+          "line": 103,
+          "utf16Column": 47,
+          "utf16Offset": 3269
+        },
+        "start": {
+          "byteColumn": 5,
+          "byteOffset": 3226,
+          "line": 103,
+          "utf16Column": 4,
+          "utf16Offset": 3226
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEAppDelegate.m",
+      "fileSnippet": "NSLog(@\"log: %@, %@\", eventName, parameter)",
+      "html": {
+        "info": null,
+        "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+        "ruleName": "<code class=\"fauxpas-codesymbol\">NSLog()</code> used in release build",
+        "ruleShortName": "NSLogUsed",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": null,
+      "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+      "ruleName": "NSLog() used in release build",
+      "ruleShortName": "NSLogUsed",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 10,
+      "confidenceDescription": "Absolute",
+      "context": null,
+      "extent": {
+        "end": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        },
+        "start": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/HTTP Stubs Files/_passport_login_v2_password.json",
+      "fileSnippet": null,
+      "html": {
+        "info": "This file is equal to the file <div class=\"fauxpas-filepath\">/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/HTTP Stubs Files/_passport_login_v2_password-2.json</div>.",
+        "ruleDescription": "Warns if two resource files are equal.",
+        "ruleName": "Duplicate resource",
+        "ruleShortName": "DuplicateResource",
+        "ruleWarning": null
+      },
+      "identifier": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/HTTP Stubs Files/_passport_login_v2_password-2.json",
+      "impact": "Maintainability",
+      "info": "This file is equal to the file /Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/HTTP Stubs Files/_passport_login_v2_password-2.json.",
+      "ruleDescription": "Warns if two resource files are equal.",
+      "ruleName": "Duplicate resource",
+      "ruleShortName": "DuplicateResource",
+      "ruleWarning": null,
+      "severity": 3,
+      "severityDescription": "Concern"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "buttonLoginAlertByPush",
+      "extent": {
+        "end": {
+          "byteColumn": 80,
+          "byteOffset": 5911,
+          "line": 147,
+          "utf16Column": 79,
+          "utf16Offset": 5911
+        },
+        "start": {
+          "byteColumn": 9,
+          "byteOffset": 5840,
+          "line": 147,
+          "utf16Column": 8,
+          "utf16Offset": 5840
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEViewController.m",
+      "fileSnippet": "[button setTitle:@\"Alert Login via Push\" forState:UIControlStateNormal]",
+      "html": {
+        "info": "<code class=\"fauxpas-objcmethod\">-[UIButton setTitle:forState:]</code> called with string <code class=\"fauxpas-string\">Alert Login via Push</code>",
+        "ruleDescription": "All strings that are given to APIs that display them in the user interface should be routed through <code class=\"fauxpas-codesymbol\">NSLocalizedString()</code> and friends.",
+        "ruleName": "UI String not localized",
+        "ruleShortName": "HardcodedUIString",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": "-[UIButton setTitle:forState:] called with string Alert Login via Push",
+      "ruleDescription": "All strings that are given to APIs that display them in the user interface should be routed through NSLocalizedString() and friends.",
+      "ruleName": "UI String not localized",
+      "ruleShortName": "HardcodedUIString",
+      "ruleWarning": null,
+      "severity": 9,
+      "severityDescription": "Error"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": null,
+      "extent": {
+        "end": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        },
+        "start": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        }
+      },
+      "file": null,
+      "fileSnippet": null,
+      "html": {
+        "info": "<strong>Temporary files</strong> should be ignored in the version control system. The un-ignored paths are: <ul><li><code>*.swp</code></li></ul>",
+        "ruleDescription": "Warns whenever some files that are recommended to be ignored by the version control system are not ignored, or vice versa.",
+        "ruleName": "Recommended VCS ignores",
+        "ruleShortName": "RecommendedVCSIgnores",
+        "ruleWarning": null
+      },
+      "identifier": "Temporary files",
+      "impact": "Maintainability",
+      "info": "Temporary files should be ignored in the version control system. The un-ignored paths are: *.swp",
+      "ruleDescription": "Warns whenever some files that are recommended to be ignored by the version control system are not ignored, or vice versa.",
+      "ruleName": "Recommended VCS ignores",
+      "ruleShortName": "RecommendedVCSIgnores",
+      "ruleWarning": null,
+      "severity": 3,
+      "severityDescription": "Concern"
+    },
+    {
+      "confidence": 5,
+      "confidenceDescription": "Medium",
+      "context": "registerNotifications",
+      "extent": {
+        "end": {
+          "byteColumn": 13,
+          "byteOffset": 3102,
+          "line": 83,
+          "utf16Column": 12,
+          "utf16Offset": 3102
+        },
+        "start": {
+          "byteColumn": 9,
+          "byteOffset": 3098,
+          "line": 83,
+          "utf16Column": 8,
+          "utf16Offset": 3098
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEViewController.m",
+      "fileSnippet": "self",
+      "html": {
+        "info": "Referencing self in blocks passed to this method causes a retain cycle.",
+        "ruleDescription": "<p>Warns if <code class=\"fauxpas-codesymbol\">self</code> is referenced in a block that is used in a context where it is known to cause a retain cycle.</p> <p>The Clang compiler’s <code>-Warc-retain-cycles</code> warning implements generic retain cycle detection — this rule only considers specific known system framework APIs that the compiler warning does not warn about.</p>",
+        "ruleName": "Retain cycle in block API usage",
+        "ruleShortName": "BlockAPIRetainCycle",
+        "ruleWarning": "Please carefully review code that this rule warns about before modifying it — retain cycles and object lifetimes are a delicate issue where you must fully understand the context and use case in order to avoid unexpected and undesireable behavior. In other words, this rule may produce false positive diagnostics."
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": "Referencing self in blocks passed to this method causes a retain cycle.",
+      "ruleDescription": "Warns if self is referenced in a block that is used in a context where it is known to cause a retain cycle. The Clang compiler’s -Warc-retain-cycles warning implements generic retain cycle detection — this rule only considers specific known system framework APIs that the compiler warning does not warn about.",
+      "ruleName": "Retain cycle in block API usage",
+      "ruleShortName": "BlockAPIRetainCycle",
+      "ruleWarning": "Please carefully review code that this rule warns about before modifying it — retain cycles and object lifetimes are a delicate issue where you must fully understand the context and use case in order to avoid unexpected and undesireable behavior. In other words, this rule may produce false positive diagnostics.",
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "buttonLoginByPresentClicked:",
+      "extent": {
+        "end": {
+          "byteColumn": 38,
+          "byteOffset": 13196,
+          "line": 307,
+          "utf16Column": 37,
+          "utf16Offset": 13184
+        },
+        "start": {
+          "byteColumn": 13,
+          "byteOffset": 13171,
+          "line": 307,
+          "utf16Column": 12,
+          "utf16Offset": 13159
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEViewController.m",
+      "fileSnippet": "NSLog(@\"user exit login\")",
+      "html": {
+        "info": null,
+        "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+        "ruleName": "<code class=\"fauxpas-codesymbol\">NSLog()</code> used in release build",
+        "ruleShortName": "NSLogUsed",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": null,
+      "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+      "ruleName": "NSLog() used in release build",
+      "ruleShortName": "NSLogUsed",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 10,
+      "confidenceDescription": "Absolute",
+      "context": null,
+      "extent": {
+        "end": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        },
+        "start": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/Tool/WCOHHTTPStubsTool.m",
+      "fileSnippet": null,
+      "html": {
+        "info": "<p>The following warning flags are not enabled:</p> <ul><li><div class=\"fauxpas-accent\"><strong>-Wall</strong></div> — Enables all warnings that have a high confidence value and low rate of false positives.</li> <li><div class=\"fauxpas-accent\"><strong>-Wconversion</strong></div> — Warns about implicit conversions that may alter a value. This is a group flag that encompasses many other similar warnings (for example, -Wenum-conversion, -Wsign-conversion, -Wint-conversion, -Wbool-conversion …) The “Suspicious Implicit Conversions” (<code>CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wdeprecated-implementations</strong></div> — Warns if deprecated Objective-C methods are being overridden. The “Overriding Deprecated Objective-C Methods” (<code>CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Werror</strong></div> — Treats warnings as errors. Recommended so that warnings could not be ignored out of habit (warnings that are intentionally ignored should then be ignored explicitly by adding a &apos;-Wno-&lt;warning-name&gt;&apos; compiler flag). The “Treat Warnings as Errors” (<code>GCC_TREAT_WARNINGS_AS_ERRORS</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wextra</strong></div> — Enables additional warnings that are useful but may have higher false positive rates or common philosophical objections.</li> <li><div class=\"fauxpas-accent\"><strong>-Wfloat-equal</strong></div> — Warns if floating-point values are used in equality comparisons.</li> <li><div class=\"fauxpas-accent\"><strong>-Wnewline-eof</strong></div> — Warns if a file does not end in a newline character. The “Missing Newline at End of File” (<code>GCC_WARN_ABOUT_MISSING_NEWLINE</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wshadow</strong></div> — Warns whenever a local variable or type declaration shadows another variable, parameter, type, or class member (in C++), or whenever a built-in function is shadowed. The “Hidden local variables” (<code>GCC_WARN_SHADOW</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wsign-compare</strong></div> — Warns when a comparison between signed and unsigned values could produce an incorrect result when the signed value is converted to unsigned. The “Sign Comparison” (<code>GCC_WARN_SIGN_COMPARE</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wundef</strong></div> — Warns if an undefined identifier is evaluated in an &apos;#if&apos; directive.</li></ul>",
+        "ruleDescription": "Some compiler warnings and warning groups are so useful that they should be enabled at all times.",
+        "ruleName": "Recommended compiler warning options",
+        "ruleShortName": "CompilerWarnings",
+        "ruleWarning": null
+      },
+      "identifier": "-Wall,-Wconversion,-Wdeprecated-implementations,-Werror,-Wextra,-Wfloat-equal,-Wnewline-eof,-Wshadow,-Wsign-compare,-Wundef",
+      "impact": "Maintainability",
+      "info": "The following warning flags are not enabled: -Wall — Enables all warnings that have a high confidence value and low rate of false positives. -Wconversion — Warns about implicit conversions that may alter a value. This is a group flag that encompasses many other similar warnings (for example, -Wenum-conversion, -Wsign-conversion, -Wint-conversion, -Wbool-conversion …) The “Suspicious Implicit Conversions” (CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION) Xcode setting controls this. -Wdeprecated-implementations — Warns if deprecated Objective-C methods are being overridden. The “Overriding Deprecated Objective-C Methods” (CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS) Xcode setting controls this. -Werror — Treats warnings as errors. Recommended so that warnings could not be ignored out of habit (warnings that are intentionally ignored should then be ignored explicitly by adding a &apos;-Wno-&lt;warning-name&gt;&apos; compiler flag). The “Treat Warnings as Errors” (GCC_TREAT_WARNINGS_AS_ERRORS) Xcode setting controls this. -Wextra — Enables additional warnings that are useful but may have higher false positive rates or common philosophical objections. -Wfloat-equal — Warns if floating-point values are used in equality comparisons. -Wnewline-eof — Warns if a file does not end in a newline character. The “Missing Newline at End of File” (GCC_WARN_ABOUT_MISSING_NEWLINE) Xcode setting controls this. -Wshadow — Warns whenever a local variable or type declaration shadows another variable, parameter, type, or class member (in C++), or whenever a built-in function is shadowed. The “Hidden local variables” (GCC_WARN_SHADOW) Xcode setting controls this. -Wsign-compare — Warns when a comparison between signed and unsigned values could produce an incorrect result when the signed value is converted to unsigned. The “Sign Comparison” (GCC_WARN_SIGN_COMPARE) Xcode setting controls this. -Wundef — Warns if an undefined identifier is evaluated in an &apos;#if&apos; directive.",
+      "ruleDescription": "Some compiler warnings and warning groups are so useful that they should be enabled at all times.",
+      "ruleName": "Recommended compiler warning options",
+      "ruleShortName": "CompilerWarnings",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": null,
+      "extent": {
+        "end": {
+          "byteColumn": 66,
+          "byteOffset": 294,
+          "line": 12,
+          "utf16Column": 66,
+          "utf16Offset": 291
+        },
+        "start": {
+          "byteColumn": 0,
+          "byteOffset": 228,
+          "line": 12,
+          "utf16Column": 0,
+          "utf16Offset": 225
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/dataSource/RegisterParameter.h",
+      "fileSnippet": "@interface RegisterParameter : NSObject <OPSSDKRegisterDataSource>",
+      "html": {
+        "info": null,
+        "ruleDescription": "Warns when an Objective-C class name has no prefix (e.g. <code>Thing</code> instead of <code>FPXThing</code>).",
+        "ruleName": "Unprefixed Objective-C class",
+        "ruleShortName": "UnprefixedClass",
+        "ruleWarning": null
+      },
+      "identifier": "RegisterParameter",
+      "impact": "Maintainability",
+      "info": null,
+      "ruleDescription": "Warns when an Objective-C class name has no prefix (e.g. Thing instead of FPXThing).",
+      "ruleName": "Unprefixed Objective-C class",
+      "ruleShortName": "UnprefixedClass",
+      "ruleWarning": null,
+      "severity": 3,
+      "severityDescription": "Concern"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "UncaughtExceptionHandler(NSException *__strong)",
+      "extent": {
+        "end": {
+          "byteColumn": 139,
+          "byteOffset": 11688,
+          "line": 300,
+          "utf16Column": 138,
+          "utf16Offset": 11688
+        },
+        "start": {
+          "byteColumn": 56,
+          "byteOffset": 11605,
+          "line": 300,
+          "utf16Column": 55,
+          "utf16Offset": 11605
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEAppDelegate.m",
+      "fileSnippet": "[[[NSBundle mainBundle] infoDictionary] objectForKey:@\"CFBundleShortVersionString\"]",
+      "html": {
+        "info": "<p><code class=\"fauxpas-objcmethod\">-[NSDictionary objectForKey:]</code> is called. Consider using an Objective-C subscript expression instead.</p>",
+        "ruleDescription": "<p>Warns if Objective-C literals, boxed expressions and subscript notation are not used whenever possible.</p> <p>Note that Xcode can automatically fix your code to do this (see the <em>Edit → Refactor → Convert To Modern Objective-C Syntax…</em> menu item).</p>",
+        "ruleName": "Old, verbose Objective-C syntax",
+        "ruleShortName": "OldVerboseObjCSyntax",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Style",
+      "info": "-[NSDictionary objectForKey:] is called. Consider using an Objective-C subscript expression instead.",
+      "ruleDescription": "Warns if Objective-C literals, boxed expressions and subscript notation are not used whenever possible. Note that Xcode can automatically fix your code to do this (see the Edit → Refactor → Convert To Modern Objective-C Syntax… menu item).",
+      "ruleName": "Old, verbose Objective-C syntax",
+      "ruleShortName": "OldVerboseObjCSyntax",
+      "ruleWarning": null,
+      "severity": 3,
+      "severityDescription": "Concern"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "installNavBarWithViewController:title:onBackAction:",
+      "extent": {
+        "end": {
+          "byteColumn": 161,
+          "byteOffset": 17996,
+          "line": 416,
+          "utf16Column": 156,
+          "utf16Offset": 17958
+        },
+        "start": {
+          "byteColumn": 33,
+          "byteOffset": 17868,
+          "line": 416,
+          "utf16Column": 32,
+          "utf16Offset": 17834
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEViewController.m",
+      "fileSnippet": "[[UIBarButtonItem alloc] initWithTitle:@\"返回\" style:UIBarButtonItemStylePlain target:self action:@selector(backItemClicked:)]",
+      "html": {
+        "info": "<code class=\"fauxpas-objcmethod\">-[UIBarButtonItem initWithTitle:style:target:action:]</code> called with string <code class=\"fauxpas-string\">返回</code>",
+        "ruleDescription": "All strings that are given to APIs that display them in the user interface should be routed through <code class=\"fauxpas-codesymbol\">NSLocalizedString()</code> and friends.",
+        "ruleName": "UI String not localized",
+        "ruleShortName": "HardcodedUIString",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": "-[UIBarButtonItem initWithTitle:style:target:action:] called with string 返回",
+      "ruleDescription": "All strings that are given to APIs that display them in the user interface should be routed through NSLocalizedString() and friends.",
+      "ruleName": "UI String not localized",
+      "ruleShortName": "HardcodedUIString",
+      "ruleWarning": null,
+      "severity": 9,
+      "severityDescription": "Error"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "buttonLoginByPresentClicked:",
+      "extent": {
+        "end": {
+          "byteColumn": 77,
+          "byteOffset": 13102,
+          "line": 303,
+          "utf16Column": 76,
+          "utf16Offset": 13090
+        },
+        "start": {
+          "byteColumn": 38,
+          "byteOffset": 12741,
+          "line": 299,
+          "utf16Column": 37,
+          "utf16Offset": 12741
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEViewController.m",
+      "fileSnippet": "[[UIAlertView alloc] initWithTitle:nil\n                                                                message:@\"登录结束\"\n                                                               delegate:nil\n                                                      cancelButtonTitle:@\"好的\"\n                                                      otherButtonTitles:nil]",
+      "html": {
+        "info": "<code class=\"fauxpas-objcmethod\">-[UIAlertView initWithTitle:message:delegate:cancelButtonTitle:otherButtonTitles:]</code> called with strings <code class=\"fauxpas-string\">登录结束</code>, <code class=\"fauxpas-string\">好的</code>",
+        "ruleDescription": "All strings that are given to APIs that display them in the user interface should be routed through <code class=\"fauxpas-codesymbol\">NSLocalizedString()</code> and friends.",
+        "ruleName": "UI String not localized",
+        "ruleShortName": "HardcodedUIString",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": "-[UIAlertView initWithTitle:message:delegate:cancelButtonTitle:otherButtonTitles:] called with strings 登录结束, 好的",
+      "ruleDescription": "All strings that are given to APIs that display them in the user interface should be routed through NSLocalizedString() and friends.",
+      "ruleName": "UI String not localized",
+      "ruleShortName": "HardcodedUIString",
+      "ruleWarning": null,
+      "severity": 9,
+      "severityDescription": "Error"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "UncaughtExceptionHandler(NSException *__strong)",
+      "extent": {
+        "end": {
+          "byteColumn": 44,
+          "byteOffset": 12324,
+          "line": 309,
+          "utf16Column": 43,
+          "utf16Offset": 12324
+        },
+        "start": {
+          "byteColumn": 5,
+          "byteOffset": 12285,
+          "line": 309,
+          "utf16Column": 4,
+          "utf16Offset": 12285
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEAppDelegate.m",
+      "fileSnippet": "NSLog(@\"CrashLog: %@\", crashLogContent)",
+      "html": {
+        "info": null,
+        "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+        "ruleName": "<code class=\"fauxpas-codesymbol\">NSLog()</code> used in release build",
+        "ruleShortName": "NSLogUsed",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": null,
+      "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+      "ruleName": "NSLog() used in release build",
+      "ruleShortName": "NSLogUsed",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "application:openURL:options:",
+      "extent": {
+        "end": {
+          "byteColumn": 22,
+          "byteOffset": 2336,
+          "line": 71,
+          "utf16Column": 21,
+          "utf16Offset": 2336
+        },
+        "start": {
+          "byteColumn": 5,
+          "byteOffset": 2319,
+          "line": 71,
+          "utf16Column": 4,
+          "utf16Offset": 2319
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEAppDelegate.m",
+      "fileSnippet": "NSLog(@\"openURL\")",
+      "html": {
+        "info": null,
+        "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+        "ruleName": "<code class=\"fauxpas-codesymbol\">NSLog()</code> used in release build",
+        "ruleShortName": "NSLogUsed",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": null,
+      "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+      "ruleName": "NSLog() used in release build",
+      "ruleShortName": "NSLogUsed",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": null,
+      "extent": {
+        "end": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        },
+        "start": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/Images.xcassets/DisplayImage.imageset",
+      "fileSnippet": null,
+      "html": {
+        "info": "The variants of the asset catalog ‘Images’ set ‘DisplayImage’ do not cover the following device types: <code>ipad</code>.",
+        "ruleDescription": "Warns if a device type is not covered by the variants of a resource file. E.g. if <code>image~iphone.png</code> exists but <code>image~ipad.png</code> does not.",
+        "ruleName": "Missing device type resource",
+        "ruleShortName": "MissingDeviceTypeResource",
+        "ruleWarning": null
+      },
+      "identifier": "DisplayImage",
+      "impact": "Functionality",
+      "info": "The variants of the asset catalog ‘Images’ set ‘DisplayImage’ do not cover the following device types: ipad.",
+      "ruleDescription": "Warns if a device type is not covered by the variants of a resource file. E.g. if image~iphone.png exists but image~ipad.png does not.",
+      "ruleName": "Missing device type resource",
+      "ruleShortName": "MissingDeviceTypeResource",
+      "ruleWarning": null,
+      "severity": 9,
+      "severityDescription": "Error"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "textFieldInput",
+      "extent": {
+        "end": {
+          "byteColumn": 50,
+          "byteOffset": 5161,
+          "line": 129,
+          "utf16Column": 49,
+          "utf16Offset": 5161
+        },
+        "start": {
+          "byteColumn": 9,
+          "byteOffset": 5120,
+          "line": 129,
+          "utf16Column": 8,
+          "utf16Offset": 5120
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEViewController.m",
+      "fileSnippet": "textField.placeholder = @\"Typing here...\"",
+      "html": {
+        "info": "<code class=\"fauxpas-objcproperty\">UITextField.placeholder</code> value set to string <code class=\"fauxpas-string\">Typing here...</code>",
+        "ruleDescription": "All strings that are given to APIs that display them in the user interface should be routed through <code class=\"fauxpas-codesymbol\">NSLocalizedString()</code> and friends.",
+        "ruleName": "UI String not localized",
+        "ruleShortName": "HardcodedUIString",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": "UITextField.placeholder value set to string Typing here...",
+      "ruleDescription": "All strings that are given to APIs that display them in the user interface should be routed through NSLocalizedString() and friends.",
+      "ruleName": "UI String not localized",
+      "ruleShortName": "HardcodedUIString",
+      "ruleWarning": null,
+      "severity": 9,
+      "severityDescription": "Error"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "buttonLoginByPresentClicked:",
+      "extent": {
+        "end": {
+          "byteColumn": 44,
+          "byteOffset": 12702,
+          "line": 298,
+          "utf16Column": 43,
+          "utf16Offset": 12702
+        },
+        "start": {
+          "byteColumn": 13,
+          "byteOffset": 12671,
+          "line": 298,
+          "utf16Column": 12,
+          "utf16Offset": 12671
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEViewController.m",
+      "fileSnippet": "NSLog(@\"user did finish login\")",
+      "html": {
+        "info": null,
+        "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+        "ruleName": "<code class=\"fauxpas-codesymbol\">NSLog()</code> used in release build",
+        "ruleShortName": "NSLogUsed",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": null,
+      "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+      "ruleName": "NSLog() used in release build",
+      "ruleShortName": "NSLogUsed",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "viewWillDisappear:",
+      "extent": {
+        "end": {
+          "byteColumn": 51,
+          "byteOffset": 1076,
+          "line": 38,
+          "utf16Column": 50,
+          "utf16Offset": 1073
+        },
+        "start": {
+          "byteColumn": 5,
+          "byteOffset": 1030,
+          "line": 38,
+          "utf16Column": 4,
+          "utf16Offset": 1027
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/PushedViewController.m",
+      "fileSnippet": "NSLog(@\"_cmd: %@\", NSStringFromSelector(_cmd))",
+      "html": {
+        "info": null,
+        "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+        "ruleName": "<code class=\"fauxpas-codesymbol\">NSLog()</code> used in release build",
+        "ruleShortName": "NSLogUsed",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": null,
+      "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+      "ruleName": "NSLog() used in release build",
+      "ruleShortName": "NSLogUsed",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "registerNotifications",
+      "extent": {
+        "end": {
+          "byteColumn": 41,
+          "byteOffset": 2482,
+          "line": 72,
+          "utf16Column": 40,
+          "utf16Offset": 2482
+        },
+        "start": {
+          "byteColumn": 9,
+          "byteOffset": 2450,
+          "line": 72,
+          "utf16Column": 8,
+          "utf16Offset": 2450
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEViewController.m",
+      "fileSnippet": "NSLog(@\"userInfo: %@\", userInfo)",
+      "html": {
+        "info": null,
+        "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+        "ruleName": "<code class=\"fauxpas-codesymbol\">NSLog()</code> used in release build",
+        "ruleShortName": "NSLogUsed",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": null,
+      "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+      "ruleName": "NSLog() used in release build",
+      "ruleShortName": "NSLogUsed",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "buttonChangePhone",
+      "extent": {
+        "end": {
+          "byteColumn": 78,
+          "byteOffset": 7690,
+          "line": 183,
+          "utf16Column": 77,
+          "utf16Offset": 7690
+        },
+        "start": {
+          "byteColumn": 9,
+          "byteOffset": 7621,
+          "line": 183,
+          "utf16Column": 8,
+          "utf16Offset": 7621
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEViewController.m",
+      "fileSnippet": "[button setTitle:@\"Alert Change Phone\" forState:UIControlStateNormal]",
+      "html": {
+        "info": "<code class=\"fauxpas-objcmethod\">-[UIButton setTitle:forState:]</code> called with string <code class=\"fauxpas-string\">Alert Change Phone</code>",
+        "ruleDescription": "All strings that are given to APIs that display them in the user interface should be routed through <code class=\"fauxpas-codesymbol\">NSLocalizedString()</code> and friends.",
+        "ruleName": "UI String not localized",
+        "ruleShortName": "HardcodedUIString",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": "-[UIButton setTitle:forState:] called with string Alert Change Phone",
+      "ruleDescription": "All strings that are given to APIs that display them in the user interface should be routed through NSLocalizedString() and friends.",
+      "ruleName": "UI String not localized",
+      "ruleShortName": "HardcodedUIString",
+      "ruleWarning": null,
+      "severity": 9,
+      "severityDescription": "Error"
+    },
+    {
+      "confidence": 10,
+      "confidenceDescription": "Absolute",
+      "context": null,
+      "extent": {
+        "end": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        },
+        "start": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEViewController.m",
+      "fileSnippet": null,
+      "html": {
+        "info": "<p>The following warning flags are not enabled:</p> <ul><li><div class=\"fauxpas-accent\"><strong>-Wall</strong></div> — Enables all warnings that have a high confidence value and low rate of false positives.</li> <li><div class=\"fauxpas-accent\"><strong>-Wconversion</strong></div> — Warns about implicit conversions that may alter a value. This is a group flag that encompasses many other similar warnings (for example, -Wenum-conversion, -Wsign-conversion, -Wint-conversion, -Wbool-conversion …) The “Suspicious Implicit Conversions” (<code>CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wdeprecated-implementations</strong></div> — Warns if deprecated Objective-C methods are being overridden. The “Overriding Deprecated Objective-C Methods” (<code>CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Werror</strong></div> — Treats warnings as errors. Recommended so that warnings could not be ignored out of habit (warnings that are intentionally ignored should then be ignored explicitly by adding a &apos;-Wno-&lt;warning-name&gt;&apos; compiler flag). The “Treat Warnings as Errors” (<code>GCC_TREAT_WARNINGS_AS_ERRORS</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wextra</strong></div> — Enables additional warnings that are useful but may have higher false positive rates or common philosophical objections.</li> <li><div class=\"fauxpas-accent\"><strong>-Wfloat-equal</strong></div> — Warns if floating-point values are used in equality comparisons.</li> <li><div class=\"fauxpas-accent\"><strong>-Wnewline-eof</strong></div> — Warns if a file does not end in a newline character. The “Missing Newline at End of File” (<code>GCC_WARN_ABOUT_MISSING_NEWLINE</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wshadow</strong></div> — Warns whenever a local variable or type declaration shadows another variable, parameter, type, or class member (in C++), or whenever a built-in function is shadowed. The “Hidden local variables” (<code>GCC_WARN_SHADOW</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wsign-compare</strong></div> — Warns when a comparison between signed and unsigned values could produce an incorrect result when the signed value is converted to unsigned. The “Sign Comparison” (<code>GCC_WARN_SIGN_COMPARE</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wundef</strong></div> — Warns if an undefined identifier is evaluated in an &apos;#if&apos; directive.</li></ul>",
+        "ruleDescription": "Some compiler warnings and warning groups are so useful that they should be enabled at all times.",
+        "ruleName": "Recommended compiler warning options",
+        "ruleShortName": "CompilerWarnings",
+        "ruleWarning": null
+      },
+      "identifier": "-Wall,-Wconversion,-Wdeprecated-implementations,-Werror,-Wextra,-Wfloat-equal,-Wnewline-eof,-Wshadow,-Wsign-compare,-Wundef",
+      "impact": "Maintainability",
+      "info": "The following warning flags are not enabled: -Wall — Enables all warnings that have a high confidence value and low rate of false positives. -Wconversion — Warns about implicit conversions that may alter a value. This is a group flag that encompasses many other similar warnings (for example, -Wenum-conversion, -Wsign-conversion, -Wint-conversion, -Wbool-conversion …) The “Suspicious Implicit Conversions” (CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION) Xcode setting controls this. -Wdeprecated-implementations — Warns if deprecated Objective-C methods are being overridden. The “Overriding Deprecated Objective-C Methods” (CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS) Xcode setting controls this. -Werror — Treats warnings as errors. Recommended so that warnings could not be ignored out of habit (warnings that are intentionally ignored should then be ignored explicitly by adding a &apos;-Wno-&lt;warning-name&gt;&apos; compiler flag). The “Treat Warnings as Errors” (GCC_TREAT_WARNINGS_AS_ERRORS) Xcode setting controls this. -Wextra — Enables additional warnings that are useful but may have higher false positive rates or common philosophical objections. -Wfloat-equal — Warns if floating-point values are used in equality comparisons. -Wnewline-eof — Warns if a file does not end in a newline character. The “Missing Newline at End of File” (GCC_WARN_ABOUT_MISSING_NEWLINE) Xcode setting controls this. -Wshadow — Warns whenever a local variable or type declaration shadows another variable, parameter, type, or class member (in C++), or whenever a built-in function is shadowed. The “Hidden local variables” (GCC_WARN_SHADOW) Xcode setting controls this. -Wsign-compare — Warns when a comparison between signed and unsigned values could produce an incorrect result when the signed value is converted to unsigned. The “Sign Comparison” (GCC_WARN_SIGN_COMPARE) Xcode setting controls this. -Wundef — Warns if an undefined identifier is evaluated in an &apos;#if&apos; directive.",
+      "ruleDescription": "Some compiler warnings and warning groups are so useful that they should be enabled at all times.",
+      "ruleName": "Recommended compiler warning options",
+      "ruleShortName": "CompilerWarnings",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": null,
+      "extent": {
+        "end": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        },
+        "start": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/Images.xcassets/DisplayImage.imageset",
+      "fileSnippet": null,
+      "html": {
+        "info": "Asset catalog ‘Images’, set ‘DisplayImage’: The ‘x3 scale, iPhone’ version of this image is missing.",
+        "ruleDescription": "Warns when either the high-resolution (@2x or @3x) or the low-resolution variant of an image resource is missing.",
+        "ruleName": "Missing image resolution variant",
+        "ruleShortName": "MissingImageResolutionVariant",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": "Asset catalog ‘Images’, set ‘DisplayImage’: The ‘x3 scale, iPhone’ version of this image is missing.",
+      "ruleDescription": "Warns when either the high-resolution (@2x or @3x) or the low-resolution variant of an image resource is missing.",
+      "ruleName": "Missing image resolution variant",
+      "ruleShortName": "MissingImageResolutionVariant",
+      "ruleWarning": null,
+      "severity": 3,
+      "severityDescription": "Concern"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": null,
+      "extent": {
+        "end": {
+          "byteColumn": 50,
+          "byteOffset": 229,
+          "line": 11,
+          "utf16Column": 50,
+          "utf16Offset": 226
+        },
+        "start": {
+          "byteColumn": 0,
+          "byteOffset": 179,
+          "line": 11,
+          "utf16Column": 0,
+          "utf16Offset": 176
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/PushedViewController.h",
+      "fileSnippet": "@interface PushedViewController : UIViewController",
+      "html": {
+        "info": null,
+        "ruleDescription": "Warns when an Objective-C class name has no prefix (e.g. <code>Thing</code> instead of <code>FPXThing</code>).",
+        "ruleName": "Unprefixed Objective-C class",
+        "ruleShortName": "UnprefixedClass",
+        "ruleWarning": null
+      },
+      "identifier": "PushedViewController",
+      "impact": "Maintainability",
+      "info": null,
+      "ruleDescription": "Warns when an Objective-C class name has no prefix (e.g. Thing instead of FPXThing).",
+      "ruleName": "Unprefixed Objective-C class",
+      "ruleShortName": "UnprefixedClass",
+      "ruleWarning": null,
+      "severity": 3,
+      "severityDescription": "Concern"
+    },
+    {
+      "confidence": 10,
+      "confidenceDescription": "Absolute",
+      "context": null,
+      "extent": {
+        "end": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        },
+        "start": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEAppDelegate.m",
+      "fileSnippet": null,
+      "html": {
+        "info": "<p>The following warning flags are not enabled:</p> <ul><li><div class=\"fauxpas-accent\"><strong>-Wall</strong></div> — Enables all warnings that have a high confidence value and low rate of false positives.</li> <li><div class=\"fauxpas-accent\"><strong>-Wconversion</strong></div> — Warns about implicit conversions that may alter a value. This is a group flag that encompasses many other similar warnings (for example, -Wenum-conversion, -Wsign-conversion, -Wint-conversion, -Wbool-conversion …) The “Suspicious Implicit Conversions” (<code>CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wdeprecated-implementations</strong></div> — Warns if deprecated Objective-C methods are being overridden. The “Overriding Deprecated Objective-C Methods” (<code>CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Werror</strong></div> — Treats warnings as errors. Recommended so that warnings could not be ignored out of habit (warnings that are intentionally ignored should then be ignored explicitly by adding a &apos;-Wno-&lt;warning-name&gt;&apos; compiler flag). The “Treat Warnings as Errors” (<code>GCC_TREAT_WARNINGS_AS_ERRORS</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wextra</strong></div> — Enables additional warnings that are useful but may have higher false positive rates or common philosophical objections.</li> <li><div class=\"fauxpas-accent\"><strong>-Wfloat-equal</strong></div> — Warns if floating-point values are used in equality comparisons.</li> <li><div class=\"fauxpas-accent\"><strong>-Wnewline-eof</strong></div> — Warns if a file does not end in a newline character. The “Missing Newline at End of File” (<code>GCC_WARN_ABOUT_MISSING_NEWLINE</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wshadow</strong></div> — Warns whenever a local variable or type declaration shadows another variable, parameter, type, or class member (in C++), or whenever a built-in function is shadowed. The “Hidden local variables” (<code>GCC_WARN_SHADOW</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wsign-compare</strong></div> — Warns when a comparison between signed and unsigned values could produce an incorrect result when the signed value is converted to unsigned. The “Sign Comparison” (<code>GCC_WARN_SIGN_COMPARE</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wundef</strong></div> — Warns if an undefined identifier is evaluated in an &apos;#if&apos; directive.</li></ul>",
+        "ruleDescription": "Some compiler warnings and warning groups are so useful that they should be enabled at all times.",
+        "ruleName": "Recommended compiler warning options",
+        "ruleShortName": "CompilerWarnings",
+        "ruleWarning": null
+      },
+      "identifier": "-Wall,-Wconversion,-Wdeprecated-implementations,-Werror,-Wextra,-Wfloat-equal,-Wnewline-eof,-Wshadow,-Wsign-compare,-Wundef",
+      "impact": "Maintainability",
+      "info": "The following warning flags are not enabled: -Wall — Enables all warnings that have a high confidence value and low rate of false positives. -Wconversion — Warns about implicit conversions that may alter a value. This is a group flag that encompasses many other similar warnings (for example, -Wenum-conversion, -Wsign-conversion, -Wint-conversion, -Wbool-conversion …) The “Suspicious Implicit Conversions” (CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION) Xcode setting controls this. -Wdeprecated-implementations — Warns if deprecated Objective-C methods are being overridden. The “Overriding Deprecated Objective-C Methods” (CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS) Xcode setting controls this. -Werror — Treats warnings as errors. Recommended so that warnings could not be ignored out of habit (warnings that are intentionally ignored should then be ignored explicitly by adding a &apos;-Wno-&lt;warning-name&gt;&apos; compiler flag). The “Treat Warnings as Errors” (GCC_TREAT_WARNINGS_AS_ERRORS) Xcode setting controls this. -Wextra — Enables additional warnings that are useful but may have higher false positive rates or common philosophical objections. -Wfloat-equal — Warns if floating-point values are used in equality comparisons. -Wnewline-eof — Warns if a file does not end in a newline character. The “Missing Newline at End of File” (GCC_WARN_ABOUT_MISSING_NEWLINE) Xcode setting controls this. -Wshadow — Warns whenever a local variable or type declaration shadows another variable, parameter, type, or class member (in C++), or whenever a built-in function is shadowed. The “Hidden local variables” (GCC_WARN_SHADOW) Xcode setting controls this. -Wsign-compare — Warns when a comparison between signed and unsigned values could produce an incorrect result when the signed value is converted to unsigned. The “Sign Comparison” (GCC_WARN_SIGN_COMPARE) Xcode setting controls this. -Wundef — Warns if an undefined identifier is evaluated in an &apos;#if&apos; directive.",
+      "ruleDescription": "Some compiler warnings and warning groups are so useful that they should be enabled at all times.",
+      "ruleName": "Recommended compiler warning options",
+      "ruleShortName": "CompilerWarnings",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 10,
+      "confidenceDescription": "Absolute",
+      "context": null,
+      "extent": {
+        "end": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        },
+        "start": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        }
+      },
+      "file": null,
+      "fileSnippet": null,
+      "html": {
+        "info": "Required compiler argument <code>-DNDEBUG</code> is not used. This argument disables the C standard library assertion macro (as defined in <code>assert.h</code>).",
+        "ruleDescription": "For release builds, warns when some expected arguments are missing, or some unexpected arguments are present.",
+        "ruleName": "Problematic release build compiler arguments",
+        "ruleShortName": "ReleaseBuildCompilerArgs",
+        "ruleWarning": null
+      },
+      "identifier": "-DNDEBUG",
+      "impact": "Functionality",
+      "info": "Required compiler argument -DNDEBUG is not used. This argument disables the C standard library assertion macro (as defined in assert.h).",
+      "ruleDescription": "For release builds, warns when some expected arguments are missing, or some unexpected arguments are present.",
+      "ruleName": "Problematic release build compiler arguments",
+      "ruleShortName": "ReleaseBuildCompilerArgs",
+      "ruleWarning": null,
+      "severity": 9,
+      "severityDescription": "Error"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "application:didFinishLaunchingWithOptions:",
+      "extent": {
+        "end": {
+          "byteColumn": 63,
+          "byteOffset": 873,
+          "line": 34,
+          "utf16Column": 62,
+          "utf16Offset": 873
+        },
+        "start": {
+          "byteColumn": 5,
+          "byteOffset": 815,
+          "line": 34,
+          "utf16Column": 4,
+          "utf16Offset": 815
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEAppDelegate.m",
+      "fileSnippet": "NSLog(@\"ONEPassportSDK Version: %@\", OPS_PodVersionString)",
+      "html": {
+        "info": null,
+        "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+        "ruleName": "<code class=\"fauxpas-codesymbol\">NSLog()</code> used in release build",
+        "ruleShortName": "NSLogUsed",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": null,
+      "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+      "ruleName": "NSLog() used in release build",
+      "ruleShortName": "NSLogUsed",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 2,
+      "confidenceDescription": "Low",
+      "context": "Conflict",
+      "extent": {
+        "end": {
+          "byteColumn": 38,
+          "byteOffset": 269,
+          "line": 13,
+          "utf16Column": 37,
+          "utf16Offset": 266
+        },
+        "start": {
+          "byteColumn": 1,
+          "byteOffset": 232,
+          "line": 13,
+          "utf16Column": 0,
+          "utf16Offset": 229
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/Test Category/MBProgressHUD+Conflict.m",
+      "fileSnippet": "+ (void)dismissForView:(UIView *)view",
+      "html": {
+        "info": null,
+        "ruleDescription": "<p>Category methods on system classes must be prefixed in order to avoid name collisions.</p> <p>By default, this rule considers a method name prefixed if it begins with at least three lowercase characters (or the lowercase version of the ‘Class Prefix’ configured for the project), followed by an underscore.</p>",
+        "ruleName": "Unprefixed category method",
+        "ruleShortName": "UnprefixedCategoryMethod",
+        "ruleWarning": null
+      },
+      "identifier": "+[MBProgressHUD dismissForView:]",
+      "impact": "Functionality",
+      "info": null,
+      "ruleDescription": "Category methods on system classes must be prefixed in order to avoid name collisions. By default, this rule considers a method name prefixed if it begins with at least three lowercase characters (or the lowercase version of the ‘Class Prefix’ configured for the project), followed by an underscore.",
+      "ruleName": "Unprefixed category method",
+      "ruleShortName": "UnprefixedCategoryMethod",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "buttonLoginAlert",
+      "extent": {
+        "end": {
+          "byteColumn": 71,
+          "byteOffset": 4354,
+          "line": 111,
+          "utf16Column": 70,
+          "utf16Offset": 4354
+        },
+        "start": {
+          "byteColumn": 9,
+          "byteOffset": 4292,
+          "line": 111,
+          "utf16Column": 8,
+          "utf16Offset": 4292
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEViewController.m",
+      "fileSnippet": "[button setTitle:@\"Alert Login\" forState:UIControlStateNormal]",
+      "html": {
+        "info": "<code class=\"fauxpas-objcmethod\">-[UIButton setTitle:forState:]</code> called with string <code class=\"fauxpas-string\">Alert Login</code>",
+        "ruleDescription": "All strings that are given to APIs that display them in the user interface should be routed through <code class=\"fauxpas-codesymbol\">NSLocalizedString()</code> and friends.",
+        "ruleName": "UI String not localized",
+        "ruleShortName": "HardcodedUIString",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": "-[UIButton setTitle:forState:] called with string Alert Login",
+      "ruleDescription": "All strings that are given to APIs that display them in the user interface should be routed through NSLocalizedString() and friends.",
+      "ruleName": "UI String not localized",
+      "ruleShortName": "HardcodedUIString",
+      "ruleWarning": null,
+      "severity": 9,
+      "severityDescription": "Error"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "viewDidLoad",
+      "extent": {
+        "end": {
+          "byteColumn": 27,
+          "byteOffset": 2037,
+          "line": 62,
+          "utf16Column": 26,
+          "utf16Offset": 2037
+        },
+        "start": {
+          "byteColumn": 5,
+          "byteOffset": 2015,
+          "line": 62,
+          "utf16Column": 4,
+          "utf16Offset": 2015
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEViewController.m",
+      "fileSnippet": "NSLog(@\"arr: %@\", arr)",
+      "html": {
+        "info": null,
+        "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+        "ruleName": "<code class=\"fauxpas-codesymbol\">NSLog()</code> used in release build",
+        "ruleShortName": "NSLogUsed",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": null,
+      "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+      "ruleName": "NSLog() used in release build",
+      "ruleShortName": "NSLogUsed",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "viewWillAppear:",
+      "extent": {
+        "end": {
+          "byteColumn": 51,
+          "byteOffset": 754,
+          "line": 28,
+          "utf16Column": 50,
+          "utf16Offset": 751
+        },
+        "start": {
+          "byteColumn": 5,
+          "byteOffset": 708,
+          "line": 28,
+          "utf16Column": 4,
+          "utf16Offset": 705
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/PushedViewController.m",
+      "fileSnippet": "NSLog(@\"_cmd: %@\", NSStringFromSelector(_cmd))",
+      "html": {
+        "info": null,
+        "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+        "ruleName": "<code class=\"fauxpas-codesymbol\">NSLog()</code> used in release build",
+        "ruleShortName": "NSLogUsed",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": null,
+      "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+      "ruleName": "NSLog() used in release build",
+      "ruleShortName": "NSLogUsed",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "handleOPSAlertWillDismissNotification:",
+      "extent": {
+        "end": {
+          "byteColumn": 52,
+          "byteOffset": 10236,
+          "line": 243,
+          "utf16Column": 51,
+          "utf16Offset": 10236
+        },
+        "start": {
+          "byteColumn": 5,
+          "byteOffset": 10189,
+          "line": 243,
+          "utf16Column": 4,
+          "utf16Offset": 10189
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEViewController.m",
+      "fileSnippet": "NSLog(@\"handleOPSAlertWillDismissNotification\")",
+      "html": {
+        "info": null,
+        "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+        "ruleName": "<code class=\"fauxpas-codesymbol\">NSLog()</code> used in release build",
+        "ruleShortName": "NSLogUsed",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": null,
+      "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+      "ruleName": "NSLog() used in release build",
+      "ruleShortName": "NSLogUsed",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": null,
+      "extent": {
+        "end": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        },
+        "start": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        }
+      },
+      "file": null,
+      "fileSnippet": null,
+      "html": {
+        "info": "<strong>CocoaPods</strong> should <strong>not</strong> be ignored in the version control system. The ignored paths are: <ul><li><code>Pods/</code></li> <li><code>Pods/Manifest.lock</code></li></ul>",
+        "ruleDescription": "Warns whenever some files that are recommended to be ignored by the version control system are not ignored, or vice versa.",
+        "ruleName": "Recommended VCS ignores",
+        "ruleShortName": "RecommendedVCSIgnores",
+        "ruleWarning": null
+      },
+      "identifier": "CocoaPods",
+      "impact": "Maintainability",
+      "info": "CocoaPods should not be ignored in the version control system. The ignored paths are: Pods/ Pods/Manifest.lock",
+      "ruleDescription": "Warns whenever some files that are recommended to be ignored by the version control system are not ignored, or vice versa.",
+      "ruleName": "Recommended VCS ignores",
+      "ruleShortName": "RecommendedVCSIgnores",
+      "ruleWarning": null,
+      "severity": 3,
+      "severityDescription": "Concern"
+    },
+    {
+      "confidence": 10,
+      "confidenceDescription": "Absolute",
+      "context": null,
+      "extent": {
+        "end": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        },
+        "start": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/Test Category/MBProgressHUD+Conflict.m",
+      "fileSnippet": null,
+      "html": {
+        "info": "<p>The following warning flags are not enabled:</p> <ul><li><div class=\"fauxpas-accent\"><strong>-Wall</strong></div> — Enables all warnings that have a high confidence value and low rate of false positives.</li> <li><div class=\"fauxpas-accent\"><strong>-Wconversion</strong></div> — Warns about implicit conversions that may alter a value. This is a group flag that encompasses many other similar warnings (for example, -Wenum-conversion, -Wsign-conversion, -Wint-conversion, -Wbool-conversion …) The “Suspicious Implicit Conversions” (<code>CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wdeprecated-implementations</strong></div> — Warns if deprecated Objective-C methods are being overridden. The “Overriding Deprecated Objective-C Methods” (<code>CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Werror</strong></div> — Treats warnings as errors. Recommended so that warnings could not be ignored out of habit (warnings that are intentionally ignored should then be ignored explicitly by adding a &apos;-Wno-&lt;warning-name&gt;&apos; compiler flag). The “Treat Warnings as Errors” (<code>GCC_TREAT_WARNINGS_AS_ERRORS</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wextra</strong></div> — Enables additional warnings that are useful but may have higher false positive rates or common philosophical objections.</li> <li><div class=\"fauxpas-accent\"><strong>-Wfloat-equal</strong></div> — Warns if floating-point values are used in equality comparisons.</li> <li><div class=\"fauxpas-accent\"><strong>-Wnewline-eof</strong></div> — Warns if a file does not end in a newline character. The “Missing Newline at End of File” (<code>GCC_WARN_ABOUT_MISSING_NEWLINE</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wshadow</strong></div> — Warns whenever a local variable or type declaration shadows another variable, parameter, type, or class member (in C++), or whenever a built-in function is shadowed. The “Hidden local variables” (<code>GCC_WARN_SHADOW</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wsign-compare</strong></div> — Warns when a comparison between signed and unsigned values could produce an incorrect result when the signed value is converted to unsigned. The “Sign Comparison” (<code>GCC_WARN_SIGN_COMPARE</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wundef</strong></div> — Warns if an undefined identifier is evaluated in an &apos;#if&apos; directive.</li></ul>",
+        "ruleDescription": "Some compiler warnings and warning groups are so useful that they should be enabled at all times.",
+        "ruleName": "Recommended compiler warning options",
+        "ruleShortName": "CompilerWarnings",
+        "ruleWarning": null
+      },
+      "identifier": "-Wall,-Wconversion,-Wdeprecated-implementations,-Werror,-Wextra,-Wfloat-equal,-Wnewline-eof,-Wshadow,-Wsign-compare,-Wundef",
+      "impact": "Maintainability",
+      "info": "The following warning flags are not enabled: -Wall — Enables all warnings that have a high confidence value and low rate of false positives. -Wconversion — Warns about implicit conversions that may alter a value. This is a group flag that encompasses many other similar warnings (for example, -Wenum-conversion, -Wsign-conversion, -Wint-conversion, -Wbool-conversion …) The “Suspicious Implicit Conversions” (CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION) Xcode setting controls this. -Wdeprecated-implementations — Warns if deprecated Objective-C methods are being overridden. The “Overriding Deprecated Objective-C Methods” (CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS) Xcode setting controls this. -Werror — Treats warnings as errors. Recommended so that warnings could not be ignored out of habit (warnings that are intentionally ignored should then be ignored explicitly by adding a &apos;-Wno-&lt;warning-name&gt;&apos; compiler flag). The “Treat Warnings as Errors” (GCC_TREAT_WARNINGS_AS_ERRORS) Xcode setting controls this. -Wextra — Enables additional warnings that are useful but may have higher false positive rates or common philosophical objections. -Wfloat-equal — Warns if floating-point values are used in equality comparisons. -Wnewline-eof — Warns if a file does not end in a newline character. The “Missing Newline at End of File” (GCC_WARN_ABOUT_MISSING_NEWLINE) Xcode setting controls this. -Wshadow — Warns whenever a local variable or type declaration shadows another variable, parameter, type, or class member (in C++), or whenever a built-in function is shadowed. The “Hidden local variables” (GCC_WARN_SHADOW) Xcode setting controls this. -Wsign-compare — Warns when a comparison between signed and unsigned values could produce an incorrect result when the signed value is converted to unsigned. The “Sign Comparison” (GCC_WARN_SIGN_COMPARE) Xcode setting controls this. -Wundef — Warns if an undefined identifier is evaluated in an &apos;#if&apos; directive.",
+      "ruleDescription": "Some compiler warnings and warning groups are so useful that they should be enabled at all times.",
+      "ruleName": "Recommended compiler warning options",
+      "ruleShortName": "CompilerWarnings",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 2,
+      "confidenceDescription": "Low",
+      "context": "Conflict",
+      "extent": {
+        "end": {
+          "byteColumn": 62,
+          "byteOffset": 394,
+          "line": 17,
+          "utf16Column": 61,
+          "utf16Offset": 391
+        },
+        "start": {
+          "byteColumn": 1,
+          "byteOffset": 333,
+          "line": 17,
+          "utf16Column": 0,
+          "utf16Offset": 330
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/Test Category/MBProgressHUD+Conflict.m",
+      "fileSnippet": "+ (void)dismissForView:(UIView *)view animated:(BOOL)animated",
+      "html": {
+        "info": null,
+        "ruleDescription": "<p>Category methods on system classes must be prefixed in order to avoid name collisions.</p> <p>By default, this rule considers a method name prefixed if it begins with at least three lowercase characters (or the lowercase version of the ‘Class Prefix’ configured for the project), followed by an underscore.</p>",
+        "ruleName": "Unprefixed category method",
+        "ruleShortName": "UnprefixedCategoryMethod",
+        "ruleWarning": null
+      },
+      "identifier": "+[MBProgressHUD dismissForView:animated:]",
+      "impact": "Functionality",
+      "info": null,
+      "ruleDescription": "Category methods on system classes must be prefixed in order to avoid name collisions. By default, this rule considers a method name prefixed if it begins with at least three lowercase characters (or the lowercase version of the ‘Class Prefix’ configured for the project), followed by an underscore.",
+      "ruleName": "Unprefixed category method",
+      "ruleShortName": "UnprefixedCategoryMethod",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "application:didFinishLaunchingWithOptions:",
+      "extent": {
+        "end": {
+          "byteColumn": 42,
+          "byteOffset": 987,
+          "line": 38,
+          "utf16Column": 41,
+          "utf16Offset": 987
+        },
+        "start": {
+          "byteColumn": 5,
+          "byteOffset": 950,
+          "line": 38,
+          "utf16Column": 4,
+          "utf16Offset": 950
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEAppDelegate.m",
+      "fileSnippet": "NSLog(@\"Home: %@\", NSHomeDirectory())",
+      "html": {
+        "info": null,
+        "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+        "ruleName": "<code class=\"fauxpas-codesymbol\">NSLog()</code> used in release build",
+        "ruleShortName": "NSLogUsed",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": null,
+      "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+      "ruleName": "NSLog() used in release build",
+      "ruleShortName": "NSLogUsed",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "registerNotifications",
+      "extent": {
+        "end": {
+          "byteColumn": 41,
+          "byteOffset": 3723,
+          "line": 93,
+          "utf16Column": 40,
+          "utf16Offset": 3723
+        },
+        "start": {
+          "byteColumn": 9,
+          "byteOffset": 3691,
+          "line": 93,
+          "utf16Column": 8,
+          "utf16Offset": 3691
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEViewController.m",
+      "fileSnippet": "NSLog(@\"userInfo: %@\", userInfo)",
+      "html": {
+        "info": null,
+        "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+        "ruleName": "<code class=\"fauxpas-codesymbol\">NSLog()</code> used in release build",
+        "ruleShortName": "NSLogUsed",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": null,
+      "ruleDescription": "Logging should be disabled in release builds (except perhaps for fatal errors).",
+      "ruleName": "NSLog() used in release build",
+      "ruleShortName": "NSLogUsed",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 10,
+      "confidenceDescription": "Absolute",
+      "context": null,
+      "extent": {
+        "end": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        },
+        "start": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/dataSource/NetworkParameter.m",
+      "fileSnippet": null,
+      "html": {
+        "info": "<p>The following warning flags are not enabled:</p> <ul><li><div class=\"fauxpas-accent\"><strong>-Wall</strong></div> — Enables all warnings that have a high confidence value and low rate of false positives.</li> <li><div class=\"fauxpas-accent\"><strong>-Wconversion</strong></div> — Warns about implicit conversions that may alter a value. This is a group flag that encompasses many other similar warnings (for example, -Wenum-conversion, -Wsign-conversion, -Wint-conversion, -Wbool-conversion …) The “Suspicious Implicit Conversions” (<code>CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wdeprecated-implementations</strong></div> — Warns if deprecated Objective-C methods are being overridden. The “Overriding Deprecated Objective-C Methods” (<code>CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Werror</strong></div> — Treats warnings as errors. Recommended so that warnings could not be ignored out of habit (warnings that are intentionally ignored should then be ignored explicitly by adding a &apos;-Wno-&lt;warning-name&gt;&apos; compiler flag). The “Treat Warnings as Errors” (<code>GCC_TREAT_WARNINGS_AS_ERRORS</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wextra</strong></div> — Enables additional warnings that are useful but may have higher false positive rates or common philosophical objections.</li> <li><div class=\"fauxpas-accent\"><strong>-Wfloat-equal</strong></div> — Warns if floating-point values are used in equality comparisons.</li> <li><div class=\"fauxpas-accent\"><strong>-Wnewline-eof</strong></div> — Warns if a file does not end in a newline character. The “Missing Newline at End of File” (<code>GCC_WARN_ABOUT_MISSING_NEWLINE</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wshadow</strong></div> — Warns whenever a local variable or type declaration shadows another variable, parameter, type, or class member (in C++), or whenever a built-in function is shadowed. The “Hidden local variables” (<code>GCC_WARN_SHADOW</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wsign-compare</strong></div> — Warns when a comparison between signed and unsigned values could produce an incorrect result when the signed value is converted to unsigned. The “Sign Comparison” (<code>GCC_WARN_SIGN_COMPARE</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wundef</strong></div> — Warns if an undefined identifier is evaluated in an &apos;#if&apos; directive.</li></ul>",
+        "ruleDescription": "Some compiler warnings and warning groups are so useful that they should be enabled at all times.",
+        "ruleName": "Recommended compiler warning options",
+        "ruleShortName": "CompilerWarnings",
+        "ruleWarning": null
+      },
+      "identifier": "-Wall,-Wconversion,-Wdeprecated-implementations,-Werror,-Wextra,-Wfloat-equal,-Wnewline-eof,-Wshadow,-Wsign-compare,-Wundef",
+      "impact": "Maintainability",
+      "info": "The following warning flags are not enabled: -Wall — Enables all warnings that have a high confidence value and low rate of false positives. -Wconversion — Warns about implicit conversions that may alter a value. This is a group flag that encompasses many other similar warnings (for example, -Wenum-conversion, -Wsign-conversion, -Wint-conversion, -Wbool-conversion …) The “Suspicious Implicit Conversions” (CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION) Xcode setting controls this. -Wdeprecated-implementations — Warns if deprecated Objective-C methods are being overridden. The “Overriding Deprecated Objective-C Methods” (CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS) Xcode setting controls this. -Werror — Treats warnings as errors. Recommended so that warnings could not be ignored out of habit (warnings that are intentionally ignored should then be ignored explicitly by adding a &apos;-Wno-&lt;warning-name&gt;&apos; compiler flag). The “Treat Warnings as Errors” (GCC_TREAT_WARNINGS_AS_ERRORS) Xcode setting controls this. -Wextra — Enables additional warnings that are useful but may have higher false positive rates or common philosophical objections. -Wfloat-equal — Warns if floating-point values are used in equality comparisons. -Wnewline-eof — Warns if a file does not end in a newline character. The “Missing Newline at End of File” (GCC_WARN_ABOUT_MISSING_NEWLINE) Xcode setting controls this. -Wshadow — Warns whenever a local variable or type declaration shadows another variable, parameter, type, or class member (in C++), or whenever a built-in function is shadowed. The “Hidden local variables” (GCC_WARN_SHADOW) Xcode setting controls this. -Wsign-compare — Warns when a comparison between signed and unsigned values could produce an incorrect result when the signed value is converted to unsigned. The “Sign Comparison” (GCC_WARN_SIGN_COMPARE) Xcode setting controls this. -Wundef — Warns if an undefined identifier is evaluated in an &apos;#if&apos; directive.",
+      "ruleDescription": "Some compiler warnings and warning groups are so useful that they should be enabled at all times.",
+      "ruleName": "Recommended compiler warning options",
+      "ruleShortName": "CompilerWarnings",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 5,
+      "confidenceDescription": "Medium",
+      "context": "registerNotifications",
+      "extent": {
+        "end": {
+          "byteColumn": 7,
+          "byteOffset": 3138,
+          "line": 84,
+          "utf16Column": 6,
+          "utf16Offset": 3138
+        },
+        "start": {
+          "byteColumn": 5,
+          "byteOffset": 2083,
+          "line": 67,
+          "utf16Column": 4,
+          "utf16Offset": 2083
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEViewController.m",
+      "fileSnippet": "[[NSNotificationCenter defaultCenter] addObserverForName:OPSUserDidLoginNotification\n                                                      object:nil\n                                                       queue:nil\n                                                  usingBlock:^(NSNotification *_Nonnull note) {\n        NSDictionary *userInfo = note.userInfo;\n        NSLog(@\"userInfo: %@\", userInfo);\n\n        NSString *phone = userInfo[OPSPhoneNumberUserInfoKey];\n        NSString *token = userInfo[OPSDiDiTokenUserInfoKey];\n        NSString *countryCode = userInfo[OPSCountryCodeUserInfoKey];\n                                                      \n        [[NSUserDefaults standardUserDefaults] setObject:phone forKey:@\"phone\"];\n        [[NSUserDefaults standardUserDefaults] setObject:token forKey:@\"token\"];\n        [[NSUserDefaults standardUserDefaults] setObject:countryCode forKey:@\"countryCode\"];\n        [[NSUserDefaults standardUserDefaults] synchronize];\n                                        \n        self.textFieldInput.text = token;\n    }]",
+      "html": {
+        "info": null,
+        "ruleDescription": "Warns if the return value of <code class=\"fauxpas-objcmethod\">-[NSNotificationCenter addObserverForName:object:queue:usingBlock:]</code> is not stored anywhere. This method returns an opaque observer object that is needed in order to stop observing.",
+        "ruleName": "Discarded opaque <code class=\"fauxpas-objcclass\">NSNotificationCenter</code> observer",
+        "ruleShortName": "DiscardedOpaqueNotificationObserver",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": null,
+      "ruleDescription": "Warns if the return value of -[NSNotificationCenter addObserverForName:object:queue:usingBlock:] is not stored anywhere. This method returns an opaque observer object that is needed in order to stop observing.",
+      "ruleName": "Discarded opaque NSNotificationCenter observer",
+      "ruleShortName": "DiscardedOpaqueNotificationObserver",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 10,
+      "confidenceDescription": "Absolute",
+      "context": null,
+      "extent": {
+        "end": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        },
+        "start": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/dataSource/RegisterParameter.m",
+      "fileSnippet": null,
+      "html": {
+        "info": "<p>The following warning flags are not enabled:</p> <ul><li><div class=\"fauxpas-accent\"><strong>-Wall</strong></div> — Enables all warnings that have a high confidence value and low rate of false positives.</li> <li><div class=\"fauxpas-accent\"><strong>-Wconversion</strong></div> — Warns about implicit conversions that may alter a value. This is a group flag that encompasses many other similar warnings (for example, -Wenum-conversion, -Wsign-conversion, -Wint-conversion, -Wbool-conversion …) The “Suspicious Implicit Conversions” (<code>CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wdeprecated-implementations</strong></div> — Warns if deprecated Objective-C methods are being overridden. The “Overriding Deprecated Objective-C Methods” (<code>CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Werror</strong></div> — Treats warnings as errors. Recommended so that warnings could not be ignored out of habit (warnings that are intentionally ignored should then be ignored explicitly by adding a &apos;-Wno-&lt;warning-name&gt;&apos; compiler flag). The “Treat Warnings as Errors” (<code>GCC_TREAT_WARNINGS_AS_ERRORS</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wextra</strong></div> — Enables additional warnings that are useful but may have higher false positive rates or common philosophical objections.</li> <li><div class=\"fauxpas-accent\"><strong>-Wfloat-equal</strong></div> — Warns if floating-point values are used in equality comparisons.</li> <li><div class=\"fauxpas-accent\"><strong>-Wnewline-eof</strong></div> — Warns if a file does not end in a newline character. The “Missing Newline at End of File” (<code>GCC_WARN_ABOUT_MISSING_NEWLINE</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wshadow</strong></div> — Warns whenever a local variable or type declaration shadows another variable, parameter, type, or class member (in C++), or whenever a built-in function is shadowed. The “Hidden local variables” (<code>GCC_WARN_SHADOW</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wsign-compare</strong></div> — Warns when a comparison between signed and unsigned values could produce an incorrect result when the signed value is converted to unsigned. The “Sign Comparison” (<code>GCC_WARN_SIGN_COMPARE</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wundef</strong></div> — Warns if an undefined identifier is evaluated in an &apos;#if&apos; directive.</li></ul>",
+        "ruleDescription": "Some compiler warnings and warning groups are so useful that they should be enabled at all times.",
+        "ruleName": "Recommended compiler warning options",
+        "ruleShortName": "CompilerWarnings",
+        "ruleWarning": null
+      },
+      "identifier": "-Wall,-Wconversion,-Wdeprecated-implementations,-Werror,-Wextra,-Wfloat-equal,-Wnewline-eof,-Wshadow,-Wsign-compare,-Wundef",
+      "impact": "Maintainability",
+      "info": "The following warning flags are not enabled: -Wall — Enables all warnings that have a high confidence value and low rate of false positives. -Wconversion — Warns about implicit conversions that may alter a value. This is a group flag that encompasses many other similar warnings (for example, -Wenum-conversion, -Wsign-conversion, -Wint-conversion, -Wbool-conversion …) The “Suspicious Implicit Conversions” (CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION) Xcode setting controls this. -Wdeprecated-implementations — Warns if deprecated Objective-C methods are being overridden. The “Overriding Deprecated Objective-C Methods” (CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS) Xcode setting controls this. -Werror — Treats warnings as errors. Recommended so that warnings could not be ignored out of habit (warnings that are intentionally ignored should then be ignored explicitly by adding a &apos;-Wno-&lt;warning-name&gt;&apos; compiler flag). The “Treat Warnings as Errors” (GCC_TREAT_WARNINGS_AS_ERRORS) Xcode setting controls this. -Wextra — Enables additional warnings that are useful but may have higher false positive rates or common philosophical objections. -Wfloat-equal — Warns if floating-point values are used in equality comparisons. -Wnewline-eof — Warns if a file does not end in a newline character. The “Missing Newline at End of File” (GCC_WARN_ABOUT_MISSING_NEWLINE) Xcode setting controls this. -Wshadow — Warns whenever a local variable or type declaration shadows another variable, parameter, type, or class member (in C++), or whenever a built-in function is shadowed. The “Hidden local variables” (GCC_WARN_SHADOW) Xcode setting controls this. -Wsign-compare — Warns when a comparison between signed and unsigned values could produce an incorrect result when the signed value is converted to unsigned. The “Sign Comparison” (GCC_WARN_SIGN_COMPARE) Xcode setting controls this. -Wundef — Warns if an undefined identifier is evaluated in an &apos;#if&apos; directive.",
+      "ruleDescription": "Some compiler warnings and warning groups are so useful that they should be enabled at all times.",
+      "ruleName": "Recommended compiler warning options",
+      "ruleShortName": "CompilerWarnings",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 10,
+      "confidenceDescription": "Absolute",
+      "context": null,
+      "extent": {
+        "end": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        },
+        "start": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/main.m",
+      "fileSnippet": null,
+      "html": {
+        "info": "<p>The following warning flags are not enabled:</p> <ul><li><div class=\"fauxpas-accent\"><strong>-Wall</strong></div> — Enables all warnings that have a high confidence value and low rate of false positives.</li> <li><div class=\"fauxpas-accent\"><strong>-Wconversion</strong></div> — Warns about implicit conversions that may alter a value. This is a group flag that encompasses many other similar warnings (for example, -Wenum-conversion, -Wsign-conversion, -Wint-conversion, -Wbool-conversion …) The “Suspicious Implicit Conversions” (<code>CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wdeprecated-implementations</strong></div> — Warns if deprecated Objective-C methods are being overridden. The “Overriding Deprecated Objective-C Methods” (<code>CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Werror</strong></div> — Treats warnings as errors. Recommended so that warnings could not be ignored out of habit (warnings that are intentionally ignored should then be ignored explicitly by adding a &apos;-Wno-&lt;warning-name&gt;&apos; compiler flag). The “Treat Warnings as Errors” (<code>GCC_TREAT_WARNINGS_AS_ERRORS</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wextra</strong></div> — Enables additional warnings that are useful but may have higher false positive rates or common philosophical objections.</li> <li><div class=\"fauxpas-accent\"><strong>-Wfloat-equal</strong></div> — Warns if floating-point values are used in equality comparisons.</li> <li><div class=\"fauxpas-accent\"><strong>-Wnewline-eof</strong></div> — Warns if a file does not end in a newline character. The “Missing Newline at End of File” (<code>GCC_WARN_ABOUT_MISSING_NEWLINE</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wshadow</strong></div> — Warns whenever a local variable or type declaration shadows another variable, parameter, type, or class member (in C++), or whenever a built-in function is shadowed. The “Hidden local variables” (<code>GCC_WARN_SHADOW</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wsign-compare</strong></div> — Warns when a comparison between signed and unsigned values could produce an incorrect result when the signed value is converted to unsigned. The “Sign Comparison” (<code>GCC_WARN_SIGN_COMPARE</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wundef</strong></div> — Warns if an undefined identifier is evaluated in an &apos;#if&apos; directive.</li></ul>",
+        "ruleDescription": "Some compiler warnings and warning groups are so useful that they should be enabled at all times.",
+        "ruleName": "Recommended compiler warning options",
+        "ruleShortName": "CompilerWarnings",
+        "ruleWarning": null
+      },
+      "identifier": "-Wall,-Wconversion,-Wdeprecated-implementations,-Werror,-Wextra,-Wfloat-equal,-Wnewline-eof,-Wshadow,-Wsign-compare,-Wundef",
+      "impact": "Maintainability",
+      "info": "The following warning flags are not enabled: -Wall — Enables all warnings that have a high confidence value and low rate of false positives. -Wconversion — Warns about implicit conversions that may alter a value. This is a group flag that encompasses many other similar warnings (for example, -Wenum-conversion, -Wsign-conversion, -Wint-conversion, -Wbool-conversion …) The “Suspicious Implicit Conversions” (CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION) Xcode setting controls this. -Wdeprecated-implementations — Warns if deprecated Objective-C methods are being overridden. The “Overriding Deprecated Objective-C Methods” (CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS) Xcode setting controls this. -Werror — Treats warnings as errors. Recommended so that warnings could not be ignored out of habit (warnings that are intentionally ignored should then be ignored explicitly by adding a &apos;-Wno-&lt;warning-name&gt;&apos; compiler flag). The “Treat Warnings as Errors” (GCC_TREAT_WARNINGS_AS_ERRORS) Xcode setting controls this. -Wextra — Enables additional warnings that are useful but may have higher false positive rates or common philosophical objections. -Wfloat-equal — Warns if floating-point values are used in equality comparisons. -Wnewline-eof — Warns if a file does not end in a newline character. The “Missing Newline at End of File” (GCC_WARN_ABOUT_MISSING_NEWLINE) Xcode setting controls this. -Wshadow — Warns whenever a local variable or type declaration shadows another variable, parameter, type, or class member (in C++), or whenever a built-in function is shadowed. The “Hidden local variables” (GCC_WARN_SHADOW) Xcode setting controls this. -Wsign-compare — Warns when a comparison between signed and unsigned values could produce an incorrect result when the signed value is converted to unsigned. The “Sign Comparison” (GCC_WARN_SIGN_COMPARE) Xcode setting controls this. -Wundef — Warns if an undefined identifier is evaluated in an &apos;#if&apos; directive.",
+      "ruleDescription": "Some compiler warnings and warning groups are so useful that they should be enabled at all times.",
+      "ruleName": "Recommended compiler warning options",
+      "ruleShortName": "CompilerWarnings",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": null,
+      "extent": {
+        "end": {
+          "byteColumn": 64,
+          "byteOffset": 292,
+          "line": 13,
+          "utf16Column": 64,
+          "utf16Offset": 289
+        },
+        "start": {
+          "byteColumn": 0,
+          "byteOffset": 228,
+          "line": 13,
+          "utf16Column": 0,
+          "utf16Offset": 225
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/dataSource/NetworkParameter.h",
+      "fileSnippet": "@interface NetworkParameter : NSObject <OPSSDKNetworkDataSource>",
+      "html": {
+        "info": null,
+        "ruleDescription": "Warns when an Objective-C class name has no prefix (e.g. <code>Thing</code> instead of <code>FPXThing</code>).",
+        "ruleName": "Unprefixed Objective-C class",
+        "ruleShortName": "UnprefixedClass",
+        "ruleWarning": null
+      },
+      "identifier": "NetworkParameter",
+      "impact": "Maintainability",
+      "info": null,
+      "ruleDescription": "Warns when an Objective-C class name has no prefix (e.g. Thing instead of FPXThing).",
+      "ruleName": "Unprefixed Objective-C class",
+      "ruleShortName": "UnprefixedClass",
+      "ruleWarning": null,
+      "severity": 3,
+      "severityDescription": "Concern"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "buttonAccountCancellation",
+      "extent": {
+        "end": {
+          "byteColumn": 85,
+          "byteOffset": 9448,
+          "line": 219,
+          "utf16Column": 84,
+          "utf16Offset": 9448
+        },
+        "start": {
+          "byteColumn": 9,
+          "byteOffset": 9372,
+          "line": 219,
+          "utf16Column": 8,
+          "utf16Offset": 9372
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEViewController.m",
+      "fileSnippet": "[button setTitle:@\"Push Account Cancellation\" forState:UIControlStateNormal]",
+      "html": {
+        "info": "<code class=\"fauxpas-objcmethod\">-[UIButton setTitle:forState:]</code> called with string <code class=\"fauxpas-string\">Push Account Cancellation</code>",
+        "ruleDescription": "All strings that are given to APIs that display them in the user interface should be routed through <code class=\"fauxpas-codesymbol\">NSLocalizedString()</code> and friends.",
+        "ruleName": "UI String not localized",
+        "ruleShortName": "HardcodedUIString",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": "-[UIButton setTitle:forState:] called with string Push Account Cancellation",
+      "ruleDescription": "All strings that are given to APIs that display them in the user interface should be routed through NSLocalizedString() and friends.",
+      "ruleName": "UI String not localized",
+      "ruleShortName": "HardcodedUIString",
+      "ruleWarning": null,
+      "severity": 9,
+      "severityDescription": "Error"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": "buttonLoginByPresent",
+      "extent": {
+        "end": {
+          "byteColumn": 83,
+          "byteOffset": 6810,
+          "line": 165,
+          "utf16Column": 82,
+          "utf16Offset": 6810
+        },
+        "start": {
+          "byteColumn": 9,
+          "byteOffset": 6736,
+          "line": 165,
+          "utf16Column": 8,
+          "utf16Offset": 6736
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEViewController.m",
+      "fileSnippet": "[button setTitle:@\"Alert Login via Present\" forState:UIControlStateNormal]",
+      "html": {
+        "info": "<code class=\"fauxpas-objcmethod\">-[UIButton setTitle:forState:]</code> called with string <code class=\"fauxpas-string\">Alert Login via Present</code>",
+        "ruleDescription": "All strings that are given to APIs that display them in the user interface should be routed through <code class=\"fauxpas-codesymbol\">NSLocalizedString()</code> and friends.",
+        "ruleName": "UI String not localized",
+        "ruleShortName": "HardcodedUIString",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": "-[UIButton setTitle:forState:] called with string Alert Login via Present",
+      "ruleDescription": "All strings that are given to APIs that display them in the user interface should be routed through NSLocalizedString() and friends.",
+      "ruleName": "UI String not localized",
+      "ruleShortName": "HardcodedUIString",
+      "ruleWarning": null,
+      "severity": 9,
+      "severityDescription": "Error"
+    },
+    {
+      "confidence": 10,
+      "confidenceDescription": "Absolute",
+      "context": null,
+      "extent": {
+        "end": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        },
+        "start": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/PushedViewController.m",
+      "fileSnippet": null,
+      "html": {
+        "info": "<p>The following warning flags are not enabled:</p> <ul><li><div class=\"fauxpas-accent\"><strong>-Wall</strong></div> — Enables all warnings that have a high confidence value and low rate of false positives.</li> <li><div class=\"fauxpas-accent\"><strong>-Wconversion</strong></div> — Warns about implicit conversions that may alter a value. This is a group flag that encompasses many other similar warnings (for example, -Wenum-conversion, -Wsign-conversion, -Wint-conversion, -Wbool-conversion …) The “Suspicious Implicit Conversions” (<code>CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wdeprecated-implementations</strong></div> — Warns if deprecated Objective-C methods are being overridden. The “Overriding Deprecated Objective-C Methods” (<code>CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Werror</strong></div> — Treats warnings as errors. Recommended so that warnings could not be ignored out of habit (warnings that are intentionally ignored should then be ignored explicitly by adding a &apos;-Wno-&lt;warning-name&gt;&apos; compiler flag). The “Treat Warnings as Errors” (<code>GCC_TREAT_WARNINGS_AS_ERRORS</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wextra</strong></div> — Enables additional warnings that are useful but may have higher false positive rates or common philosophical objections.</li> <li><div class=\"fauxpas-accent\"><strong>-Wfloat-equal</strong></div> — Warns if floating-point values are used in equality comparisons.</li> <li><div class=\"fauxpas-accent\"><strong>-Wnewline-eof</strong></div> — Warns if a file does not end in a newline character. The “Missing Newline at End of File” (<code>GCC_WARN_ABOUT_MISSING_NEWLINE</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wshadow</strong></div> — Warns whenever a local variable or type declaration shadows another variable, parameter, type, or class member (in C++), or whenever a built-in function is shadowed. The “Hidden local variables” (<code>GCC_WARN_SHADOW</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wsign-compare</strong></div> — Warns when a comparison between signed and unsigned values could produce an incorrect result when the signed value is converted to unsigned. The “Sign Comparison” (<code>GCC_WARN_SIGN_COMPARE</code>) Xcode setting controls this.</li> <li><div class=\"fauxpas-accent\"><strong>-Wundef</strong></div> — Warns if an undefined identifier is evaluated in an &apos;#if&apos; directive.</li></ul>",
+        "ruleDescription": "Some compiler warnings and warning groups are so useful that they should be enabled at all times.",
+        "ruleName": "Recommended compiler warning options",
+        "ruleShortName": "CompilerWarnings",
+        "ruleWarning": null
+      },
+      "identifier": "-Wall,-Wconversion,-Wdeprecated-implementations,-Werror,-Wextra,-Wfloat-equal,-Wnewline-eof,-Wshadow,-Wsign-compare,-Wundef",
+      "impact": "Maintainability",
+      "info": "The following warning flags are not enabled: -Wall — Enables all warnings that have a high confidence value and low rate of false positives. -Wconversion — Warns about implicit conversions that may alter a value. This is a group flag that encompasses many other similar warnings (for example, -Wenum-conversion, -Wsign-conversion, -Wint-conversion, -Wbool-conversion …) The “Suspicious Implicit Conversions” (CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION) Xcode setting controls this. -Wdeprecated-implementations — Warns if deprecated Objective-C methods are being overridden. The “Overriding Deprecated Objective-C Methods” (CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS) Xcode setting controls this. -Werror — Treats warnings as errors. Recommended so that warnings could not be ignored out of habit (warnings that are intentionally ignored should then be ignored explicitly by adding a &apos;-Wno-&lt;warning-name&gt;&apos; compiler flag). The “Treat Warnings as Errors” (GCC_TREAT_WARNINGS_AS_ERRORS) Xcode setting controls this. -Wextra — Enables additional warnings that are useful but may have higher false positive rates or common philosophical objections. -Wfloat-equal — Warns if floating-point values are used in equality comparisons. -Wnewline-eof — Warns if a file does not end in a newline character. The “Missing Newline at End of File” (GCC_WARN_ABOUT_MISSING_NEWLINE) Xcode setting controls this. -Wshadow — Warns whenever a local variable or type declaration shadows another variable, parameter, type, or class member (in C++), or whenever a built-in function is shadowed. The “Hidden local variables” (GCC_WARN_SHADOW) Xcode setting controls this. -Wsign-compare — Warns when a comparison between signed and unsigned values could produce an incorrect result when the signed value is converted to unsigned. The “Sign Comparison” (GCC_WARN_SIGN_COMPARE) Xcode setting controls this. -Wundef — Warns if an undefined identifier is evaluated in an &apos;#if&apos; directive.",
+      "ruleDescription": "Some compiler warnings and warning groups are so useful that they should be enabled at all times.",
+      "ruleName": "Recommended compiler warning options",
+      "ruleShortName": "CompilerWarnings",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 2,
+      "confidenceDescription": "Low",
+      "context": "UncaughtExceptionHandler(NSException *__strong)",
+      "extent": {
+        "end": {
+          "byteColumn": 53,
+          "byteOffset": 11362,
+          "line": 295,
+          "utf16Column": 52,
+          "utf16Offset": 11362
+        },
+        "start": {
+          "byteColumn": 5,
+          "byteOffset": 11314,
+          "line": 295,
+          "utf16Column": 4,
+          "utf16Offset": 11314
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEAppDelegate.m",
+      "fileSnippet": "[formatter setDateFormat:@\"yyyy-MM-dd HH-mm-ss\"]",
+      "html": {
+        "info": null,
+        "ruleDescription": "<p>Warns when an <code class=\"fauxpas-objcclass\">NSDateFormatter</code> is used with fixed-format dates without using the invariant <code class=\"fauxpas-string\">en_US_POSIX</code> locale. If any other locale is used, the date format string may be overwritten, depending on system date and time settings.</p> <p>When working with user-visible dates, date and time styles should be used instead of setting a date format.</p>",
+        "ruleName": "Fixed-format <code class=\"fauxpas-objcclass\">NSDateFormatter</code> not using invariant (POSIX) locale",
+        "ruleShortName": "FixedFormatDateFormatter",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": null,
+      "ruleDescription": "Warns when an NSDateFormatter is used with fixed-format dates without using the invariant en_US_POSIX locale. If any other locale is used, the date format string may be overwritten, depending on system date and time settings. When working with user-visible dates, date and time styles should be used instead of setting a date format.",
+      "ruleName": "Fixed-format NSDateFormatter not using invariant (POSIX) locale",
+      "ruleShortName": "FixedFormatDateFormatter",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 5,
+      "confidenceDescription": "Medium",
+      "context": "registerNotifications",
+      "extent": {
+        "end": {
+          "byteColumn": 7,
+          "byteOffset": 3731,
+          "line": 94,
+          "utf16Column": 6,
+          "utf16Offset": 3731
+        },
+        "start": {
+          "byteColumn": 5,
+          "byteOffset": 3318,
+          "line": 88,
+          "utf16Column": 4,
+          "utf16Offset": 3318
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK/ONEViewController.m",
+      "fileSnippet": "[[NSNotificationCenter defaultCenter] addObserverForName:OPSUserDidChangePhoneNotification\n                                                      object:nil\n                                                       queue:nil\n                                                  usingBlock:^(NSNotification *_Nonnull note) {\n        NSDictionary *userInfo = note.userInfo;\n        NSLog(@\"userInfo: %@\", userInfo);\n    }]",
+      "html": {
+        "info": null,
+        "ruleDescription": "Warns if the return value of <code class=\"fauxpas-objcmethod\">-[NSNotificationCenter addObserverForName:object:queue:usingBlock:]</code> is not stored anywhere. This method returns an opaque observer object that is needed in order to stop observing.",
+        "ruleName": "Discarded opaque <code class=\"fauxpas-objcclass\">NSNotificationCenter</code> observer",
+        "ruleShortName": "DiscardedOpaqueNotificationObserver",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": null,
+      "ruleDescription": "Warns if the return value of -[NSNotificationCenter addObserverForName:object:queue:usingBlock:] is not stored anywhere. This method returns an opaque observer object that is needed in order to stop observing.",
+      "ruleName": "Discarded opaque NSNotificationCenter observer",
+      "ruleShortName": "DiscardedOpaqueNotificationObserver",
+      "ruleWarning": null,
+      "severity": 5,
+      "severityDescription": "Warning"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": null,
+      "extent": {
+        "end": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        },
+        "start": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/HTTP Stubs Files/captcha.jpeg",
+      "fileSnippet": null,
+      "html": {
+        "info": "The ‘3x retina’ version of this image is missing.",
+        "ruleDescription": "Warns when either the high-resolution (@2x or @3x) or the low-resolution variant of an image resource is missing.",
+        "ruleName": "Missing image resolution variant",
+        "ruleShortName": "MissingImageResolutionVariant",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": "The ‘3x retina’ version of this image is missing.",
+      "ruleDescription": "Warns when either the high-resolution (@2x or @3x) or the low-resolution variant of an image resource is missing.",
+      "ruleName": "Missing image resolution variant",
+      "ruleShortName": "MissingImageResolutionVariant",
+      "ruleWarning": null,
+      "severity": 3,
+      "severityDescription": "Concern"
+    },
+    {
+      "confidence": 8,
+      "confidenceDescription": "High",
+      "context": null,
+      "extent": {
+        "end": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        },
+        "start": {
+          "byteColumn": 0,
+          "byteOffset": 0,
+          "line": 0,
+          "utf16Column": 0,
+          "utf16Offset": 0
+        }
+      },
+      "file": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/HTTP Stubs Files/captcha.jpeg",
+      "fileSnippet": null,
+      "html": {
+        "info": "The ‘2x retina’ version of this image is missing.",
+        "ruleDescription": "Warns when either the high-resolution (@2x or @3x) or the low-resolution variant of an image resource is missing.",
+        "ruleName": "Missing image resolution variant",
+        "ruleShortName": "MissingImageResolutionVariant",
+        "ruleWarning": null
+      },
+      "identifier": null,
+      "impact": "Functionality",
+      "info": "The ‘2x retina’ version of this image is missing.",
+      "ruleDescription": "Warns when either the high-resolution (@2x or @3x) or the low-resolution variant of an image resource is missing.",
+      "ruleName": "Missing image resolution variant",
+      "ruleShortName": "MissingImageResolutionVariant",
+      "ruleWarning": null,
+      "severity": 3,
+      "severityDescription": "Concern"
+    }
+  ],
+  "fauxPasVersion": "1.7.1",
+  "projectIconBase64PNG": "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",
+  "projectName": "ONEPassportSDK",
+  "projectPath": "/Users/wesley/Projects/didiProjects/DiDi-NextOne/one-workspace/ONEPassportSDK/Example/ONEPassportSDK.xcodeproj",
+  "targetBundleVersion": "1.0",
+  "targetName": "ONEPassportSDK_Example",
+  "timeStamp": 1489752231,
+  "versionControlRevision": "1ed08d113e70d4d7707f0a956677c872d56e0a63",
+  "versionControlSystemName": "Git"
+}
