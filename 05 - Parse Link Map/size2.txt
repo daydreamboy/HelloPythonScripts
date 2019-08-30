@@ -1,0 +1,332 @@
+CoreFoundation.tbd: 224 bytes
+  _CFPropertyListCreateFromXMLData: 32 bytes
+  _CFRelease: 32 bytes
+  _CFStringConvertEncodingToNSStringEncoding: 32 bytes
+  _CFStringGetCStringPtr: 32 bytes
+  _CFURLCreateStringByAddingPercentEscapes: 32 bytes
+  _CFUUIDCreate: 32 bytes
+  _CFUUIDCreateString: 32 bytes
+CoreGraphics.tbd: 448 bytes
+  _CGAffineTransformMakeScale: 32 bytes
+  _CGBitmapContextCreate: 32 bytes
+  _CGBitmapContextCreateImage: 32 bytes
+  _CGColorSpaceCreateDeviceGray: 32 bytes
+  _CGColorSpaceRelease: 32 bytes
+  _CGContextDrawImage: 32 bytes
+  _CGContextRelease: 32 bytes
+  _CGImageCreateWithMask: 32 bytes
+  _CGImageGetAlphaInfo: 32 bytes
+  _CGImageGetHeight: 32 bytes
+  _CGImageGetWidth: 32 bytes
+  _CGImageRelease: 32 bytes
+  _CGRectGetMaxY: 32 bytes
+  _CGRectOffset: 32 bytes
+CoreLocation.tbd: 32 bytes
+  _CLLocationCoordinate2DMake: 32 bytes
+Foundation.tbd: 256 bytes
+  _NSClassFromString: 32 bytes
+  _NSHomeDirectory: 32 bytes
+  _NSLog: 32 bytes
+  _NSSearchPathForDirectoriesInDomains: 32 bytes
+  _NSSelectorFromString: 32 bytes
+  _NSStringFromClass: 32 bytes
+  _NSStringFromSelector: 32 bytes
+  _NSTemporaryDirectory: 32 bytes
+UIKit.tbd: 64 bytes
+  _UIImageJPEGRepresentation: 32 bytes
+  _UIImagePNGRepresentation: 32 bytes
+libSystem.tbd: 2 KB
+  _CC_MD5: 32 bytes
+  _OSAtomicCompareAndSwap32: 32 bytes
+  _OSAtomicDecrement32: 32 bytes
+  _OSSpinLockLock: 32 bytes
+  _OSSpinLockUnlock: 32 bytes
+  __Block_object_assign: 32 bytes
+  __Block_object_dispose: 32 bytes
+  __Unwind_Resume: 32 bytes
+  ___assert_rtn: 32 bytes
+  ___error: 32 bytes
+  ___stack_chk_fail: 32 bytes
+  __dyld_register_func_for_add_image: 32 bytes
+  _abort: 32 bytes
+  _asprintf: 32 bytes
+  _backtrace: 32 bytes
+  _backtrace_symbols: 32 bytes
+  _bzero: 32 bytes
+  _calloc: 32 bytes
+  _close: 32 bytes
+  _connect: 32 bytes
+  _dispatch_after: 32 bytes
+  _dispatch_async: 32 bytes
+  _dispatch_get_global_queue: 32 bytes
+  _dispatch_once: 32 bytes
+  _dispatch_queue_create: 32 bytes
+  _dispatch_semaphore_create: 32 bytes
+  _dispatch_semaphore_signal: 32 bytes
+  _dispatch_semaphore_wait: 32 bytes
+  _dispatch_set_target_queue: 32 bytes
+  _dispatch_sync: 32 bytes
+  _dispatch_time: 32 bytes
+  _fclose: 32 bytes
+  _fflush: 32 bytes
+  _fopen: 32 bytes
+  _fread: 32 bytes
+  _free: 32 bytes
+  _freeifaddrs: 32 bytes
+  _freopen: 32 bytes
+  _fseek: 32 bytes
+  _ftell: 32 bytes
+  _fwrite: 32 bytes
+  _getenv: 32 bytes
+  _getifaddrs: 32 bytes
+  _getpid: 32 bytes
+  _hash_create: 32 bytes
+  _hash_search: 32 bytes
+  _if_nametoindex: 32 bytes
+  _inet_ntop: 32 bytes
+  _malloc: 32 bytes
+  _memcmp: 32 bytes
+  _memcpy: 32 bytes
+  _printf: 32 bytes
+  _pthread_mutex_lock: 32 bytes
+  _pthread_mutex_unlock: 32 bytes
+  _putchar: 32 bytes
+  _puts: 32 bytes
+  _remove: 32 bytes
+  _socket: 32 bytes
+  _strcmp: 32 bytes
+  _strlen: 32 bytes
+  _strncmp: 32 bytes
+  _sysctl: 32 bytes
+  _sysctlbyname: 32 bytes
+  _uname: 32 bytes
+libarclite_iphoneos.a: 8.01 KB
+  arclite.o: 8.01 KB
+libobjc.tbd: 1.75 KB
+  _class_addMethod: 32 bytes
+  _class_addProperty: 32 bytes
+  _class_addProtocol: 32 bytes
+  _class_getClassMethod: 32 bytes
+  _class_getInstanceMethod: 32 bytes
+  _class_getInstanceVariable: 32 bytes
+  _class_getSuperclass: 32 bytes
+  _class_isMetaClass: 32 bytes
+  _class_replaceMethod: 32 bytes
+  _method_exchangeImplementations: 32 bytes
+  _method_getImplementation: 32 bytes
+  _method_getTypeEncoding: 32 bytes
+  _method_setImplementation: 32 bytes
+  _objc_autorelease: 32 bytes
+  _objc_autoreleasePoolPop: 32 bytes
+  _objc_autoreleasePoolPush: 32 bytes
+  _objc_autoreleaseReturnValue: 32 bytes
+  _objc_begin_catch: 32 bytes
+  _objc_constructInstance: 32 bytes
+  _objc_copyWeak: 32 bytes
+  _objc_destroyWeak: 32 bytes
+  _objc_end_catch: 32 bytes
+  _objc_enumerationMutation: 32 bytes
+  _objc_getAssociatedObject: 32 bytes
+  _objc_getClass: 32 bytes
+  _objc_getMetaClass: 32 bytes
+  _objc_getProperty: 32 bytes
+  _objc_getProtocol: 32 bytes
+  _objc_getRequiredClass: 32 bytes
+  _objc_initWeak: 32 bytes
+  _objc_initializeClassPair: 32 bytes
+  _objc_loadWeakRetained: 32 bytes
+  _objc_lookUpClass: 32 bytes
+  _objc_moveWeak: 32 bytes
+  _objc_msgSend: 32 bytes
+  _objc_msgSendSuper2: 32 bytes
+  _objc_registerClassPair: 32 bytes
+  _objc_release: 32 bytes
+  _objc_retain: 32 bytes
+  _objc_retainAutorelease: 32 bytes
+  _objc_retainAutoreleaseReturnValue: 32 bytes
+  _objc_retainAutoreleasedReturnValue: 32 bytes
+  _objc_retainBlock: 32 bytes
+  _objc_setAssociatedObject: 32 bytes
+  _objc_setProperty_atomic: 32 bytes
+  _objc_setProperty_nonatomic_copy: 32 bytes
+  _objc_storeStrong: 32 bytes
+  _objc_storeWeak: 32 bytes
+  _objc_sync_enter: 32 bytes
+  _objc_sync_exit: 32 bytes
+  _objc_terminate: 32 bytes
+  _object_getClass: 32 bytes
+  _object_getIvar: 32 bytes
+  _property_copyAttributeList: 32 bytes
+  _protocol_getMethodDescription: 32 bytes
+  _sel_getUid: 32 bytes
+libstdc++.6.0.9.tbd: 96 bytes
+  __ZSt9terminatev: 32 bytes
+  ___cxa_begin_catch: 32 bytes
+  ___cxa_end_catch: 32 bytes
+libz.tbd: 32 bytes
+  _crc32: 32 bytes
+linker synthesized: 8.47 KB
+  _gMakeYWConnectorError: 32 bytes
+  _gMakeYWConnectorHandlerResultObject: 32 bytes
+  _globalModular4MessengerKit: 32 bytes
+  _wx_mksure_mainthread: 32 bytes
+  compact unwind info: 7.69 KB
+  helper helper: 24 bytes
+  non-lazy-pointer: 8 bytes
+  non-lazy-pointer-to-local: _CGRectZero: 8 bytes
+  non-lazy-pointer-to-local: _CGSizeZero: 8 bytes
+  non-lazy-pointer-to-local: _NSDefaultRunLoopMode: 8 bytes
+  non-lazy-pointer-to-local: _NSFileSize: 8 bytes
+  non-lazy-pointer-to-local: _NSLocaleCountryCode: 8 bytes
+  non-lazy-pointer-to-local: _NSLocalizedDescriptionKey: 8 bytes
+  non-lazy-pointer-to-local: _NSLocalizedFailureReasonErrorKey: 8 bytes
+  non-lazy-pointer-to-local: _NSURLErrorDomain: 8 bytes
+  non-lazy-pointer-to-local: _OBJC_EHTYPE_$_NSException: 8 bytes
+  non-lazy-pointer-to-local: _OBJC_IVAR_$_WXHttpRequest._didFailBlock: 8 bytes
+  non-lazy-pointer-to-local: _OBJC_IVAR_$_WXOContactServiceImpl._arrayForceOnlinePersons: 8 bytes
+  non-lazy-pointer-to-local: _OBJC_IVAR_$_WXOContactServiceImpl._observerPersonsDict: 8 bytes
+  non-lazy-pointer-to-local: _OBJC_IVAR_$_WXOContactServiceImpl._onlineStatusCache: 8 bytes
+  non-lazy-pointer-to-local: _OBJC_IVAR_$_WXOContactServiceImpl._onlineStatusChangeLock: 8 bytes
+  non-lazy-pointer-to-local: _OBJC_IVAR_$_WXOContactServiceImpl._onlineStatusObseverLock: 8 bytes
+  non-lazy-pointer-to-local: _OBJC_IVAR_$_WXOContactServiceImpl._onlineStatusUpdateLock: 8 bytes
+  non-lazy-pointer-to-local: _OBJC_IVAR_$_WXOContactServiceImpl._personContainerDict: 8 bytes
+  non-lazy-pointer-to-local: _OBJC_IVAR_$_WXOContactServiceImpl._profileManager: 8 bytes
+  non-lazy-pointer-to-local: _OBJC_IVAR_$_WXOContactServiceImpl._requestOnlineStatusBlockDict: 8 bytes
+  non-lazy-pointer-to-local: _OBJC_IVAR_$_WXOContactServiceImpl._spinLock: 8 bytes
+  non-lazy-pointer-to-local: _UIApplicationDidBecomeActiveNotification: 8 bytes
+  non-lazy-pointer-to-local: _UIApplicationDidEnterBackgroundNotification: 8 bytes
+  non-lazy-pointer-to-local: _UIApplicationDidFinishLaunchingNotification: 8 bytes
+  non-lazy-pointer-to-local: _UIApplicationDidReceiveMemoryWarningNotification: 8 bytes
+  non-lazy-pointer-to-local: _UIApplicationLaunchOptionsLocalNotificationKey: 8 bytes
+  non-lazy-pointer-to-local: _UIApplicationLaunchOptionsRemoteNotificationKey: 8 bytes
+  non-lazy-pointer-to-local: _UIApplicationWillResignActiveNotification: 8 bytes
+  non-lazy-pointer-to-local: _UIApplicationWillTerminateNotification: 8 bytes
+  non-lazy-pointer-to-local: _UIWindowLevelNormal: 8 bytes
+  non-lazy-pointer-to-local: _WXOSdkVersion: 8 bytes
+  non-lazy-pointer-to-local: _YWAPINotificationSetAppkey: 8 bytes
+  non-lazy-pointer-to-local: _YWConversationServiceDomain: 8 bytes
+  non-lazy-pointer-to-local: _YWErrorUserInfoKeyDescription: 8 bytes
+  non-lazy-pointer-to-local: _YWLocalTableName: 8 bytes
+  non-lazy-pointer-to-local: _YWLogLevelDebug: 8 bytes
+  non-lazy-pointer-to-local: _YWLogLevelError: 8 bytes
+  non-lazy-pointer-to-local: _YWLogLevelInfo: 8 bytes
+  non-lazy-pointer-to-local: _YWLogLevelWarning: 8 bytes
+  non-lazy-pointer-to-local: _YWLoginServiceDomain: 8 bytes
+  non-lazy-pointer-to-local: _YWLoginServiceNotificationUploadDeviceTokenEnd: 8 bytes
+  non-lazy-pointer-to-local: _YWLoginServiceNotificationUploadDeviceTokenEndKeyError: 8 bytes
+  non-lazy-pointer-to-local: _YWLoginServiceUserDefaultKeyLastLoginedId: 8 bytes
+  non-lazy-pointer-to-local: _YWSDKAppKey: 8 bytes
+  non-lazy-pointer-to-local: _YWSdkDomain: 8 bytes
+  non-lazy-pointer-to-local: __DefaultRuneLocale: 8 bytes
+  non-lazy-pointer-to-local: __NSConcreteStackBlock: 8 bytes
+  non-lazy-pointer-to-local: ___objc_personality_v0: 8 bytes
+  non-lazy-pointer-to-local: ___stack_chk_guard: 8 bytes
+  non-lazy-pointer-to-local: ___stderrp: 8 bytes
+  non-lazy-pointer-to-local: ___stdoutp: 8 bytes
+  non-lazy-pointer-to-local: __dispatch_main_q: 8 bytes
+  non-lazy-pointer-to-local: _class_getName: 8 bytes
+  non-lazy-pointer-to-local: _kCFAllocatorDefault: 8 bytes
+  non-lazy-pointer-to-local: _kCFBundleVersionKey: 8 bytes
+  non-lazy-pointer-to-local: _kCFCoreFoundationVersionNumber: 8 bytes
+  non-lazy-pointer-to-local: _kWXStructuredLogMessageEvent: 8 bytes
+  non-lazy-pointer-to-local: _kYWMsgCtrlKeyClientLocal: 8 bytes
+  non-lazy-pointer-to-local: _kYWMsgCtrlKeyClientLocalKeyOnlySave: 8 bytes
+  non-lazy-pointer-to-local: _kYWMsgCtrlKeyNoRoaming: 8 bytes
+  non-lazy-pointer-to-local: _kYWMsgExtInfoKeyVoiceText: 8 bytes
+  non-lazy-pointer-to-local: _kYWProfileCacheChange: 8 bytes
+  non-lazy-pointer-to-local: _kYWProfileCacheChangePerson: 8 bytes
+  non-lazy-pointer-to-local: _kYWProfileCacheChangePersonIsStoreGuide: 8 bytes
+  non-lazy-pointer-to-local: _kYWProfileCacheChangeTribe: 8 bytes
+  non-lazy-pointer-to-local: _keyEarliestEffectiveTime: 8 bytes
+  non-lazy-pointer-to-local: _keyIsThereMore: 8 bytes
+  non-lazy-pointer-to-local: _keyMessageCount: 8 bytes
+  non-lazy-pointer-to-local: _keyNextKey: 8 bytes
+  non-lazy-pointer-to-local: _objc_allocateClassPair: 8 bytes
+  non-lazy-pointer-to-local: _objc_copyClassNamesForImage: 8 bytes
+  non-lazy-pointer-to-local: _objc_getClass: 8 bytes
+  non-lazy-pointer-to-local: _objc_getMetaClass: 8 bytes
+  non-lazy-pointer-to-local: _objc_getProtocol: 8 bytes
+  non-lazy-pointer-to-local: _objc_getRequiredClass: 8 bytes
+  non-lazy-pointer-to-local: _objc_lookUpClass: 8 bytes
+  non-lazy-pointer-to-local: _objc_readClassPair: 8 bytes
+  non-lazy-pointer-to-local: _object_getIndexedIvars: 8 bytes
+  non-lazy-pointer-to-local: _protocol_getName: 8 bytes
+  non-lazy-pointer-to-local: dyld_stub_binder: 8 bytes
+  objc image info: 8 bytes
+main project: 932.08 KB
+  FileTranProgressDelegation.o: 8.24 KB
+  IYWExtensionServiceDef.o: 255 bytes
+  InterruptedUploadHttpDataRequest.o: 6.88 KB
+  JSONKit.o: 2.08 KB
+  UMUtil.o: 11.01 KB
+  WXDiagnoseService+RegisterCommands.o: 16.07 KB
+  WXDiagnoseService.o: 9.27 KB
+  WXFileTranService.o: 26.31 KB
+  WXISVBizLogic.o: 5.61 KB
+  WXLatestLogQueue.o: 5.72 KB
+  WXLogDiagController.o: 51.5 KB
+  WXLogService.o: 14.81 KB
+  WXLogUtils.o: 37.22 KB
+  WXMigrationItem.o: 1.71 KB
+  WXMsgBizLogic+Internal.o: 79.62 KB
+  WXMsgBizLogic.o: 35.44 KB
+  WXOContactServiceImpl+DelayLoaded.o: 34.59 KB
+  WXODBServiceImpl.o: 2.87 KB
+  WXOEHelperServiceImpl.o: 37.24 KB
+  WXOExtensionServiceImpl.o: 3.16 KB
+  WXOLogServiceImpl.o: 12.96 KB
+  WXOLoginServiceImpl.o: 13.9 KB
+  WXOMessageBodyCustomize+P2P.o: 1.07 KB
+  WXOMessageBodyCustomizeInternal+P2P.o: 1006 bytes
+  WXOMessageBodyImage+P2P.o: 2.3 KB
+  WXOMessageBodyLocation+P2P.o: 921 bytes
+  WXOMessageBodyP2PInfos+P2P.o: 1.15 KB
+  WXOMessageBodyText+P2P.o: 880 bytes
+  WXOMessageBodyVoice+P2P.o: 3.18 KB
+  WXOMessageUpdateManager.o: 4.64 KB
+  WXOPushServiceImpl.o: 30.45 KB
+  WXORoamingServiceImpl.o: 20.35 KB
+  WXOUTServiceImpl.o: 9.07 KB
+  WXOUtilServiceImpl.o: 31.87 KB
+  WXOUtilServiceImpl4AppMonitor.o: 3.13 KB
+  WXOpenIMSDK-dummy.o: 254 bytes
+  WXOpenIMSDKFMWK_vers.o: 56 bytes
+  WXProgressivelyMigrationManager.o: 15.04 KB
+  WXSDImageView+WXSDWebCache.o: 2.83 KB
+  WantuUploadeDef.o: 4 KB
+  WantuUploader.o: 42.62 KB
+  YWAPI+InternalFile.o: 6.25 KB
+  YWAccountCacheImpl.o: 3.9 KB
+  YWActionHelper.o: 1 KB
+  YWActionServiceImpl.o: 6.39 KB
+  YWBlockDelegate+DelayLoaded.o: 12.3 KB
+  YWBridgeContainer.o: 1.86 KB
+  YWCache.o: 240 bytes
+  YWCacheUtil.o: 684 bytes
+  YWCombinedForwardBodyConverter.o: 7.47 KB
+  YWCombinedForwardConversation.o: 7.28 KB
+  YWCombinedForwardServiceInternalDef.o: 268 bytes
+  YWConversation.o: 21.39 KB
+  YWDBMigrator.o: 25.64 KB
+  YWDBMigratorHelper.o: 26.26 KB
+  YWDBRemoveCipherTransformer.o: 1.08 KB
+  YWDiskCache.o: 6.46 KB
+  YWExtensionForCombinedForwardLoader.o: 714 bytes
+  YWExtensionForCombinedForwardService.o: 9.46 KB
+  YWExternalImpl.o: 2.77 KB
+  YWHandleP2SRequestCASC.o: 3.96 KB
+  YWHandlerBlockRunner.o: 2.07 KB
+  YWHybridConnector.o: 2.32 KB
+  YWHybridEngine.o: 12.54 KB
+  YWHybridServiceImpl.o: 1.06 KB
+  YWHybridWebView.o: 13.98 KB
+  YWImageLoader.o: 19.83 KB
+  YWMessageBodyImage.o: 5.16 KB
+  YWMessageBodyShortVideo+P2P.o: 3.43 KB
+  YWMessageBodyShortVideo.o: 4.94 KB
+  YWMessageBodySystemNotify+P2P.o: 1.47 KB
+  YWMessageBodyVoice.o: 4.71 KB
+  YWP2PConversation.o: 18.8 KB
+  YWProfileDBWrapper.o: 18 KB
+  YWProfileManager.o: 53.85 KB
+  YWSettingServiceImpl.o: 33.36 KB
